@@ -1,0 +1,54 @@
+buildscript {
+    repositories {
+        maven {
+            url 'http://artifactory.morethanheroic.com/artifactory'
+            credentials {
+                username = "${artifactory_user}"
+                password = "${artifactory_password}"
+            }
+        }
+    }
+}
+
+plugins {
+    id "com.jfrog.artifactory" version "4.0.0"
+}
+
+apply plugin: 'java'
+
+artifactory {
+    contextUrl = "http://artifactory.morethanheroic.com/artifactory"
+    publish {
+        repository {
+            repoKey = 'libs-release-local'
+            username = "${artifactory_user}"
+            password = "${artifactory_password}"
+            maven = true
+        }
+        defaults {
+            publications('mavenJava')
+        }
+    }
+    resolve {
+        repository {
+            repoKey = 'libs-release'
+            username = "${artifactory_user}"
+            password = "${artifactory_password}"
+            maven = true
+        }
+    }
+}
+
+apply plugin: 'maven-publish'
+apply plugin: "com.jfrog.artifactory"
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}
+
+group = 'com.morethanheroic.swords'
+version = '0.0.1'
