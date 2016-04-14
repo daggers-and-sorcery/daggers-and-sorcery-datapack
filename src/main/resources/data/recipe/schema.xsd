@@ -11,6 +11,8 @@
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
                             <xs:enumeration value="COOKING"/>
+                            <xs:enumeration value="SMITHING"/>
+                            <xs:enumeration value="FETCHING"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
@@ -60,6 +62,8 @@
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                     <xs:enumeration value="COOKING"/>
+                                                    <xs:enumeration value="SMITHING"/>
+                                                    <xs:enumeration value="FETCHING"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
@@ -80,6 +84,8 @@
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                     <xs:enumeration value="COOKING"/>
+                                                    <xs:enumeration value="SMITHING"/>
+                                                    <xs:enumeration value="FETCHING"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
