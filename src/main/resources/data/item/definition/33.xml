@@ -5,5 +5,21 @@
     <item:id>33</item:id>
     <item:name>Scroll: Heal</item:name>
     <item:type>SCROLL</item:type>
-    <item:weight>0</item:weight>
+    <item:weight>20</item:weight>
+    <item:use-effect-list>
+        <item:effect target="com.morethanheroic.swords.combat.domain.effect.entry.LearnSpellEffectDefinition">
+            <item:settings-list>
+                <item:effect-setting>
+                    <item:setting-name>spell-id</item:setting-name>
+                    <item:setting-value>1</item:setting-value>
+                </item:effect-setting>
+            </item:settings-list>
+        </item:effect>
+    </item:use-effect-list>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>10</item:amount>
+        </item:price-entry>
+    </item:price>
 </item:item>

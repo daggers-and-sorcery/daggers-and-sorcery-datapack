@@ -15,6 +15,7 @@
                             <xs:enumeration value="DESTRUCTION"/>
                             <xs:enumeration value="ALTERATION"/>
                             <xs:enumeration value="DIVINE"/>
+                            <xs:enumeration value="RESTORATION"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>

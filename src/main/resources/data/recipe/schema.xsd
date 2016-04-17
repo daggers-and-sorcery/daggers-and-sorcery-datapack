@@ -13,6 +13,7 @@
                             <xs:enumeration value="COOKING"/>
                             <xs:enumeration value="SMITHING"/>
                             <xs:enumeration value="FETCHING"/>
+                            <xs:enumeration value="CRAFTING"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
@@ -64,6 +65,7 @@
                                                     <xs:enumeration value="COOKING"/>
                                                     <xs:enumeration value="SMITHING"/>
                                                     <xs:enumeration value="FETCHING"/>
+                                                    <xs:enumeration value="CRAFTING"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
@@ -86,6 +88,7 @@
                                                     <xs:enumeration value="COOKING"/>
                                                     <xs:enumeration value="SMITHING"/>
                                                     <xs:enumeration value="FETCHING"/>
+                                                    <xs:enumeration value="CRAFTING"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
