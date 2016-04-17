@@ -11,6 +11,10 @@
         <item:effect target="com.morethanheroic.swords.combat.domain.effect.entry.LearnSpellEffectDefinition">
             <item:settings-list>
                 <item:effect-setting>
+                    <item:setting-name>spell-item-id</item:setting-name>
+                    <item:setting-value>33</item:setting-value>
+                </item:effect-setting>
+                <item:effect-setting>
                     <item:setting-name>spell-id</item:setting-name>
                     <item:setting-value>1</item:setting-value>
                 </item:effect-setting>
