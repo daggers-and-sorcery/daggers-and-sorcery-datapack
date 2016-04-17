@@ -7,10 +7,10 @@
     <recipe:type>COOKING</recipe:type>
     <recipe:chance>100</recipe:chance>
     <recipe:requirement-list>
-        <recipe:requirement>
+        <recipe:skill-requirement>
             <recipe:skill>COOKING</recipe:skill>
             <recipe:amount>5</recipe:amount>
-        </recipe:requirement>
+        </recipe:skill-requirement>
     </recipe:requirement-list>
     <recipe:ingredient-list>
         <recipe:ingredient>
