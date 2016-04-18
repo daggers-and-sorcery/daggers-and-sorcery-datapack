@@ -6,6 +6,9 @@
     <spell:id>1</spell:id>
     <spell:name>Heal</spell:name>
     <spell:type>RESTORATION</spell:type>
+    <spell:description>
+        Heal you for 8 health.
+    </spell:description>
     <spell:combat-spell>true</spell:combat-spell>
     <spell:cost-list>
         <spell:cost>
