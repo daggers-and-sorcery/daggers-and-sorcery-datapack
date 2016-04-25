@@ -5,5 +5,18 @@
     <item:id>45</item:id>
     <item:name>Leather hood</item:name>
     <item:type>HELM</item:type>
-    <item:weight>0</item:weight>
+    <item:weight>120</item:weight>
+    <item:equipment>true</item:equipment>
+    <item:modifiers>
+        <item:modifier>
+            <item:modifier>DEFENSE</item:modifier>
+            <item:amount>1</item:amount>
+        </item:modifier>
+    </item:modifiers>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>20</item:amount>
+        </item:price-entry>
+    </item:price>
 </item:item>

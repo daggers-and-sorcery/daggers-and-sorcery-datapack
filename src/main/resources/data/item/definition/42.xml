@@ -5,5 +5,18 @@
     <item:id>42</item:id>
     <item:name>Bronze helm</item:name>
     <item:type>HELM</item:type>
-    <item:weight>0</item:weight>
+    <item:weight>250</item:weight>
+    <item:equipment>true</item:equipment>
+    <item:modifiers>
+        <item:modifier>
+            <item:modifier>DEFENSE</item:modifier>
+            <item:amount>1</item:amount>
+        </item:modifier>
+    </item:modifiers>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>35</item:amount>
+        </item:price-entry>
+    </item:price>
 </item:item>

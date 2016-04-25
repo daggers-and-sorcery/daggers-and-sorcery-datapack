@@ -4,6 +4,20 @@
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
     <item:id>39</item:id>
     <item:name>Bronze platelegs</item:name>
-    <item:type>HEAVY_ARMOR</item:type>
-    <item:weight>0</item:weight>
+    <!-- TODO: add equipment slot mapping -->
+    <item:type>PLATELEGS</item:type>
+    <item:weight>1000</item:weight>
+    <item:equipment>true</item:equipment>
+    <item:modifiers>
+        <item:modifier>
+            <item:modifier>DEFENSE</item:modifier>
+            <item:amount>2</item:amount>
+        </item:modifier>
+    </item:modifiers>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>90</item:amount>
+        </item:price-entry>
+    </item:price>
 </item:item>
