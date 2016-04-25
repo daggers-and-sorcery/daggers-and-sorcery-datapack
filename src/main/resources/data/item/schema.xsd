@@ -117,6 +117,7 @@
                                                     <xs:enumeration value="SPELL_RESISTANCE"/>
                                                     <xs:enumeration value="DAMAGE"/>
                                                     <xs:enumeration value="RANGED_DAMAGE"/>
+                                                    <xs:enumeration value="MAGIC_ATTACK"/>
                                                     <xs:enumeration value="INITIATION"/>
                                                     <xs:enumeration value="LIFE"/>
                                                     <xs:enumeration value="MANA"/>

@@ -113,7 +113,7 @@
             <monster:chance>3</monster:chance>
         </monster:drop>
         <monster:drop>
-            <monster:item>28</monster:item>
+            <monster:item>48</monster:item>
             <monster:amount>
                 <monster:max>1</monster:max>
             </monster:amount>

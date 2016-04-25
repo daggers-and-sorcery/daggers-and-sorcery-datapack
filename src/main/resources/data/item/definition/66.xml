@@ -2,8 +2,8 @@
 
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
-    <item:id>52</item:id>
-    <item:name>Frying pan</item:name>
-    <item:type>TOOL</item:type>
-    <item:weight>100</item:weight>
+    <item:id>66</item:id>
+    <item:name>Sinew</item:name>
+    <item:type>MATERIAL</item:type>
+    <item:weight>2</item:weight>
 </item:item>

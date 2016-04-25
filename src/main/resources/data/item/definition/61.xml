@@ -6,4 +6,34 @@
     <item:name>Apple cider</item:name>
     <item:type>LIQUID</item:type>
     <item:weight>30</item:weight>
+    <item:usable>true</item:usable>
+    <item:use-effect-list>
+        <item:effect target="com.morethanheroic.swords.combat.domain.effect.entry.HealCombatEffectDefinition">
+            <item:settings-list>
+                <item:effect-setting>
+                    <item:setting-name>amount</item:setting-name>
+                    <item:setting-value>4</item:setting-value>
+                </item:effect-setting>
+            </item:settings-list>
+        </item:effect>
+        <item:effect target="com.morethanheroic.swords.combat.domain.effect.entry.RemoveItemAmountEffectDefinition">
+            <item:settings-list>
+                <item:effect-setting>
+                    <item:setting-name>item</item:setting-name>
+                    <item:setting-value>61</item:setting-value>
+                </item:effect-setting>
+                <item:effect-setting>
+                    <item:setting-name>amount</item:setting-name>
+                    <item:setting-value>1</item:setting-value>
+                </item:effect-setting>
+            </item:settings-list>
+        </item:effect>
+        <!-- TODO: add it a buff when buffs are supported in the game -->
+    </item:use-effect-list>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>5</item:amount>
+        </item:price-entry>
+    </item:price>
 </item:item>
