@@ -6,4 +6,8 @@
     <item:name>Magical amulet</item:name>
     <item:type>AMULET</item:type>
     <item:weight>0</item:weight>
+    <!--
+        This is an unidentified thing, there must be 3 amulets in random, one for meele one for ranged and one for magic.
+        All of them should be unidentified by default.
+    -->
 </item:item>

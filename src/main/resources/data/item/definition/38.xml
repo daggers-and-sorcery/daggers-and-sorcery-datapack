@@ -5,5 +5,18 @@
     <item:id>38</item:id>
     <item:name>Bronze chestplate</item:name>
     <item:type>HEAVY_ARMOR</item:type>
-    <item:weight>0</item:weight>
+    <item:weight>300</item:weight>
+    <item:equipment>true</item:equipment>
+    <item:modifiers>
+        <item:modifier>
+            <item:modifier>DEFENSE</item:modifier>
+            <item:amount>3</item:amount>
+        </item:modifier>
+    </item:modifiers>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>150</item:amount>
+        </item:price-entry>
+    </item:price>
 </item:item>

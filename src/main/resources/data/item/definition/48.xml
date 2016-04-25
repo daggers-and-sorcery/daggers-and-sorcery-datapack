@@ -6,4 +6,5 @@
     <item:name>Robinia shaft</item:name>
     <item:type>MATERIAL</item:type>
     <item:weight>0</item:weight>
+    <!-- Used to create the Robinia bow. -->
 </item:item>

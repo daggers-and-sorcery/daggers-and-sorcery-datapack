@@ -4,10 +4,26 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://www.swordsandsorcery.com/spell ../schema.xsd">
     <spell:id>2</spell:id>
-    <spell:name>Test spell</spell:name>
+    <spell:name>Fireball</spell:name>
     <spell:description>
-        Testing!
+        Damages the opponent for 1d10.
     </spell:description>
-    <spell:type>DIVINE</spell:type>
-    <spell:combat-spell>false</spell:combat-spell>
+    <spell:type>DESTRUCTION</spell:type>
+    <spell:combat-spell>true</spell:combat-spell>
+    <spell:cost-list>
+        <spell:cost>
+            <spell:cost-type>MANA</spell:cost-type>
+            <spell:cost-amount>5</spell:cost-amount>
+        </spell:cost>
+    </spell:cost-list>
+    <spell:effect-list>
+        <spell:effect target="com.morethanheroic.swords.combat.domain.effect.entry.DamageOpponentEffectDefinition">
+            <spell:settings-list>
+                <spell:effect-setting>
+                    <spell:setting-name>dice-10</spell:setting-name>
+                    <spell:setting-value>1</spell:setting-value>
+                </spell:effect-setting>
+            </spell:settings-list>
+        </spell:effect>
+    </spell:effect-list>
 </spell:spell>
