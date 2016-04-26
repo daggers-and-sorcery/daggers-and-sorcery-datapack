@@ -6,4 +6,10 @@
     <item:name>Pestle and Mortar</item:name>
     <item:type>TOOL</item:type>
     <item:weight>200</item:weight>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>50</item:amount>
+        </item:price-entry>
+    </item:price>
 </item:item>

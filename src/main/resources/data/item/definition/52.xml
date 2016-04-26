@@ -6,4 +6,10 @@
     <item:name>Frying pan</item:name>
     <item:type>TOOL</item:type>
     <item:weight>100</item:weight>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>30</item:amount>
+        </item:price-entry>
+    </item:price>
 </item:item>
