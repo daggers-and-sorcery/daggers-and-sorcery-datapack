@@ -3,8 +3,7 @@
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
     <item:id>28</item:id>
-    <!-- Replace this with something useful! -->
-    <item:name>[DISABLED]</item:name>
+    <item:name>Wool</item:name>
     <item:type>MATERIAL</item:type>
-    <item:weight>0</item:weight>
+    <item:weight>10</item:weight>
 </item:item>
