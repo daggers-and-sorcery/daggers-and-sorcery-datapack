@@ -20,7 +20,7 @@
         <spell:effect target="com.morethanheroic.swords.combat.domain.effect.entry.DamageOpponentEffectDefinition">
             <spell:settings-list>
                 <spell:effect-setting>
-                    <spell:setting-name>dice-10</spell:setting-name>
+                    <spell:setting-name>d10</spell:setting-name>
                     <spell:setting-value>1</spell:setting-value>
                 </spell:effect-setting>
             </spell:settings-list>
