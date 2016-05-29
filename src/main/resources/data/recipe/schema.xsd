@@ -14,6 +14,8 @@
                             <xs:enumeration value="SMITHING"/>
                             <xs:enumeration value="FETCHING"/>
                             <xs:enumeration value="CRAFTING"/>
+                            <xs:enumeration value="LEATHERWORKING_CURING"/>
+                            <xs:enumeration value="LEATHERWORKING_TANNING"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
@@ -66,6 +68,7 @@
                                                     <xs:enumeration value="SMITHING"/>
                                                     <xs:enumeration value="FETCHING"/>
                                                     <xs:enumeration value="CRAFTING"/>
+                                                    <xs:enumeration value="LEATHERWORKING"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
@@ -89,6 +92,7 @@
                                                     <xs:enumeration value="SMITHING"/>
                                                     <xs:enumeration value="FETCHING"/>
                                                     <xs:enumeration value="CRAFTING"/>
+                                                    <xs:enumeration value="LEATHERWORKING"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
