@@ -14,10 +14,6 @@
     </recipe:requirement-list>
     <recipe:ingredient-list>
         <recipe:ingredient>
-            <recipe:id>70</recipe:id>
-            <recipe:amount>1</recipe:amount>
-        </recipe:ingredient>
-        <recipe:ingredient>
             <recipe:id>75</recipe:id>
             <recipe:amount>1</recipe:amount>
         </recipe:ingredient>
