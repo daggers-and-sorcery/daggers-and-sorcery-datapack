@@ -16,6 +16,7 @@
                             <xs:enumeration value="CRAFTING"/>
                             <xs:enumeration value="LEATHERWORKING_CURING"/>
                             <xs:enumeration value="LEATHERWORKING_TANNING"/>
+                            <xs:enumeration value="LEATHERWORKING"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
