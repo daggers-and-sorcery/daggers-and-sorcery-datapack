@@ -24,7 +24,7 @@
     </recipe:ingredient-list>
     <recipe:reward-list>
         <recipe:reward>
-            <recipe:id>21</recipe:id>
+            <recipe:id>27</recipe:id>
             <recipe:amount>1</recipe:amount>
         </recipe:reward>
     </recipe:reward-list>

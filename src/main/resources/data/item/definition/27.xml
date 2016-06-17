@@ -12,7 +12,7 @@
             <item:settings-list>
                 <item:effect-setting>
                     <item:setting-name>amount</item:setting-name>
-                    <item:setting-value>9</item:setting-value>
+                    <item:setting-value>20</item:setting-value>
                 </item:effect-setting>
             </item:settings-list>
         </item:effect>
