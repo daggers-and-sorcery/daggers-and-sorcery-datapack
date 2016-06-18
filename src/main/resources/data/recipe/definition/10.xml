@@ -4,7 +4,7 @@
                xsi:schemaLocation="http://www.swordsandsorcery.com/recipe ../schema.xsd">
     <recipe:id>10</recipe:id>
     <recipe:name>Bronze bar</recipe:name>
-    <recipe:type>SMITHING</recipe:type>
+    <recipe:type>SMITHING_SMELTING</recipe:type>
     <recipe:chance>100</recipe:chance>
     <recipe:requirement-list>
         <recipe:skill-requirement>
@@ -31,7 +31,7 @@
     <recipe:experience-list>
         <recipe:experience>
             <recipe:skill>SMITHING</recipe:skill>
-            <recipe:amount>8</recipe:amount>
+            <recipe:amount>5</recipe:amount>
         </recipe:experience>
     </recipe:experience-list>
 </recipe:recipe>

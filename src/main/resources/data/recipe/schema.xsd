@@ -11,12 +11,13 @@
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
                             <xs:enumeration value="COOKING"/>
-                            <xs:enumeration value="SMITHING"/>
                             <xs:enumeration value="FETCHING"/>
                             <xs:enumeration value="CRAFTING"/>
                             <xs:enumeration value="LEATHERWORKING_CURING"/>
                             <xs:enumeration value="LEATHERWORKING_TANNING"/>
                             <xs:enumeration value="LEATHERWORKING"/>
+                            <xs:enumeration value="SMITHING_SMELTING"/>
+                            <xs:enumeration value="SMITHING"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
