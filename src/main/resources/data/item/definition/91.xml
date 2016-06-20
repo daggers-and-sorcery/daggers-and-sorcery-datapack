@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
+    <item:id>91</item:id>
+    <item:name>Bronze round shield</item:name>
+    <item:type>SHIELD</item:type>
+    <item:weight>500</item:weight>
+    <item:equipment>true</item:equipment>
+    <item:modifiers>
+        <item:modifier>
+            <item:modifier>DEFENSE</item:modifier>
+            <item:amount>2</item:amount>
+        </item:modifier>
+    </item:modifiers>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>25</item:amount>
+        </item:price-entry>
+    </item:price>
+</item:item>
