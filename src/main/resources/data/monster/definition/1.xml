@@ -118,14 +118,14 @@
             <monster:amount>
                 <monster:max>1</monster:max>
             </monster:amount>
-            <monster:chance>3</monster:chance>
+            <monster:chance>1</monster:chance>
         </monster:drop>
         <monster:drop>
             <monster:item>10</monster:item>
             <monster:amount>
                 <monster:max>1</monster:max>
             </monster:amount>
-            <monster:chance>3</monster:chance>
+            <monster:chance>1</monster:chance>
         </monster:drop>
         <monster:drop>
             <monster:item>11</monster:item>

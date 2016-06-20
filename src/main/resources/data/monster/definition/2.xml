@@ -75,14 +75,14 @@
             <monster:amount>
                 <monster:max>1</monster:max>
             </monster:amount>
-            <monster:chance>5</monster:chance>
+            <monster:chance>1.5</monster:chance>
         </monster:drop>
         <monster:drop>
             <monster:item>9</monster:item>
             <monster:amount>
                 <monster:max>1</monster:max>
             </monster:amount>
-            <monster:chance>5</monster:chance>
+            <monster:chance>1.5</monster:chance>
         </monster:drop>
         <monster:drop>
             <monster:item>5</monster:item>
