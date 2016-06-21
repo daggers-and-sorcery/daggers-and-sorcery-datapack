@@ -8,12 +8,17 @@
     <item:equipment>true</item:equipment>
     <item:modifiers>
         <item:modifier>
+            <item:modifier>ATTACK</item:modifier>
+            <item:amount>1</item:amount>
+            <item:d2>1</item:d2>
+        </item:modifier>
+        <item:modifier>
             <item:modifier>DEFENSE</item:modifier>
             <item:amount>2</item:amount>
         </item:modifier>
         <item:modifier>
             <item:modifier>DAMAGE</item:modifier>
-            <item:amount>0</item:amount>
+            <item:amount>1</item:amount>
             <item:d2>1</item:d2>
         </item:modifier>
     </item:modifiers>
