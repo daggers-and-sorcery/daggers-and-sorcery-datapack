@@ -11,6 +11,10 @@
             <recipe:skill>SMITHING</recipe:skill>
             <recipe:amount>4</recipe:amount>
         </recipe:skill-requirement>
+        <recipe:item-requirement>
+            <recipe:id>8</recipe:id>
+            <recipe:amount>1</recipe:amount>
+        </recipe:item-requirement>
     </recipe:requirement-list>
     <recipe:ingredient-list>
         <recipe:ingredient>
