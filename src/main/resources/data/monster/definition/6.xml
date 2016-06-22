@@ -148,6 +148,14 @@
             </monster:amount>
             <monster:chance>0.1</monster:chance>
         </monster:drop>
+        <monster:drop>
+            <monster:item>60</monster:item>
+            <monster:amount>
+                <monster:min>1</monster:min>
+                <monster:max>2</monster:max>
+            </monster:amount>
+            <monster:chance>3</monster:chance>
+        </monster:drop>
     </monster:droplist>
     <monster:scavengelist>
         <monster:drop>
