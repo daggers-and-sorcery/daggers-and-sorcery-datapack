@@ -10,11 +10,11 @@
         <item:modifier>
             <item:modifier>ATTACK</item:modifier>
             <item:amount>1</item:amount>
-            <item:d2>1</item:d2>
+            <item:d4>1</item:d4>
         </item:modifier>
         <item:modifier>
             <item:modifier>DAMAGE</item:modifier>
-            <item:amount>0</item:amount>
+            <item:amount>1</item:amount>
             <item:d4>1</item:d4>
         </item:modifier>
     </item:modifiers>
