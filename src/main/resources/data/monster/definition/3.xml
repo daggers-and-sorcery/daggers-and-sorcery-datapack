@@ -135,6 +135,20 @@
             </monster:amount>
             <monster:chance>0.01</monster:chance>
         </monster:drop>
+        <monster:drop>
+            <monster:item>55</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>0.01</monster:chance>
+        </monster:drop>
+        <monster:drop>
+            <monster:item>97</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>0.01</monster:chance>
+        </monster:drop>
         -->
         <monster:drop>
             <monster:item>79</monster:item>
