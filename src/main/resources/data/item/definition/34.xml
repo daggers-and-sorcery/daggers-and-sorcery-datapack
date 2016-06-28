@@ -6,6 +6,7 @@
     <item:name>Scroll: Fireball</item:name>
     <item:type>SCROLL</item:type>
     <item:weight>20</item:weight>
+    <item:usable>true</item:usable>
     <item:use-effect-list>
         <item:effect target="com.morethanheroic.swords.combat.domain.effect.entry.LearnSpellEffectDefinition">
             <item:settings-list>
