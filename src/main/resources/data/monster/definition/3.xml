@@ -29,7 +29,7 @@
         <monster:d10>1</monster:d10>
     </monster:magic-attack>
     <monster:magic-damage>
-        <monster:value>2</monster:value>
+        <monster:value>1</monster:value>
         <monster:d2>1</monster:d2>
     </monster:magic-damage>
     <monster:spell-resistance>22</monster:spell-resistance>
