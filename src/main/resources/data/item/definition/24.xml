@@ -6,4 +6,10 @@
     <item:name>Leather tunic</item:name>
     <item:type>LIGHT_ARMOR</item:type>
     <item:weight>400</item:weight>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>40</item:amount>
+        </item:price-entry>
+    </item:price>
 </item:item>

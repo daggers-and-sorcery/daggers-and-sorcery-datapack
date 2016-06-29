@@ -6,4 +6,10 @@
     <item:name>Knife</item:name>
     <item:type>TOOL</item:type>
     <item:weight>30</item:weight>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>3</item:amount>
+        </item:price-entry>
+    </item:price>
 </item:item>
