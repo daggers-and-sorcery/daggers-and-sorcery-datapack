@@ -7,7 +7,7 @@
     <spell:name>Fireball</spell:name>
     <spell:spell-target>OPPONENT</spell:spell-target>
     <spell:description>
-        Damages the opponent for 1d10.
+        Deals 1d4 + 4 damage to the opponent.
     </spell:description>
     <spell:type>DESTRUCTION</spell:type>
     <spell:combat-spell>true</spell:combat-spell>
