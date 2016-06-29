@@ -7,7 +7,7 @@
     <spell:name>Fireball</spell:name>
     <spell:spell-target>OPPONENT</spell:spell-target>
     <spell:description>
-        Deals 1d4 + 4 damage to the opponent.
+        Deals 1d4 + 4 plus the level of your Destruction skill divided by two (this bonus is limited to of five extra damage) to the opponent.
     </spell:description>
     <spell:type>DESTRUCTION</spell:type>
     <spell:combat-spell>true</spell:combat-spell>
@@ -18,7 +18,7 @@
         </spell:cost>
     </spell:cost-list>
     <spell:effect-list>
-        <spell:effect target="com.morethanheroic.swords.combat.domain.effect.entry.DamageCombatEffectDefinition">
+        <spell:effect target="com.morethanheroic.swords.combat.domain.effect.entry.spell.FireballSpellEffectDefinition">
             <spell:settings-list>
                 <spell:effect-setting>
                     <spell:setting-name>value</spell:setting-name>
@@ -27,6 +27,18 @@
                 <spell:effect-setting>
                     <spell:setting-name>d4</spell:setting-name>
                     <spell:setting-value>1</spell:setting-value>
+                </spell:effect-setting>
+            </spell:settings-list>
+        </spell:effect>
+        <spell:effect target="com.morethanheroic.swords.combat.domain.effect.entry.AwardExperienceEffectDefinition">
+            <spell:settings-list>
+                <spell:effect-setting>
+                    <spell:setting-name>skill</spell:setting-name>
+                    <spell:setting-value>DESTRUCTION</spell:setting-value>
+                </spell:effect-setting>
+                <spell:effect-setting>
+                    <spell:setting-name>amount</spell:setting-name>
+                    <spell:setting-value>20</spell:setting-value>
                 </spell:effect-setting>
             </spell:settings-list>
         </spell:effect>
