@@ -20,6 +20,15 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
+                <xs:element name="spell-target" minOccurs="1">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="SELF"/>
+                            <xs:enumeration value="OPPONENT"/>
+                            <xs:enumeration value="ITEM"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
                 <xs:element name="cost-list" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>

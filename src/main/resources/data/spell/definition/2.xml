@@ -5,6 +5,7 @@
              xsi:schemaLocation="http://www.swordsandsorcery.com/spell ../schema.xsd">
     <spell:id>2</spell:id>
     <spell:name>Fireball</spell:name>
+    <spell:spell-target>OPPONENT</spell:spell-target>
     <spell:description>
         Damages the opponent for 1d10.
     </spell:description>

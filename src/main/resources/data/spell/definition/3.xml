@@ -5,6 +5,7 @@
              xsi:schemaLocation="http://www.swordsandsorcery.com/spell ../schema.xsd">
     <spell:id>3</spell:id>
     <spell:name>Lesser identification</spell:name>
+    <spell:spell-target>ITEM</spell:spell-target>
     <spell:description>
         Identify an item.
     </spell:description>
