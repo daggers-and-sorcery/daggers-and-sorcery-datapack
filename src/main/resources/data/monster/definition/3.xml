@@ -106,8 +106,6 @@
             </monster:amount>
             <monster:chance>1.5</monster:chance>
         </monster:drop>
-        <!-- Disabled until we fix the destruction spells -->
-        <!--
         <monster:drop>
             <monster:item>34</monster:item>
             <monster:amount>
@@ -115,7 +113,6 @@
             </monster:amount>
             <monster:chance>1.5</monster:chance>
         </monster:drop>
-        -->
         <monster:drop>
             <monster:item>35</monster:item>
             <monster:amount>

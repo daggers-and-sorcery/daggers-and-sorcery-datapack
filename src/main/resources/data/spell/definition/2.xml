@@ -14,14 +14,18 @@
     <spell:cost-list>
         <spell:cost>
             <spell:cost-type>MANA</spell:cost-type>
-            <spell:cost-amount>5</spell:cost-amount>
+            <spell:cost-amount>3</spell:cost-amount>
         </spell:cost>
     </spell:cost-list>
     <spell:effect-list>
-        <spell:effect target="com.morethanheroic.swords.combat.domain.effect.entry.DamageOpponentEffectDefinition">
+        <spell:effect target="com.morethanheroic.swords.combat.domain.effect.entry.DamageCombatEffectDefinition">
             <spell:settings-list>
                 <spell:effect-setting>
-                    <spell:setting-name>d10</spell:setting-name>
+                    <spell:setting-name>value</spell:setting-name>
+                    <spell:setting-value>4</spell:setting-value>
+                </spell:effect-setting>
+                <spell:effect-setting>
+                    <spell:setting-name>d4</spell:setting-name>
                     <spell:setting-value>1</spell:setting-value>
                 </spell:effect-setting>
             </spell:settings-list>
