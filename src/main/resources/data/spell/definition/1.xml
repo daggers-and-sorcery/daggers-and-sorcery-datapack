@@ -18,7 +18,7 @@
         </spell:cost>
     </spell:cost-list>
     <spell:effect-list>
-        <spell:effect target="com.morethanheroic.swords.combat.domain.effect.entry.spell.HealSpellEffectDefinition">
+        <spell:effect target="heal_spell">
             <spell:settings-list>
                 <spell:effect-setting>
                     <spell:setting-name>amount</spell:setting-name>
