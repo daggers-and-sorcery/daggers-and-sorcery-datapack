@@ -48,6 +48,7 @@
                             <xs:enumeration value="BOOTS"/>
                             <xs:enumeration value="HELM"/>
                             <xs:enumeration value="PLATELEGS"/>
+                            <xs:enumeration value="FOCUS"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
@@ -163,6 +164,9 @@
                                                     <xs:enumeration value="TWO_HANDED_CRUSHING_WEAPONS"/>
                                                     <xs:enumeration value="ONE_HANDED_CRUSHING_WEAPONS"/>
                                                     <xs:enumeration value="ONE_HANDED_AXES"/>
+                                                    <xs:enumeration value="STAFF"/>
+                                                    <xs:enumeration value="WAND"/>
+                                                    <xs:enumeration value="FOCUS"/>
                                                     <xs:enumeration value="STRENGTH"/>
                                                     <xs:enumeration value="PERCEPTION"/>
                                                     <xs:enumeration value="DEXTERITY"/>

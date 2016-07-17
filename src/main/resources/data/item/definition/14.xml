@@ -8,7 +8,7 @@
     <item:weight>10</item:weight>
     <item:usable>true</item:usable>
     <item:use-effect-list>
-        <item:effect target="com.morethanheroic.swords.combat.domain.effect.entry.HealCombatEffectDefinition">
+        <item:effect target="heal">
           	<item:settings-list>
               	<item:effect-setting>
                   	<item:setting-name>amount</item:setting-name>
@@ -16,7 +16,7 @@
                 </item:effect-setting>
             </item:settings-list>
       	</item:effect>
-        <item:effect target="com.morethanheroic.swords.combat.domain.effect.entry.RemoveItemAmountEffectDefinition">
+        <item:effect target="remove_item">
             <item:settings-list>
                 <item:effect-setting>
                     <item:setting-name>item</item:setting-name>

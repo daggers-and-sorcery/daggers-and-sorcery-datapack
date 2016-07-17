@@ -5,22 +5,27 @@
              xsi:schemaLocation="http://www.swordsandsorcery.com/spell ../schema.xsd">
     <spell:id>2</spell:id>
     <spell:name>Fireball</spell:name>
+    <spell:spell-target>OPPONENT</spell:spell-target>
     <spell:description>
-        Damages the opponent for 1d10.
+        Deals 1d4 + 4 plus the level of your Destruction skill divided by two (this bonus is limited to of five extra damage) to the opponent.
     </spell:description>
     <spell:type>DESTRUCTION</spell:type>
     <spell:combat-spell>true</spell:combat-spell>
     <spell:cost-list>
         <spell:cost>
             <spell:cost-type>MANA</spell:cost-type>
-            <spell:cost-amount>5</spell:cost-amount>
+            <spell:cost-amount>3</spell:cost-amount>
         </spell:cost>
     </spell:cost-list>
     <spell:effect-list>
-        <spell:effect target="com.morethanheroic.swords.combat.domain.effect.entry.DamageOpponentEffectDefinition">
+        <spell:effect target="fireball_spell">
             <spell:settings-list>
                 <spell:effect-setting>
-                    <spell:setting-name>d10</spell:setting-name>
+                    <spell:setting-name>value</spell:setting-name>
+                    <spell:setting-value>4</spell:setting-value>
+                </spell:effect-setting>
+                <spell:effect-setting>
+                    <spell:setting-name>d4</spell:setting-name>
                     <spell:setting-value>1</spell:setting-value>
                 </spell:effect-setting>
             </spell:settings-list>

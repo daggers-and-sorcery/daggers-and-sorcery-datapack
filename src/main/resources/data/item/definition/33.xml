@@ -8,7 +8,7 @@
     <item:weight>20</item:weight>
     <item:usable>true</item:usable>
     <item:use-effect-list>
-        <item:effect target="com.morethanheroic.swords.combat.domain.effect.entry.LearnSpellEffectDefinition">
+        <item:effect target="learn_spell">
             <item:settings-list>
                 <item:effect-setting>
                     <item:setting-name>spell-item-id</item:setting-name>

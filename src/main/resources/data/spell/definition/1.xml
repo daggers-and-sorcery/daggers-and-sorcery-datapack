@@ -5,9 +5,10 @@
              xsi:schemaLocation="http://www.swordsandsorcery.com/spell ../schema.xsd">
     <spell:id>1</spell:id>
     <spell:name>Heal</spell:name>
+    <spell:spell-target>SELF</spell:spell-target>
     <spell:type>RESTORATION</spell:type>
     <spell:description>
-        Heal you for 8 health.
+        Heal you for 4 plus the level of your Restoration skill divided by two (this bonus is limited to of five extra point) health.
     </spell:description>
     <spell:combat-spell>true</spell:combat-spell>
     <spell:cost-list>
@@ -17,11 +18,15 @@
         </spell:cost>
     </spell:cost-list>
     <spell:effect-list>
-        <spell:effect target="com.morethanheroic.swords.combat.domain.effect.entry.HealCombatEffectDefinition">
+        <spell:effect target="heal_spell">
             <spell:settings-list>
                 <spell:effect-setting>
                     <spell:setting-name>amount</spell:setting-name>
-                    <spell:setting-value>8</spell:setting-value>
+                    <spell:setting-value>4</spell:setting-value>
+                </spell:effect-setting>
+                <spell:effect-setting>
+                    <spell:setting-name>xp</spell:setting-name>
+                    <spell:setting-value>15</spell:setting-value>
                 </spell:effect-setting>
             </spell:settings-list>
         </spell:effect>

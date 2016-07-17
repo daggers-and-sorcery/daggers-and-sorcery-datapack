@@ -5,6 +5,7 @@
              xsi:schemaLocation="http://www.swordsandsorcery.com/spell ../schema.xsd">
     <spell:id>3</spell:id>
     <spell:name>Lesser identification</spell:name>
+    <spell:spell-target>ITEM</spell:spell-target>
     <spell:description>
         Identify an item.
     </spell:description>
@@ -12,6 +13,6 @@
     <spell:combat-spell>false</spell:combat-spell>
     <spell:open-page>true</spell:open-page>
     <spell:effect-list>
-        <spell:effect target="com.morethanheroic.swords.combat.domain.effect.entry.LesserIdentifyEffectDefinition"/>
+        <spell:effect target="lesser_identify"/>
     </spell:effect-list>
 </spell:spell>
