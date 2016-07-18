@@ -10,8 +10,8 @@
     <monster:initiation>
         <monster:value>22</monster:value>
     </monster:initiation>
-    <monster:level>5</monster:level>
-    <monster:defense>26</monster:defense>
+    <monster:level>8</monster:level>
+    <monster:defense>24</monster:defense>
     <monster:damage>
         <monster:value>2</monster:value>
         <monster:d6>1</monster:d6>
@@ -80,27 +80,6 @@
         </monster:drop>
         <monster:drop>
             <monster:item>42</monster:item>
-            <monster:amount>
-                <monster:max>1</monster:max>
-            </monster:amount>
-            <monster:chance>2</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>13</monster:item>
-            <monster:amount>
-                <monster:max>1</monster:max>
-            </monster:amount>
-            <monster:chance>2</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>11</monster:item>
-            <monster:amount>
-                <monster:max>1</monster:max>
-            </monster:amount>
-            <monster:chance>2</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>21</monster:item>
             <monster:amount>
                 <monster:max>1</monster:max>
             </monster:amount>

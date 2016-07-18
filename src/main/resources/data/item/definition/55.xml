@@ -6,6 +6,7 @@
     <item:name>Magical amulet</item:name>
     <item:type>AMULET</item:type>
     <item:weight>0</item:weight>
+    <item:equipment>true</item:equipment>
     <item:modifiers>
         <item:modifier>
             <item:modifier>RANGED_DAMAGE</item:modifier>
