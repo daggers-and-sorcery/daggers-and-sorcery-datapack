@@ -65,7 +65,7 @@
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
-                                        <xs:element name="amount" type="xs:int" />
+                                        <xs:element name="amount" type="xs:int"/>
                                     </xs:all>
                                 </xs:complexType>
                             </xs:element>
