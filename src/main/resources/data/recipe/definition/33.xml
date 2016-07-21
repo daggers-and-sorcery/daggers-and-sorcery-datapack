@@ -21,6 +21,10 @@
             <recipe:id>5</recipe:id>
             <recipe:amount>3</recipe:amount>
         </recipe:ingredient>
+        <recipe:ingredient>
+            <recipe:id>84</recipe:id>
+            <recipe:amount>2</recipe:amount>
+        </recipe:ingredient>
     </recipe:ingredient-list>
     <recipe:reward-list>
         <recipe:reward>

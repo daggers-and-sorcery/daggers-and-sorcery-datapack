@@ -9,7 +9,15 @@
     <item:equipment>true</item:equipment>
     <item:modifiers>
         <item:modifier>
+            <item:modifier>AIMING</item:modifier>
+            <item:amount>1</item:amount>
+        </item:modifier>
+        <item:modifier>
             <item:modifier>DEFENSE</item:modifier>
+            <item:amount>1</item:amount>
+        </item:modifier>
+        <item:modifier>
+            <item:modifier>SPELL_RESISTANCE</item:modifier>
             <item:amount>1</item:amount>
         </item:modifier>
     </item:modifiers>

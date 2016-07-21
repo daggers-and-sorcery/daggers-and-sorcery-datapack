@@ -6,10 +6,25 @@
     <item:name>Recipe: Leather tunic</item:name>
     <item:type>RECIPE</item:type>
     <item:weight>10</item:weight>
+    <item:usable>true</item:usable>
+    <item:use-effect-list>
+        <item:effect target="learn_recipe">
+            <item:settings-list>
+                <item:effect-setting>
+                    <item:setting-name>recipe-item-id</item:setting-name>
+                    <item:setting-value>23</item:setting-value>
+                </item:effect-setting>
+                <item:effect-setting>
+                    <item:setting-name>recipe-id</item:setting-name>
+                    <item:setting-value>34</item:setting-value>
+                </item:effect-setting>
+            </item:settings-list>
+        </item:effect>
+    </item:use-effect-list>
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>
-            <item:amount>50</item:amount>
+            <item:amount>40</item:amount>
         </item:price-entry>
     </item:price>
 </item:item>
