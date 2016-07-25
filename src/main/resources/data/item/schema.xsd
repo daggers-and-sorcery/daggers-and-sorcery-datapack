@@ -165,6 +165,7 @@
                                                     <xs:enumeration value="MOVEMENT"/>
                                                     <xs:enumeration value="TWO_HANDED_CRUSHING_WEAPONS"/>
                                                     <xs:enumeration value="ONE_HANDED_CRUSHING_WEAPONS"/>
+                                                    <xs:enumeration value="TWO_HANDED_AXES"/>
                                                     <xs:enumeration value="ONE_HANDED_AXES"/>
                                                     <xs:enumeration value="STAFF"/>
                                                     <xs:enumeration value="WAND"/>
@@ -172,6 +173,9 @@
                                                     <xs:enumeration value="STRENGTH"/>
                                                     <xs:enumeration value="PERCEPTION"/>
                                                     <xs:enumeration value="DEXTERITY"/>
+                                                    <xs:enumeration value="SHORTSWORDS"/>
+                                                    <xs:enumeration value="LONGSWORDS"/>
+                                                    <xs:enumeration value="POLEARMS"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
