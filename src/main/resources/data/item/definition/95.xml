@@ -4,7 +4,8 @@
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
     <item:id>95</item:id>
     <item:name>Robinia wand</item:name>
-    <item:type>WAND</item:type>
+    <item:type>WEAPON</item:type>
+    <item:subtype>WAND</item:subtype>
     <item:weight>200</item:weight>
     <item:equipment>true</item:equipment>
     <item:modifiers>

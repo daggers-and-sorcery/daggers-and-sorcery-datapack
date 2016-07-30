@@ -4,7 +4,7 @@
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
     <item:id>5</item:id>
     <item:name>Bronze bar</item:name>
-    <item:type>BAR</item:type>
+    <item:type>MATERIAL</item:type>
     <item:weight>300</item:weight>
     <item:price>
         <item:price-entry>

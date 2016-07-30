@@ -4,7 +4,8 @@
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
     <item:id>36</item:id>
     <item:name>Robinia stave</item:name>
-    <item:type>STAFF</item:type>
+    <item:type>WEAPON</item:type>
+    <item:subtype>STAFF</item:subtype>
     <item:weight>300</item:weight>
     <item:equipment>true</item:equipment>
     <item:modifiers>

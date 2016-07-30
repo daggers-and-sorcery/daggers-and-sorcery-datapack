@@ -4,7 +4,8 @@
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
     <item:id>107</item:id>
     <item:name>Bronze halberd</item:name>
-    <item:type>POLEARMS</item:type>
+    <item:type>WEAPON</item:type>
+    <item:subtype>POLEARMS</item:subtype>
     <item:weight>500</item:weight>
     <item:equipment>true</item:equipment>
     <item:modifiers>

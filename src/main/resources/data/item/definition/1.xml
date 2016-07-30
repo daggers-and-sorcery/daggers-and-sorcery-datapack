@@ -5,6 +5,6 @@
     <item:id>1</item:id>
     <item:name>Bronze coins</item:name>
     <item:flavour>This thing doesn't stink.</item:flavour>
-    <item:type>COIN</item:type>
+    <item:type>MONEY</item:type>
     <item:weight>0</item:weight>
 </item:item>

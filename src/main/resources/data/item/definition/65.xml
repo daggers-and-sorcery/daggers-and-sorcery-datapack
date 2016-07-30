@@ -4,6 +4,7 @@
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
     <item:id>65</item:id>
     <item:name>Robinia longbow</item:name>
-    <item:type>LONGBOWS</item:type>
+    <item:type>WEAPON</item:type>
+    <item:subtype>LONGBOWS</item:subtype>
     <item:weight>0</item:weight>
 </item:item>

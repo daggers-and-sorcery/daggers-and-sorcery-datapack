@@ -4,7 +4,8 @@
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
     <item:id>103</item:id>
     <item:name>Bronze bastard sword</item:name>
-    <item:type>LONGSWORDS</item:type>
+    <item:type>WEAPON</item:type>
+    <item:subtype>LONGSWORDS</item:subtype>
     <item:weight>500</item:weight>
     <item:equipment>true</item:equipment>
     <item:modifiers>

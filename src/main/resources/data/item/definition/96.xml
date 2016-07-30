@@ -4,7 +4,8 @@
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
     <item:id>96</item:id>
     <item:name>Spellbook</item:name>
-    <item:type>FOCUS</item:type>
+    <item:type>WEAPON</item:type>
+    <item:subtype>FOCUS</item:subtype>
     <item:weight>150</item:weight>
     <item:equipment>true</item:equipment>
     <item:modifiers>

@@ -10,48 +10,8 @@
                 <xs:element name="description" type="xs:string" minOccurs="0"/>
                 <xs:element name="flavour" type="xs:string" minOccurs="0"/>
                 <xs:element name="equipment" type="xs:boolean" minOccurs="0"/>
-                <xs:element name="type" minOccurs="1">
-                    <xs:simpleType>
-                        <xs:restriction base="xs:string">
-                            <xs:enumeration value="TWO_HANDED_CRUSHING_WEAPONS"/>
-                            <xs:enumeration value="ONE_HANDED_CRUSHING_WEAPONS"/>
-                            <xs:enumeration value="TWO_HANDED_AXES"/>
-                            <xs:enumeration value="ONE_HANDED_AXES"/>
-                            <xs:enumeration value="THROWING_WEAPONS"/>
-                            <xs:enumeration value="LONGSWORDS"/>
-                            <xs:enumeration value="SHORTSWORDS"/>
-                            <xs:enumeration value="POLEARMS"/>
-                            <xs:enumeration value="DAGGERS"/>
-                            <xs:enumeration value="LONGBOWS"/>
-                            <xs:enumeration value="SHORTBOWS"/>
-                            <xs:enumeration value="CROSSBOWS"/>
-                            <xs:enumeration value="LIGHT_ARMOR"/>
-                            <xs:enumeration value="HEAVY_ARMOR"/>
-                            <xs:enumeration value="ROBE_ARMOR"/>
-                            <xs:enumeration value="SHIELD"/>
-                            <xs:enumeration value="STAFF"/>
-                            <xs:enumeration value="WAND"/>
-                            <xs:enumeration value="SPECTRE"/>
-                            <xs:enumeration value="COIN"/>
-                            <xs:enumeration value="NUT"/>
-                            <xs:enumeration value="ORE"/>
-                            <xs:enumeration value="BAR"/>
-                            <xs:enumeration value="ARROW"/>
-                            <xs:enumeration value="MATERIAL"/>
-                            <xs:enumeration value="TOOL"/>
-                            <xs:enumeration value="RECIPE"/>
-                            <xs:enumeration value="LIQUID"/>
-                            <xs:enumeration value="FOOD"/>
-                            <xs:enumeration value="SCROLL"/>
-                            <xs:enumeration value="AMULET"/>
-                            <xs:enumeration value="GLOVES"/>
-                            <xs:enumeration value="BOOTS"/>
-                            <xs:enumeration value="HELM"/>
-                            <xs:enumeration value="PLATELEGS"/>
-                            <xs:enumeration value="FOCUS"/>
-                        </xs:restriction>
-                    </xs:simpleType>
-                </xs:element>
+                <xs:element name="type" minOccurs="1" type="itemtype"/>
+                <xs:element name="subtype" type="itemtype" minOccurs="0"/>
                 <xs:element name="price" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
@@ -189,4 +149,45 @@
             </xs:all>
         </xs:complexType>
     </xs:element>
+    <xs:simpleType name="itemtype">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="TWO_HANDED_CRUSHING_WEAPONS"/>
+            <xs:enumeration value="ONE_HANDED_CRUSHING_WEAPONS"/>
+            <xs:enumeration value="TWO_HANDED_AXES"/>
+            <xs:enumeration value="ONE_HANDED_AXES"/>
+            <xs:enumeration value="THROWING_WEAPONS"/>
+            <xs:enumeration value="LONGSWORDS"/>
+            <xs:enumeration value="SHORTSWORDS"/>
+            <xs:enumeration value="POLEARMS"/>
+            <xs:enumeration value="DAGGERS"/>
+            <xs:enumeration value="LONGBOWS"/>
+            <xs:enumeration value="SHORTBOWS"/>
+            <xs:enumeration value="CROSSBOWS"/>
+            <xs:enumeration value="LIGHT_ARMOR"/>
+            <xs:enumeration value="HEAVY_ARMOR"/>
+            <xs:enumeration value="ROBE_ARMOR"/>
+            <xs:enumeration value="SHIELD"/>
+            <xs:enumeration value="STAFF"/>
+            <xs:enumeration value="WAND"/>
+            <xs:enumeration value="SPECTRE"/>
+            <xs:enumeration value="MONEY"/>
+            <xs:enumeration value="ARROW"/>
+            <xs:enumeration value="MATERIAL"/>
+            <xs:enumeration value="TOOL"/>
+            <xs:enumeration value="RECIPE"/>
+            <xs:enumeration value="LIQUID"/>
+            <xs:enumeration value="FOOD"/>
+            <xs:enumeration value="SCROLL"/>
+            <xs:enumeration value="AMULET"/>
+            <xs:enumeration value="GLOVES"/>
+            <xs:enumeration value="BOOTS"/>
+            <xs:enumeration value="HELM"/>
+            <xs:enumeration value="PLATELEGS"/>
+            <xs:enumeration value="FOCUS"/>
+            <xs:enumeration value="WEAPON"/>
+            <xs:enumeration value="ARMOR"/>
+            <xs:enumeration value="PROJECTILE"/>
+            <xs:enumeration value="JEWELRY"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
