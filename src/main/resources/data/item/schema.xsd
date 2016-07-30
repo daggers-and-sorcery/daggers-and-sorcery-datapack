@@ -136,6 +136,8 @@
                                                     <xs:enumeration value="SHORTSWORDS"/>
                                                     <xs:enumeration value="LONGSWORDS"/>
                                                     <xs:enumeration value="POLEARMS"/>
+                                                    <xs:enumeration value="SHORTBOWS"/>
+                                                    <xs:enumeration value="LONGBOWS"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>

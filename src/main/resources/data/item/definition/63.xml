@@ -7,4 +7,18 @@
     <item:type>WEAPON</item:type>
     <item:subtype>SHORTBOWS</item:subtype>
     <item:weight>0</item:weight>
+    <item:equipment>true</item:equipment>
+    <item:modifiers>
+        <item:modifier>
+            <item:modifier>AIMING</item:modifier>
+            <item:amount>2</item:amount>
+            <item:d2>1</item:d2>
+        </item:modifier>
+    </item:modifiers>
+    <item:requirements>
+        <item:requirement>
+            <item:requirement>SHORTBOWS</item:requirement>
+            <item:amount>1</item:amount>
+        </item:requirement>
+    </item:requirements>
 </item:item>
