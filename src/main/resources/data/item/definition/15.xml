@@ -6,7 +6,6 @@
     <item:name>Bronze arrowhead</item:name>
     <item:type>MATERIAL</item:type>
     <item:weight>2</item:weight>
-    <item:equipment>true</item:equipment>
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>

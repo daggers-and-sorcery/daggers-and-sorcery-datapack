@@ -7,6 +7,7 @@
     <item:type>PROJECTILE</item:type>
     <item:subtype>ARROW</item:subtype>
     <item:weight>5</item:weight>
+    <item:equipment>true</item:equipment>
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>
