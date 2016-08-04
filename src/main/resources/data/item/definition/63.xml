@@ -21,4 +21,10 @@
             <item:amount>1</item:amount>
         </item:requirement>
     </item:requirements>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>20</item:amount>
+        </item:price-entry>
+    </item:price>
 </item:item>
