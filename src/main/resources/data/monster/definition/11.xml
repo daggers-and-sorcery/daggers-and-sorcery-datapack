@@ -11,7 +11,7 @@
         <monster:value>22</monster:value>
     </monster:initiation>
     <monster:level>9</monster:level>
-    <monster:defense>23</monster:defense>
+    <monster:defense>21</monster:defense>
     <monster:damage>
         <monster:value>2</monster:value>
         <monster:d8>1</monster:d8>
