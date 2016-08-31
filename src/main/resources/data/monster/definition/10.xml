@@ -4,7 +4,7 @@
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xsi:schemaLocation="http://www.swordsandsorcery.com/monster ../schema.xsd">
     <monster:id>10</monster:id>
-    <monster:name>Bandit Brigand</monster:name>
+    <monster:name>Bandit brigand</monster:name>
     <monster:health>12</monster:health>
     <monster:mana>0</monster:mana>
     <monster:initiation>
