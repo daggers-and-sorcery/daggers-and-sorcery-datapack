@@ -36,6 +36,13 @@
     <monster:attack-type>MELEE</monster:attack-type>
     <monster:droplist>
         <monster:drop>
+            <monster:item>111</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>4</monster:chance>
+        </monster:drop>
+        <monster:drop>
             <monster:item>101</monster:item>
             <monster:amount>
                 <monster:max>1</monster:max>
