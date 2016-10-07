@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.swordsandsorcery.com/exploration-event"
+           xmlns="http://www.swordsandsorcery.com/exploration-event" elementFormDefault="qualified">
+    <xs:element name="exploration-event">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="id" type="xs:short"/>
+                <xs:element name="location">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="FARMFIELDS"/>
+                            <xs:enumeration value="WHISPERING_WOODS"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="rarity">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="COMMON"/>
+                            <xs:enumeration value="UNCOMMON"/>
+                            <xs:enumeration value="RARE"/>
+                            <xs:enumeration value="EPIC"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="terrain">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="FIELD"/>
+                            <xs:enumeration value="CITY"/>
+                            <xs:enumeration value="FOREST"/>
+                            <xs:enumeration value="DESERT"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
