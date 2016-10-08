@@ -36,6 +36,27 @@
     <monster:attack-type>MAGIC</monster:attack-type>
     <monster:droplist>
         <monster:drop>
+            <monster:item>119</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>2</monster:chance>
+        </monster:drop>
+        <monster:drop>
+            <monster:item>120</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>2</monster:chance>
+        </monster:drop>
+        <monster:drop>
+            <monster:item>116</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>2</monster:chance>
+        </monster:drop>
+        <monster:drop>
             <monster:item>111</monster:item>
             <monster:amount>
                 <monster:max>1</monster:max>
