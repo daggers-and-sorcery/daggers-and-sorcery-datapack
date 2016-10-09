@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.swordsandsorcery.com/loot"
+           xmlns="http://www.swordsandsorcery.com/loot" elementFormDefault="qualified">
+    <xs:element name="loot">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="droplist">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="drop" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="item" type="xs:unsignedInt" minOccurs="1"/>
+                                        <xs:element name="amount" minOccurs="1">
+                                            <xs:complexType>
+                                                <xs:all>
+                                                    <xs:element name="min" type="xs:unsignedInt" minOccurs="0"/>
+                                                    <xs:element name="max" type="xs:unsignedInt" minOccurs="1"/>
+                                                </xs:all>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="chance" type="xs:double" minOccurs="1"/>
+                                        <xs:element name="identified" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+                                    </xs:all>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
