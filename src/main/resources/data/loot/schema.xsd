@@ -5,6 +5,7 @@
     <xs:element name="loot">
         <xs:complexType>
             <xs:all>
+                <xs:element name="id" type="xs:unsignedInt"/>
                 <xs:element name="droplist">
                     <xs:complexType>
                         <xs:sequence>
