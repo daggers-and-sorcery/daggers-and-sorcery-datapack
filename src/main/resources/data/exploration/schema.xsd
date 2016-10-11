@@ -32,6 +32,9 @@
                             <xs:enumeration value="CITY"/>
                             <xs:enumeration value="FOREST"/>
                             <xs:enumeration value="DESERT"/>
+                            <xs:enumeration value="FARM"/>
+                            <xs:enumeration value="INN"/>
+                            <xs:enumeration value="FORESTER"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
