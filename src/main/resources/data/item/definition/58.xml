@@ -7,6 +7,7 @@
     <item:type>FOOD</item:type>
     <item:weight>10</item:weight>
     <item:usable>true</item:usable>
+    <item:description>Restore 5 health points when used.</item:description>
     <item:use-effect-list>
         <item:effect target="heal">
             <item:settings-list>
