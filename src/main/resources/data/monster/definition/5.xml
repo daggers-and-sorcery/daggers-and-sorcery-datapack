@@ -281,6 +281,20 @@
             </monster:amount>
             <monster:chance>0.2</monster:chance>
         </monster:drop>
+        <monster:drop>
+            <monster:item>32</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>3</monster:chance>
+        </monster:drop>
+        <monster:drop>
+            <monster:item>26</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>0.5</monster:chance>
+        </monster:drop>
         <!--
         Disabled this drop (Scroll: Might) until we implement the buff bar and buffs/hexes mechanic.
 
@@ -294,6 +308,13 @@
         -->
     </monster:droplist>
     <monster:scavengelist>
+        <monster:drop>
+            <monster:item>32</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>3</monster:chance>
+        </monster:drop>
         <monster:drop>
             <monster:item>70</monster:item>
             <monster:amount>

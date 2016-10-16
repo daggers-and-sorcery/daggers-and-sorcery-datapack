@@ -5,7 +5,7 @@
     <recipe:id>5</recipe:id>
     <recipe:name>Bronze arrow</recipe:name>
     <recipe:type>FLETCHING</recipe:type>
-    <recipe:chance>70</recipe:chance>
+    <recipe:chance>100</recipe:chance>
     <recipe:requirement-list>
         <recipe:skill-requirement>
             <recipe:skill>FLETCHING</recipe:skill>

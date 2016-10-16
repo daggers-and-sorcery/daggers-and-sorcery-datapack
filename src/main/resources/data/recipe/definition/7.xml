@@ -4,12 +4,12 @@
                xsi:schemaLocation="http://www.swordsandsorcery.com/recipe ../schema.xsd">
     <recipe:id>7</recipe:id>
     <recipe:name>Robinia shaft</recipe:name>
-    <recipe:type>CRAFTING</recipe:type>
+    <recipe:type>FLETCHING</recipe:type>
     <recipe:chance>100</recipe:chance>
     <recipe:requirement-list>
         <recipe:skill-requirement>
-            <recipe:skill>CRAFTING</recipe:skill>
-            <recipe:amount>5</recipe:amount>
+            <recipe:skill>FLETCHING</recipe:skill>
+            <recipe:amount>3</recipe:amount>
         </recipe:skill-requirement>
         <recipe:item-requirement>
             <recipe:id>26</recipe:id>
@@ -30,7 +30,7 @@
     </recipe:reward-list>
     <recipe:experience-list>
         <recipe:experience>
-            <recipe:skill>CRAFTING</recipe:skill>
+            <recipe:skill>FLETCHING</recipe:skill>
             <recipe:amount>25</recipe:amount>
         </recipe:experience>
     </recipe:experience-list>
