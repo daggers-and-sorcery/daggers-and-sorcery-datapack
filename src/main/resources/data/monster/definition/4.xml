@@ -301,8 +301,36 @@
             </monster:amount>
             <monster:chance>3</monster:chance>
         </monster:drop>
+        <monster:drop>
+            <monster:item>129</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>1.5</monster:chance>
+        </monster:drop>
+        <monster:drop>
+            <monster:item>125</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>1.5</monster:chance>
+        </monster:drop>
     </monster:droplist>
     <monster:scavengelist>
+        <monster:drop>
+            <monster:item>125</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>1.5</monster:chance>
+        </monster:drop>
+        <monster:drop>
+            <monster:item>129</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>1.5</monster:chance>
+        </monster:drop>
         <monster:drop>
             <monster:item>32</monster:item>
             <monster:amount>
