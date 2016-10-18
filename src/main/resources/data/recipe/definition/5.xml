@@ -4,11 +4,11 @@
                xsi:schemaLocation="http://www.swordsandsorcery.com/recipe ../schema.xsd">
     <recipe:id>5</recipe:id>
     <recipe:name>Bronze arrow</recipe:name>
-    <recipe:type>FETCHING</recipe:type>
-    <recipe:chance>70</recipe:chance>
+    <recipe:type>FLETCHING</recipe:type>
+    <recipe:chance>100</recipe:chance>
     <recipe:requirement-list>
         <recipe:skill-requirement>
-            <recipe:skill>FETCHING</recipe:skill>
+            <recipe:skill>FLETCHING</recipe:skill>
             <recipe:amount>1</recipe:amount>
         </recipe:skill-requirement>
     </recipe:requirement-list>
@@ -30,7 +30,7 @@
     </recipe:reward-list>
     <recipe:experience-list>
         <recipe:experience>
-            <recipe:skill>FETCHING</recipe:skill>
+            <recipe:skill>FLETCHING</recipe:skill>
             <recipe:amount>10</recipe:amount>
         </recipe:experience>
     </recipe:experience-list>

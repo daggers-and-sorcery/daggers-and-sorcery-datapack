@@ -3,13 +3,13 @@
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
     <item:id>53</item:id>
-    <item:name>Wooden shaft</item:name>
+    <item:name>UNUSED ITEM</item:name>
     <item:type>MATERIAL</item:type>
-    <item:weight>7</item:weight>
+    <item:weight>0</item:weight>
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>
-            <item:amount>3</item:amount>
+            <item:amount>0</item:amount>
         </item:price-entry>
     </item:price>
 </item:item>
