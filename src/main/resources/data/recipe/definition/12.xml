@@ -22,19 +22,11 @@
             <recipe:amount>1</recipe:amount>
         </recipe:ingredient>
         <recipe:ingredient>
-            <recipe:id>66</recipe:id>
-            <recipe:amount>4</recipe:amount>
-        </recipe:ingredient>
-        <recipe:ingredient>
             <recipe:id>67</recipe:id>
             <recipe:amount>1</recipe:amount>
         </recipe:ingredient>
         <recipe:ingredient>
             <recipe:id>68</recipe:id>
-            <recipe:amount>2</recipe:amount>
-        </recipe:ingredient>
-        <recipe:ingredient>
-            <recipe:id>28</recipe:id>
             <recipe:amount>2</recipe:amount>
         </recipe:ingredient>
     </recipe:ingredient-list>
