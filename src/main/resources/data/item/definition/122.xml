@@ -6,7 +6,7 @@
     <item:name>Bronze dirk</item:name>
     <item:type>WEAPON</item:type>
     <item:subtype>DAGGERS</item:subtype>
-    <item:weight>2000</item:weight>
+    <item:weight>150</item:weight>
     <item:equipment>true</item:equipment>
     <item:modifiers>
         <item:modifier>
