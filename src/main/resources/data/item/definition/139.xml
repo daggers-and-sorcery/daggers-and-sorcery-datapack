@@ -2,7 +2,7 @@
 
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
-    <item:id>95</item:id>
+    <item:id>139</item:id>
     <item:name>Cracked wand</item:name>
     <item:type>WEAPON</item:type>
     <item:subtype>WAND</item:subtype>
