@@ -3,7 +3,7 @@
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
     <item:id>113</item:id>
-    <item:name>Scroll: Bane undead</item:name>
+    <item:name>Spell tome: Banish undead</item:name>
     <item:type>SCROLL</item:type>
     <item:weight>20</item:weight>
     <item:description>You don't know how to use this scroll (yet)!</item:description>
