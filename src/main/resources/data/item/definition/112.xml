@@ -7,6 +7,7 @@
     <item:type>POTION</item:type>
     <item:weight>3</item:weight>
     <item:description>Restore 10 health points when used.</item:description>
+    <item:usable>true</item:usable>
     <item:use-effect-list>
         <item:effect target="heal">
             <item:settings-list>
@@ -20,7 +21,7 @@
             <item:settings-list>
                 <item:effect-setting>
                     <item:setting-name>item</item:setting-name>
-                    <item:setting-value>10</item:setting-value>
+                    <item:setting-value>112</item:setting-value>
                 </item:effect-setting>
                 <item:effect-setting>
                     <item:setting-name>amount</item:setting-name>
