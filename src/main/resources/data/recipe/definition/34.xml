@@ -3,7 +3,7 @@
 <recipe:recipe xmlns:recipe="http://www.swordsandsorcery.com/recipe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:schemaLocation="http://www.swordsandsorcery.com/recipe ../schema.xsd">
     <recipe:id>34</recipe:id>
-    <recipe:name>Recipe: Leather tunic</recipe:name>
+    <recipe:name>Leather tunic</recipe:name>
     <recipe:type>LEATHERWORKING</recipe:type>
     <recipe:chance>70</recipe:chance>
     <recipe:requirement-list>
