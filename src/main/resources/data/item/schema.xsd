@@ -179,7 +179,7 @@
             <xs:enumeration value="RECIPE"/>
             <xs:enumeration value="LIQUID"/>
             <xs:enumeration value="FOOD"/>
-            <xs:enumeration value="SCROLL"/>
+            <xs:enumeration value="SPELL_TOME"/>
             <xs:enumeration value="AMULET"/>
             <xs:enumeration value="GLOVES"/>
             <xs:enumeration value="BOOTS"/>
