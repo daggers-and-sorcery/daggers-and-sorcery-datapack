@@ -50,6 +50,20 @@
             <monster:chance>2</monster:chance>
         </monster:drop>
         <monster:drop>
+            <monster:item>147</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>3</monster:chance>
+        </monster:drop>
+        <monster:drop>
+            <monster:item>148</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>3</monster:chance>
+        </monster:drop>
+        <monster:drop>
             <monster:item>116</monster:item>
             <monster:amount>
                 <monster:max>1</monster:max>
