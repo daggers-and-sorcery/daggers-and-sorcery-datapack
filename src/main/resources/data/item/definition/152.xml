@@ -2,11 +2,11 @@
 
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
-    <item:id>122</item:id>
-    <item:name>Bronze dirk</item:name>
+    <item:id>152</item:id>
+    <item:name>Bronze rapier</item:name>
     <item:type>WEAPON</item:type>
-    <item:subtype>DAGGERS</item:subtype>
-    <item:weight>150</item:weight>
+    <item:subtype>SHORTSWORDS</item:subtype>
+    <item:weight>400</item:weight>
     <item:equipment>true</item:equipment>
     <item:modifiers>
         <item:modifier>
@@ -16,20 +16,20 @@
         </item:modifier>
         <item:modifier>
             <item:modifier>DAMAGE</item:modifier>
-            <item:amount>3</item:amount>
-            <item:d4>1</item:d4>
+            <item:amount>1</item:amount>
+            <item:d4>3</item:d4>
         </item:modifier>
     </item:modifiers>
     <item:requirements>
         <item:requirement>
-            <item:requirement>DAGGERS</item:requirement>
+            <item:requirement>SHORTSWORDS</item:requirement>
             <item:amount>5</item:amount>
         </item:requirement>
     </item:requirements>
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>
-            <item:amount>60</item:amount>
+            <item:amount>450</item:amount>
         </item:price-entry>
     </item:price>
 </item:item>
