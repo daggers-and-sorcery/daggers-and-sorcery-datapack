@@ -32,7 +32,7 @@
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>
-            <item:amount>1100</item:amount>
+            <item:amount>110</item:amount>
         </item:price-entry>
     </item:price>
 </item:item>

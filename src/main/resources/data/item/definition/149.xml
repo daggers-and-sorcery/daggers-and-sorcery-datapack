@@ -28,7 +28,7 @@
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>
-            <item:amount>800</item:amount>
+            <item:amount>80</item:amount>
         </item:price-entry>
     </item:price>
 </item:item>
