@@ -16,6 +16,7 @@
         </item:modifier>
         <item:modifier>
             <item:modifier>DAMAGE</item:modifier>
+            <item:amount>0</item:amount>
             <item:d6>3</item:d6>
         </item:modifier>
         <item:modifier>

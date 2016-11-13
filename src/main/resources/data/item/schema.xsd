@@ -122,6 +122,7 @@
                                                     <xs:enumeration value="DEFENSE"/>
                                                     <xs:enumeration value="INITIATION"/>
                                                     <xs:enumeration value="LIFE"/>
+                                                    <xs:enumeration value="DAGGERS"/>
                                                     <xs:enumeration value="MOVEMENT"/>
                                                     <xs:enumeration value="TWO_HANDED_CRUSHING_WEAPONS"/>
                                                     <xs:enumeration value="ONE_HANDED_CRUSHING_WEAPONS"/>

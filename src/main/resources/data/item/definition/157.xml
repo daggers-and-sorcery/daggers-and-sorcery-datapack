@@ -13,6 +13,8 @@
             <item:modifier>MAGIC_ATTACK</item:modifier>
             <item:amount>3</item:amount>
             <item:d6>1</item:d6>
+        </item:modifier>
+        <item:modifier>
             <item:modifier>MAGIC_DAMAGE</item:modifier>
             <item:amount>1</item:amount>
             <item:d2>3</item:d2>
@@ -21,7 +23,7 @@
     <item:requirements>
         <item:requirement>
             <item:requirement>STAFF</item:requirement>
-            <item:amount5</item:amount>
+            <item:amount>5</item:amount>
         </item:requirement>
     </item:requirements>
     <item:price>

@@ -19,13 +19,13 @@
             <item:d4>1</item:d4>
             <item:d8>1</item:d8>
         </item:modifier>
+    </item:modifiers>
     <item:requirements>
         <item:requirement>
             <item:requirement>ONE_HANDED_AXES</item:requirement>
             <item:amount>5</item:amount>
         </item:requirement>
     </item:requirements>
-    </item:modifiers>
     <item:weight>200</item:weight>
     <item:price>
         <item:price-entry>
