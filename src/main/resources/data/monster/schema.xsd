@@ -7,6 +7,8 @@
             <xs:all>
                 <xs:element name="id" type="xs:unsignedInt" minOccurs="1"/>
                 <xs:element name="name" type="xs:string" minOccurs="1"/>
+                <xs:element name="type" minOccurs="1" type="monstertype"/>
+                <xs:element name="subtype" type="monstertype" minOccurs="0"/>
                 <xs:element name="health" type="xs:unsignedInt" minOccurs="1"/>
                 <xs:element name="mana" type="xs:unsignedInt" minOccurs="1"/>
                 <xs:element name="level" type="xs:unsignedInt" minOccurs="1"/>
@@ -161,4 +163,18 @@
             </xs:all>
         </xs:complexType>
     </xs:element>
+    <xs:simpleType name="monstertype">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="HUMANOID"/>
+            <xs:enumeration value="GOBLIN"/>
+            <xs:enumeration value="UNDEAD"/>
+            <xs:enumeration value="SKELETON"/>
+            <xs:enumeration value="ZOMBIE"/>
+            <xs:enumeration value="ORC"/>
+            <xs:enumeration value="HUMAN"/>
+            <xs:enumeration value="GNOLL"/>
+            <xs:enumeration value="ANIMAL"/>
+            <xs:enumeration value="BEAST"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>

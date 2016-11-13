@@ -5,6 +5,8 @@
                  xsi:schemaLocation="http://www.swordsandsorcery.com/monster ../schema.xsd">
     <monster:id>9</monster:id>
     <monster:name>Jackal</monster:name>
+    <monster:type>BEAST</monster:type>
+    <monster:subtype>ANIMAL</monster:subtype>
     <monster:health>6</monster:health>
     <monster:mana>0</monster:mana>
     <monster:initiation>

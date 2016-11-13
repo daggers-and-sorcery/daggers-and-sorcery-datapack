@@ -5,6 +5,8 @@
                  xsi:schemaLocation="http://www.swordsandsorcery.com/monster ../schema.xsd">
     <monster:id>11</monster:id>
     <monster:name>Gnoll</monster:name>
+    <monster:type>HUMANOID</monster:type>
+    <monster:subtype>GNOLL</monster:subtype>
     <monster:health>22</monster:health>
     <monster:mana>0</monster:mana>
     <monster:initiation>
