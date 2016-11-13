@@ -14,8 +14,8 @@
         <monster:d10>1</monster:d10>
     </monster:initiation>
     <monster:level>5</monster:level>
-    <monster:defense>28</monster:defense>
-    <monster:spell-resistance>28</monster:spell-resistance>
+    <monster:defense>24</monster:defense>
+    <monster:spell-resistance>24</monster:spell-resistance>
     <monster:magic-attack>
         <monster:value>0</monster:value>
     </monster:magic-attack>
@@ -23,13 +23,13 @@
         <monster:value>0</monster:value>
     </monster:magic-damage>
     <monster:damage>
-        <monster:value>5</monster:value>
+        <monster:value>2</monster:value>
         <monster:d4>1</monster:d4>
         <monster:d2>2</monster:d2>
     </monster:damage>
     <monster:attack>
-        <monster:value>25</monster:value>
-        <monster:d4>2</monster:d4>
+        <monster:value>26</monster:value>
+        <monster:d2>2</monster:d2>
         <monster:d6>1</monster:d6>
     </monster:attack>
     <monster:aiming>
@@ -40,6 +40,14 @@
     </monster:ranged-damage>
     <monster:attack-type>MELEE</monster:attack-type>
     <monster:droplist>
+        <monster:drop>
+            <monster:item>49</monster:item>
+            <monster:amount>
+                <monster:min>5</monster:min>
+                <monster:max>10</monster:max>
+            </monster:amount>
+            <monster:chance>100</monster:chance>
+        </monster:drop>
         <monster:drop>
             <monster:item>158</monster:item>
             <monster:amount>
