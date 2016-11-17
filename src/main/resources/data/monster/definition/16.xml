@@ -23,8 +23,7 @@
         <monster:value>0</monster:value>
     </monster:magic-damage>
     <monster:damage>
-        <monster:value>2</monster:value>
-        <monster:d4>1</monster:d4>
+        <monster:value>1</monster:value>
         <monster:d2>2</monster:d2>
     </monster:damage>
     <monster:attack>
