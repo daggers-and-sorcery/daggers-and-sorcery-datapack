@@ -15,7 +15,7 @@
             <item:d2>1</item:d2>
         </item:modifier>
         <item:modifier>
-            <item:modifier>DAMAGE</item:modifier>
+            <item:modifier>RANGED_DAMAGE</item:modifier>
             <item:amount>0</item:amount>
             <item:d6>2</item:d6>
         </item:modifier>
