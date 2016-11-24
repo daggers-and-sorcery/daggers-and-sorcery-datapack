@@ -9,7 +9,7 @@
     <item:usable>true</item:usable>
     <item:description>Restore 4 health points when used.</item:description>
     <item:use-effect-list>
-        <item:effect target="heal">
+        <item:effect target="restore_health">
             <item:settings-list>
                 <item:effect-setting>
                     <item:setting-name>amount</item:setting-name>
