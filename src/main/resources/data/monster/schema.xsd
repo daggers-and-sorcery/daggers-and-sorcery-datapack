@@ -175,6 +175,7 @@
             <xs:enumeration value="GNOLL"/>
             <xs:enumeration value="ANIMAL"/>
             <xs:enumeration value="BEAST"/>
+            <xs:enumeration value="GHOUL"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
