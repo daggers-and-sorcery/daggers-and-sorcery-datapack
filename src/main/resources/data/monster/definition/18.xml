@@ -35,4 +35,20 @@
     </monster:magic-damage>
     <monster:spell-resistance>10</monster:spell-resistance>
     <monster:attack-type>MELEE</monster:attack-type>
+    <monster:droplist>
+        <monster:drop>
+            <monster:item>164</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>80</monster:chance>
+        </monster:drop>
+        <monster:drop>
+            <monster:item>165</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>30</monster:chance>
+        </monster:drop>
+    </monster:droplist>
 </monster:monster>
