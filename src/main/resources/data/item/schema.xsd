@@ -196,6 +196,7 @@
             <xs:enumeration value="FOCUS"/>
             <xs:enumeration value="WEAPON"/>
             <xs:enumeration value="ARMOR"/>
+            <xs:enumeration value="BELT"/>
             <xs:enumeration value="PROJECTILE"/>
             <xs:enumeration value="JEWELRY"/>
             <xs:enumeration value="POTION"/>
