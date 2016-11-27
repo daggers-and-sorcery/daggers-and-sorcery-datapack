@@ -74,6 +74,7 @@
                                         <xs:element name="modifier" minOccurs="1" maxOccurs="1">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
+                                                    <!-- Combat modifiers -->
                                                     <xs:enumeration value="ATTACK"/>
                                                     <xs:enumeration value="AIMING"/>
                                                     <xs:enumeration value="DEFENSE"/>
@@ -83,16 +84,22 @@
                                                     <xs:enumeration value="MAGIC_ATTACK"/>
                                                     <xs:enumeration value="MAGIC_DAMAGE"/>
                                                     <xs:enumeration value="INITIATION"/>
+
+                                                    <!-- General modifiers -->
                                                     <xs:enumeration value="LIFE"/>
                                                     <xs:enumeration value="MANA"/>
                                                     <xs:enumeration value="STRENGTH"/>
                                                     <xs:enumeration value="PERCEPTION"/>
                                                     <xs:enumeration value="DEXTERITY"/>
+
+                                                    <!-- Skill modifiers -->
                                                     <xs:enumeration value="TWO_HANDED_CRUSHING_WEAPONS"/>
                                                     <xs:enumeration value="ONE_HANDED_CRUSHING_WEAPONS"/>
                                                     <xs:enumeration value="ONE_HANDED_AXES"/>
+
+                                                    <!-- Basic modifiers -->
                                                     <xs:enumeration value="MOVEMENT"/>
-                                                    <xs:enumeration value="SPELL_RESISTANCE"/>
+                                                    <xs:enumeration value="SCAVENGING_BONUS"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
