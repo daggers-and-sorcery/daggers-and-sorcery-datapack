@@ -110,7 +110,6 @@
             </monster:amount>
             <monster:chance>6</monster:chance>
         </monster:drop>
-        <!--
         <monster:drop>
             <monster:item>163</monster:item>
             <monster:amount>
@@ -125,6 +124,5 @@
             </monster:amount>
             <monster:chance>4</monster:chance>
         </monster:drop>
-        -->
     </monster:droplist>
 </monster:monster>
