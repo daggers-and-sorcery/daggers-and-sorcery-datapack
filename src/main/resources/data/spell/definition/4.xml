@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<spell:spell xmlns:spell="http://www.swordsandsorcery.com/spell"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.swordsandsorcery.com/spell ../schema.xsd">
+    <spell:id>2</spell:id>
+    <spell:name>Fireball</spell:name>
+    <spell:spell-target>OPPONENT</spell:spell-target>
+    <spell:description>This spell does 4 + 3d4 damage to undead monsters.</spell:description>
+    <spell:type>DESTRUCTION</spell:type>
+    <spell:combat-spell>true</spell:combat-spell>
+    <spell:cost-list>
+        <spell:cost>
+            <spell:cost-type>MANA</spell:cost-type>
+            <spell:cost-amount>4</spell:cost-amount>
+        </spell:cost>
+    </spell:cost-list>
+    <spell:effect-list>
+        <spell:effect target="banish_undead_spell">
+            <spell:settings-list>
+                <spell:effect-setting>
+                    <spell:setting-name>value</spell:setting-name>
+                    <spell:setting-value>4</spell:setting-value>
+                </spell:effect-setting>
+                <spell:effect-setting>
+                    <spell:setting-name>d4</spell:setting-name>
+                    <spell:setting-value>3</spell:setting-value>
+                </spell:effect-setting>
+            </spell:settings-list>
+        </spell:effect>
+    </spell:effect-list>
+</spell:spell>

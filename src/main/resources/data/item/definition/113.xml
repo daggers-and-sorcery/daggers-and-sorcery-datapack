@@ -6,7 +6,21 @@
     <item:name>Spell tome: Banish undead</item:name>
     <item:type>SPELL_TOME</item:type>
     <item:weight>20</item:weight>
-    <item:description>You don't know how to use this spell tome (yet)!</item:description>
+    <item:usable>true</item:usable>
+    <item:use-effect-list>
+        <item:effect target="learn_spell">
+            <item:settings-list>
+                <item:effect-setting>
+                    <item:setting-name>spell-item-id</item:setting-name>
+                    <item:setting-value>113</item:setting-value>
+                </item:effect-setting>
+                <item:effect-setting>
+                    <item:setting-name>spell-id</item:setting-name>
+                    <item:setting-value>4</item:setting-value>
+                </item:effect-setting>
+            </item:settings-list>
+        </item:effect>
+    </item:use-effect-list>
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>
