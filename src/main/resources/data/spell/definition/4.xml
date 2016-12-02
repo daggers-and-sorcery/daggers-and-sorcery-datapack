@@ -3,7 +3,7 @@
 <spell:spell xmlns:spell="http://www.swordsandsorcery.com/spell"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://www.swordsandsorcery.com/spell ../schema.xsd">
-    <spell:id>2</spell:id>
+    <spell:id>4</spell:id>
     <spell:name>Fireball</spell:name>
     <spell:spell-target>OPPONENT</spell:spell-target>
     <spell:description>This spell does 4 + 3d4 damage to undead monsters.</spell:description>
