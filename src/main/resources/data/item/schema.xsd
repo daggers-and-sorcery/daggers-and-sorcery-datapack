@@ -78,6 +78,7 @@
                                                     <xs:enumeration value="ATTACK"/>
                                                     <xs:enumeration value="AIMING"/>
                                                     <xs:enumeration value="DEFENSE"/>
+                                                    <xs:enumeration value="DAMAGE_REDUCTION"/>
                                                     <xs:enumeration value="SPELL_RESISTANCE"/>
                                                     <xs:enumeration value="DAMAGE"/>
                                                     <xs:enumeration value="RANGED_DAMAGE"/>
@@ -125,12 +126,21 @@
                                         <xs:element name="requirement" minOccurs="1" maxOccurs="1">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
+                                                    <!-- Combat attributes -->
                                                     <xs:enumeration value="ATTACK"/>
                                                     <xs:enumeration value="DEFENSE"/>
                                                     <xs:enumeration value="INITIATION"/>
                                                     <xs:enumeration value="LIFE"/>
-                                                    <xs:enumeration value="DAGGERS"/>
+                                                    <xs:enumeration value="PERCEPTION"/>
+
+                                                    <!-- Base attributes -->
                                                     <xs:enumeration value="MOVEMENT"/>
+
+                                                    <!-- General attributes -->
+                                                    <xs:enumeration value="STRENGTH"/>
+                                                    <xs:enumeration value="DEXTERITY"/>
+
+                                                    <!-- Skills -->
                                                     <xs:enumeration value="TWO_HANDED_CRUSHING_WEAPONS"/>
                                                     <xs:enumeration value="ONE_HANDED_CRUSHING_WEAPONS"/>
                                                     <xs:enumeration value="TWO_HANDED_AXES"/>
@@ -138,14 +148,15 @@
                                                     <xs:enumeration value="STAFF"/>
                                                     <xs:enumeration value="WAND"/>
                                                     <xs:enumeration value="FOCUS"/>
-                                                    <xs:enumeration value="STRENGTH"/>
-                                                    <xs:enumeration value="PERCEPTION"/>
-                                                    <xs:enumeration value="DEXTERITY"/>
+                                                    <xs:enumeration value="DAGGERS"/>
                                                     <xs:enumeration value="SHORTSWORDS"/>
                                                     <xs:enumeration value="LONGSWORDS"/>
                                                     <xs:enumeration value="POLEARMS"/>
                                                     <xs:enumeration value="SHORTBOWS"/>
                                                     <xs:enumeration value="LONGBOWS"/>
+                                                    <xs:enumeration value="HEAVY_ARMOR"/>
+                                                    <xs:enumeration value="LIGHT_ARMOR"/>
+                                                    <xs:enumeration value="ROBE_ARMOR"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
