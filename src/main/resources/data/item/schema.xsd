@@ -211,6 +211,8 @@
             <xs:enumeration value="PROJECTILE"/>
             <xs:enumeration value="JEWELRY"/>
             <xs:enumeration value="POTION"/>
+            <xs:enumeration value="STOCKINGS"/>
+            <xs:enumeration value="LEGGINGS"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
