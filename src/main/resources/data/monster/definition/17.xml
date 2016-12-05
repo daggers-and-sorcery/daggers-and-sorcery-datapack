@@ -7,21 +7,21 @@
     <monster:name>Graverobber</monster:name>
     <monster:type>HUMANOID</monster:type>
     <monster:subtype>HUMAN</monster:subtype>
-    <monster:health>25</monster:health>
+    <monster:health>20</monster:health>
     <monster:mana>0</monster:mana>
     <monster:initiation>
         <monster:value>30</monster:value>
     </monster:initiation>
-    <monster:level>12</monster:level>
-    <monster:defense>25</monster:defense>
+    <monster:level>13</monster:level>
+    <monster:defense>23</monster:defense>
     <monster:damage>
-        <monster:value>4</monster:value>
-        <monster:d2>1</monster:d2>
+        <monster:value>3</monster:value>
         <monster:d4>1</monster:d4>
     </monster:damage>
     <monster:attack>
-        <monster:value>24</monster:value>
-        <monster:d10>2</monster:d10>
+        <monster:value>25</monster:value>
+        <monster:d4>1</monster:d4>
+        <monster:d10>1</monster:d10>
     </monster:attack>
     <monster:aiming>
         <monster:value>0</monster:value>
