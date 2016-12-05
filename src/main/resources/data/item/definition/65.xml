@@ -12,7 +12,11 @@
         <item:modifier>
             <item:modifier>AIMING</item:modifier>
             <item:amount>1</item:amount>
-            <item:d4>1</item:d4>
+            <item:d2>1</item:d2>
+        </item:modifier>
+        <item:modifier>
+            <item:modifier>RANGED_DAMAGE</item:modifier>
+            <item:amount>1</item:amount>
         </item:modifier>
     </item:modifiers>
     <item:requirements>
