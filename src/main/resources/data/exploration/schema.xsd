@@ -12,6 +12,7 @@
                         <xs:restriction base="xs:string">
                             <xs:enumeration value="FARMFIELDS"/>
                             <xs:enumeration value="WHISPERING_WOODS"/>
+                            <xs:enumeration value="WOODLAND_CEMETERY"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
