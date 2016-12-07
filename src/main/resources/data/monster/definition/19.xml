@@ -7,7 +7,7 @@
     <monster:name>Dark mage</monster:name>
     <monster:type>HUMANOID</monster:type>
     <monster:subtype>HUMAN</monster:subtype>
-    <monster:health>30</monster:health>
+    <monster:health>12</monster:health>
     <monster:mana>0</monster:mana>
     <monster:initiation>
         <monster:value>25</monster:value>
