@@ -25,7 +25,10 @@
             <recipe:id>84</recipe:id>
             <recipe:amount>4</recipe:amount>
         </recipe:ingredient>
-        <!-- TODO: add bronze studs -->
+        <recipe:ingredient>
+            <recipe:id>178</recipe:id>
+            <recipe:amount>10</recipe:amount>
+        </recipe:ingredient>
     </recipe:ingredient-list>
     <recipe:reward-list>
         <recipe:reward>

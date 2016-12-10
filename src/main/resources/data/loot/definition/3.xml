@@ -6,12 +6,40 @@
     <loot:id>3</loot:id>
     <loot:droplist>
         <loot:drop>
-            <loot:item>49</loot:item>
+            <loot:item>1</loot:item>
             <loot:amount>
-                <loot:min>1</loot:min>
-                <loot:max>3</loot:max>
+                <loot:min>40</loot:min>
+                <loot:max>120</loot:max>
             </loot:amount>
             <loot:chance>100</loot:chance>
+        </loot:drop>
+        <loot:drop>
+            <loot:item>184</loot:item>
+            <loot:amount>
+                <loot:max>1</loot:max>
+            </loot:amount>
+            <loot:chance>0.25</loot:chance>
+        </loot:drop>
+        <loot:drop>
+            <loot:item>185</loot:item>
+            <loot:amount>
+                <loot:max>1</loot:max>
+            </loot:amount>
+            <loot:chance>5</loot:chance>
+        </loot:drop>
+        <loot:drop>
+            <loot:item>186</loot:item>
+            <loot:amount>
+                <loot:max>1</loot:max>
+            </loot:amount>
+            <loot:chance>5</loot:chance>
+        </loot:drop>
+        <loot:drop>
+            <loot:item>99</loot:item>
+            <loot:amount>
+                <loot:max>1</loot:max>
+            </loot:amount>
+            <loot:chance>0.2</loot:chance>
         </loot:drop>
     </loot:droplist>
 </loot:loot>
