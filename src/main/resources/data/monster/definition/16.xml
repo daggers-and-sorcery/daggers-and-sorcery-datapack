@@ -196,5 +196,12 @@
             </monster:amount>
             <monster:chance>2</monster:chance>
         </monster:drop>
+        <monster:drop>
+            <monster:item>179</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>5</monster:chance>
+        </monster:drop>
     </monster:droplist>
 </monster:monster>
