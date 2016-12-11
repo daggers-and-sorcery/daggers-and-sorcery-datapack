@@ -35,4 +35,22 @@
     </monster:magic-damage>
     <monster:spell-resistance>20</monster:spell-resistance>
     <monster:attack-type>MAGIC</monster:attack-type>
+    <monster:droplist>
+        <!-- Strange focus/staff and it's recipes -->
+        <monster:drop>
+            <monster:item>187</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>1</monster:chance>
+        </monster:drop>
+        <monster:drop>
+            <monster:item>164</monster:item>
+            <monster:amount>
+                <monster:min>1</monster:min>
+                <monster:max>3</monster:max>
+            </monster:amount>
+            <monster:chance>10</monster:chance>
+        </monster:drop>
+    </monster:droplist>
 </monster:monster>

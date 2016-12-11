@@ -5,13 +5,40 @@
            xsi:schemaLocation="http://www.swordsandsorcery.com/loot ../schema.xsd">
     <loot:id>4</loot:id>
     <loot:droplist>
+        <!-- TODO: Add level 10 robes and robe recipes too. -->
+        <!-- TODO: Add Mana potion and it's recipe. -->
+        <!-- TODO: Add mageweed, required for the mana potion. -->
         <loot:drop>
-            <loot:item>49</loot:item>
+            <loot:item>164</loot:item>
             <loot:amount>
                 <loot:min>1</loot:min>
                 <loot:max>3</loot:max>
             </loot:amount>
             <loot:chance>100</loot:chance>
+        </loot:drop>
+        <loot:drop>
+            <loot:item>186</loot:item>
+            <loot:amount>
+                <loot:min>1</loot:min>
+                <loot:max>2</loot:max>
+            </loot:amount>
+            <loot:chance>10</loot:chance>
+        </loot:drop>
+        <loot:drop>
+            <loot:item>18</loot:item>
+            <loot:amount>
+                <loot:min>1</loot:min>
+                <loot:max>2</loot:max>
+            </loot:amount>
+            <loot:chance>5</loot:chance>
+        </loot:drop>
+        <loot:drop>
+            <loot:item>189</loot:item>
+            <loot:amount>
+                <loot:min>1</loot:min>
+                <loot:max>2</loot:max>
+            </loot:amount>
+            <loot:chance>5</loot:chance>
         </loot:drop>
     </loot:droplist>
 </loot:loot>

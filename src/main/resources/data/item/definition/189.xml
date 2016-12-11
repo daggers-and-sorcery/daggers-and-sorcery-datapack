@@ -2,15 +2,14 @@
 
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
-    <item:id>164</item:id>
-    <item:name>Bones</item:name>
+    <item:id>189</item:id>
+    <item:name>Vial of water</item:name>
     <item:type>MATERIAL</item:type>
-    <item:weight>100</item:weight>
-    <!-- TODO: Make it non-tradeable by the normal shop, only smuggler shops can trade it. -->
+    <item:weight>20</item:weight>
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>
-            <item:amount>1</item:amount>
+            <item:amount>3</item:amount>
         </item:price-entry>
     </item:price>
 </item:item>
