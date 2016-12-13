@@ -30,7 +30,7 @@
         <monster:value>30</monster:value>
     </monster:magic-attack>
     <monster:magic-damage>
-        <monster:value>7</monster:value>
+        <monster:value>3</monster:value>
         <monster:d2>3</monster:d2>
     </monster:magic-damage>
     <monster:spell-resistance>20</monster:spell-resistance>

@@ -7,13 +7,13 @@
     <item:type>LIQUID</item:type>
     <item:weight>30</item:weight>
     <item:usable>true</item:usable>
-    <item:description>Restore 4 health points when used.</item:description>
+    <item:description>Restore 10 health points when used.</item:description>
     <item:use-effect-list>
         <item:effect target="restore_health">
             <item:settings-list>
                 <item:effect-setting>
                     <item:setting-name>amount</item:setting-name>
-                    <item:setting-value>4</item:setting-value>
+                    <item:setting-value>10</item:setting-value>
                 </item:effect-setting>
             </item:settings-list>
         </item:effect>
