@@ -12,7 +12,7 @@
     <monster:initiation>
         <monster:value>25</monster:value>
     </monster:initiation>
-    <monster:level>12</monster:level>
+    <monster:level>13</monster:level>
     <monster:defense>20</monster:defense>
     <monster:damage>
         <monster:value>0</monster:value>
