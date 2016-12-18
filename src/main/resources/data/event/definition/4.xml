@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<event:event xmlns:event="http://www.swordsandsorcery.com/event"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.swordsandsorcery.com/event ../schema.xsd">
+    <event:id>4</event:id>
+    <event:name>Gathering</event:name>
+    <event:type>HERBLORE_GATHERING</event:type>
+    <event:length>600000</event:length>
+</event:event>

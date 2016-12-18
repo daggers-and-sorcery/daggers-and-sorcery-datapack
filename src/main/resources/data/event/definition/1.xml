@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<event:event xmlns:event="http://www.swordsandsorcery.com/event"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                         xsi:schemaLocation="http://www.swordsandsorcery.com/event ../schema.xsd">
+     <event:id>1</event:id>
+    <event:name>Fox skin (cured)</event:name>
+    <event:type>LEATHERWORKING_CURING</event:type>
+    <event:length>180000</event:length>
+</event:event>

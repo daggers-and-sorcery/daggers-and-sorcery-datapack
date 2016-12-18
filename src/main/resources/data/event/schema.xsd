@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.swordsandsorcery.com/event"
+           xmlns="http://www.swordsandsorcery.com/exploration-event" elementFormDefault="qualified">
+    <xs:element name="event">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="id" type="xs:short"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="length" type="xs:integer"/>
+                <xs:element name="type">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="LEATHERWORKING_CURING"/>
+                            <xs:enumeration value="HERBLORE_GATHERING"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
