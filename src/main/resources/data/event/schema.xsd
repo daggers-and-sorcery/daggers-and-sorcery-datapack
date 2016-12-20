@@ -2,7 +2,7 @@
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            targetNamespace="http://www.swordsandsorcery.com/event"
-           xmlns="http://www.swordsandsorcery.com/exploration-event" elementFormDefault="qualified">
+           xmlns="http://www.swordsandsorcery.com/event" elementFormDefault="qualified">
     <xs:element name="event">
         <xs:complexType>
             <xs:all>
