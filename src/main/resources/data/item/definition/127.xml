@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- DO NOT USE THIS! -->
+<!--
+Accidentally we ended up creating this while having the real Robinia shortbow with item id 63 and handle it out
+to players by the Robinia Longbow recipe reward. Don't edit this! It's here for legacy reasons only! Multiple mistakes
+were made but don't want to remove this item.
+-->
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
     <item:id>127</item:id>
-    <item:name>Robinia shortbow</item:name>
+    <item:name>Robinia shortbow (Unused)</item:name>
     <item:type>WEAPON</item:type>
     <item:subtype>SHORTBOWS</item:subtype>
     <item:weight>0</item:weight>

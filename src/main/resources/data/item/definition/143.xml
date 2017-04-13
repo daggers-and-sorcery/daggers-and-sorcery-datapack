@@ -11,13 +11,13 @@
     <item:modifiers>
         <item:modifier>
             <item:modifier>ATTACK</item:modifier>
-            <item:amount>1</item:amount>
-            <item:d6>1</item:d6>
+            <item:amount>0</item:amount>
+            <item:d4>1</item:d4>
         </item:modifier>
         <item:modifier>
             <item:modifier>DAMAGE</item:modifier>
             <item:amount>1</item:amount>
-            <item:d6>1</item:d6>
+            <item:d2>1</item:d2>
         </item:modifier>
     </item:modifiers>
     <item:requirements>
