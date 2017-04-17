@@ -7,12 +7,17 @@
     <item:type>MATERIAL</item:type>
     <item:weight>20</item:weight>
     <item:usable>true</item:usable>
+    <item:description>Restore 8 health points when used by a vampire character but does 3 damage when used by anyone else.</item:description>
     <item:use-effect-list>
         <item:effect target="heal_vampire">
             <item:settings-list>
                 <item:effect-setting>
                     <item:setting-name>heal-amount</item:setting-name>
                     <item:setting-value>8</item:setting-value>
+                </item:effect-setting>
+                <item:effect-setting>
+                    <item:setting-name>damage-amount</item:setting-name>
+                    <item:setting-value>2</item:setting-value>
                 </item:effect-setting>
             </item:settings-list>
         </item:effect>
