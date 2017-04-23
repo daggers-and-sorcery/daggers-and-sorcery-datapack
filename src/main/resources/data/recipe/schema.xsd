@@ -18,6 +18,8 @@
                             <xs:enumeration value="LEATHERWORKING"/>
                             <xs:enumeration value="SMITHING_SMELTING"/>
                             <xs:enumeration value="SMITHING"/>
+                            <xs:enumeration value="HERBLORE"/>
+                            <xs:enumeration value="HERBLORE_CLEANING"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
@@ -71,6 +73,7 @@
                                                     <xs:enumeration value="FLETCHING"/>
                                                     <xs:enumeration value="CRAFTING"/>
                                                     <xs:enumeration value="LEATHERWORKING"/>
+                                                    <xs:enumeration value="HERBLORE"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
@@ -95,6 +98,7 @@
                                                     <xs:enumeration value="FLETCHING"/>
                                                     <xs:enumeration value="CRAFTING"/>
                                                     <xs:enumeration value="LEATHERWORKING"/>
+                                                    <xs:enumeration value="HERBLORE"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>

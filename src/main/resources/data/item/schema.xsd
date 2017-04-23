@@ -214,6 +214,7 @@
             <xs:enumeration value="STOCKINGS"/>
             <xs:enumeration value="LEGGINGS"/>
             <xs:enumeration value="HERB"/>
+            <xs:enumeration value="GRIMY_HERB"/>
             <xs:enumeration value="CLOTH"/>
         </xs:restriction>
     </xs:simpleType>
