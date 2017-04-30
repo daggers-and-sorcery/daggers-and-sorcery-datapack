@@ -7,7 +7,7 @@
     <monster:name>Skeleton</monster:name>
     <monster:type>HUMANOID</monster:type>
     <monster:subtype>SKELETON</monster:subtype>
-    <monster:health>3038</monster:health>
+    <monster:health>30</monster:health>
     <monster:mana>0</monster:mana>
     <monster:initiation>
         <monster:value>24</monster:value>
@@ -38,152 +38,52 @@
     <monster:spell-resistance>28</monster:spell-resistance>
     <monster:attack-type>MELEE</monster:attack-type>
     <monster:droplist>
-        <!-- TODO: Invalid... -->
         <monster:drop>
-            <monster:item>190</monster:item>
+            <monster:item>165</monster:item>
+            <monster:amount>
+                <monster:min>2</monster:min>
+                <monster:max>4</monster:max>
+            </monster:amount>
+            <monster:chance>4</monster:chance>
+        </monster:drop>
+        <monster:drop>
+            <monster:item>20</monster:item>
             <monster:amount>
                 <monster:max>1</monster:max>
             </monster:amount>
-            <monster:chance>10</monster:chance>
+            <monster:chance>2</monster:chance>
         </monster:drop>
         <monster:drop>
-            <monster:item>191</monster:item>
-            <monster:amount>
-                <monster:max>1</monster:max>
-            </monster:amount>
-            <monster:chance>0.3</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>186</monster:item>
-            <monster:amount>
-                <monster:max>1</monster:max>
-            </monster:amount>
-            <monster:chance>3</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>184</monster:item>
-            <monster:amount>
-                <monster:max>1</monster:max>
-            </monster:amount>
-            <monster:chance>0.5</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>189</monster:item>
-            <monster:amount>
-                <monster:min>1</monster:min>
-                <monster:max>2</monster:max>
-            </monster:amount>
-            <monster:chance>3</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>185</monster:item>
-            <monster:amount>
-                <monster:max>1</monster:max>
-            </monster:amount>
-            <monster:chance>3</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>188</monster:item>
+            <monster:item>109</monster:item>
             <monster:amount>
                 <monster:max>1</monster:max>
             </monster:amount>
             <monster:chance>1</monster:chance>
         </monster:drop>
         <monster:drop>
-            <monster:item>182</monster:item>
-            <monster:amount>
-                <monster:max>1</monster:max>
-            </monster:amount>
-            <monster:chance>3</monster:chance>
-        </monster:drop>
-        <monster:drop>
             <monster:item>178</monster:item>
             <monster:amount>
-                <monster:min>1</monster:min>
-                <monster:max>3</monster:max>
+                <monster:max>1</monster:max>
             </monster:amount>
             <monster:chance>3</monster:chance>
         </monster:drop>
-        <monster:drop>
-            <monster:item>176</monster:item>
-            <monster:amount>
-                <monster:max>1</monster:max>
-            </monster:amount>
-            <monster:chance>0.4</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>177</monster:item>
-            <monster:amount>
-                <monster:max>1</monster:max>
-            </monster:amount>
-            <monster:chance>0.4</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>165</monster:item>
-            <monster:amount>
-                <monster:max>1</monster:max>
-            </monster:amount>
-            <monster:chance>4</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>193</monster:item>
-            <monster:amount>
-                <monster:max>1</monster:max>
-            </monster:amount>
-            <monster:chance>0.4</monster:chance>
-        </monster:drop>
+        <!-- TODO: Scrap leather -> Can be made into leather scrap by combining a few. -->
     </monster:droplist>
     <monster:scavengelist>
         <monster:drop>
-            <monster:item>190</monster:item>
+            <monster:item>165</monster:item>
             <monster:amount>
-                <monster:max>1</monster:max>
+                <monster:min>2</monster:min>
+                <monster:max>4</monster:max>
             </monster:amount>
-            <monster:chance>10</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>186</monster:item>
-            <monster:amount>
-                <monster:max>1</monster:max>
-            </monster:amount>
-            <monster:chance>3</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>184</monster:item>
-            <monster:amount>
-                <monster:max>1</monster:max>
-            </monster:amount>
-            <monster:chance>0.5</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>189</monster:item>
-            <monster:amount>
-                <monster:min>1</monster:min>
-                <monster:max>3</monster:max>
-            </monster:amount>
-            <monster:chance>3</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>185</monster:item>
-            <monster:amount>
-                <monster:max>1</monster:max>
-            </monster:amount>
-            <monster:chance>3</monster:chance>
+            <monster:chance>2</monster:chance>
         </monster:drop>
         <monster:drop>
             <monster:item>178</monster:item>
             <monster:amount>
-                <monster:min>1</monster:min>
-                <monster:max>3</monster:max>
-            </monster:amount>
-            <monster:chance>3</monster:chance>
-        </monster:drop>
-        <monster:drop>
-            <monster:item>176</monster:item>
-            <monster:amount>
                 <monster:max>1</monster:max>
             </monster:amount>
-            <monster:chance>0.4</monster:chance>
+            <monster:chance>3</monster:chance>
         </monster:drop>
     </monster:scavengelist>
 </monster:monster>
