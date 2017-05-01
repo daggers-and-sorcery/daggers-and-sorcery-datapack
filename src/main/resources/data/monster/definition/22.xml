@@ -13,7 +13,7 @@
         <monster:value>24</monster:value>
     </monster:initiation>
     <monster:level>13</monster:level>
-    <monster:defense>4</monster:defense>
+    <monster:defense>24</monster:defense>
     <monster:damage>
         <monster:value>4</monster:value>
         <monster:d4>1</monster:d4>
@@ -67,7 +67,13 @@
             </monster:amount>
             <monster:chance>3</monster:chance>
         </monster:drop>
-        <!-- TODO: Scrap leather -> Can be made into leather scrap by combining a few. -->
+        <monster:drop>
+            <monster:item>74</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>4</monster:chance>
+        </monster:drop>
     </monster:droplist>
     <monster:scavengelist>
         <monster:drop>
@@ -84,6 +90,13 @@
                 <monster:max>1</monster:max>
             </monster:amount>
             <monster:chance>3</monster:chance>
+        </monster:drop>
+        <monster:drop>
+            <monster:item>74</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>4</monster:chance>
         </monster:drop>
     </monster:scavengelist>
 </monster:monster>
