@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<status-effect:status-effect xmlns:status-effect="http://www.swordsandsorcery.com/status-effect"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="http://www.swordsandsorcery.com/status-effect ../schema.xsd">
+    <status-effect:id>1</status-effect:id>
+    <status-effect:name>Test</status-effect:name>
+</status-effect:status-effect>
