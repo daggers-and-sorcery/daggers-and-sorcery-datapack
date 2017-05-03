@@ -8,32 +8,55 @@
                 <xs:element name="id" type="xs:unsignedInt" minOccurs="1"/>
                 <xs:element name="name" type="xs:string" minOccurs="1"/>
                 <xs:element name="description" type="xs:string" minOccurs="0"/>
-                <xs:element name="effect-list" minOccurs="0">
+                <xs:element name="modifiers" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="effect" maxOccurs="unbounded">
+                            <xs:element name="modifier" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="settings-list" minOccurs="0">
-                                            <xs:complexType>
-                                                <xs:sequence>
-                                                    <xs:element name="effect-setting" maxOccurs="unbounded">
-                                                        <xs:complexType>
-                                                            <xs:all>
-                                                                <xs:element name="setting-name" type="xs:string"
-                                                                            minOccurs="1"
-                                                                            maxOccurs="1"/>
-                                                                <xs:element name="setting-value" type="xs:string"
-                                                                            minOccurs="1"
-                                                                            maxOccurs="1"/>
-                                                            </xs:all>
-                                                        </xs:complexType>
-                                                    </xs:element>
-                                                </xs:sequence>
-                                            </xs:complexType>
+                                        <xs:element name="modifier" minOccurs="1" maxOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <!-- Combat modifiers -->
+                                                    <xs:enumeration value="ATTACK"/>
+                                                    <xs:enumeration value="AIMING"/>
+                                                    <xs:enumeration value="DEFENSE"/>
+                                                    <xs:enumeration value="DAMAGE_REDUCTION"/>
+                                                    <xs:enumeration value="SPELL_RESISTANCE"/>
+                                                    <xs:enumeration value="DAMAGE"/>
+                                                    <xs:enumeration value="RANGED_DAMAGE"/>
+                                                    <xs:enumeration value="MAGIC_ATTACK"/>
+                                                    <xs:enumeration value="MAGIC_DAMAGE"/>
+                                                    <xs:enumeration value="INITIATION"/>
+
+                                                    <!-- General modifiers -->
+                                                    <xs:enumeration value="LIFE"/>
+                                                    <xs:enumeration value="MANA"/>
+                                                    <xs:enumeration value="STRENGTH"/>
+                                                    <xs:enumeration value="PERCEPTION"/>
+                                                    <xs:enumeration value="DEXTERITY"/>
+
+                                                    <!-- Skill modifiers -->
+                                                    <xs:enumeration value="TWO_HANDED_CRUSHING_WEAPONS"/>
+                                                    <xs:enumeration value="ONE_HANDED_CRUSHING_WEAPONS"/>
+                                                    <xs:enumeration value="ONE_HANDED_AXES"/>
+
+                                                    <!-- Basic modifiers -->
+                                                    <xs:enumeration value="MOVEMENT"/>
+                                                    <xs:enumeration value="HEALTH_REGENERATION"/>
+                                                    <xs:enumeration value="MANA_REGENERATION"/>
+                                                    <xs:enumeration value="MOVEMENT_REGENERATION"/>
+                                                    <xs:enumeration value="SCAVENGING_BONUS"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
                                         </xs:element>
+                                        <xs:element name="amount" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+                                        <xs:element name="d2" type="xs:unsignedInt" minOccurs="0"/>
+                                        <xs:element name="d4" type="xs:unsignedInt" minOccurs="0"/>
+                                        <xs:element name="d6" type="xs:unsignedInt" minOccurs="0"/>
+                                        <xs:element name="d8" type="xs:unsignedInt" minOccurs="0"/>
+                                        <xs:element name="d10" type="xs:unsignedInt" minOccurs="0"/>
                                     </xs:sequence>
-                                    <xs:attribute name="target" type="xs:string" use="required"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>

@@ -4,5 +4,11 @@
                              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                              xsi:schemaLocation="http://www.swordsandsorcery.com/status-effect ../schema.xsd">
     <status-effect:id>1</status-effect:id>
-    <status-effect:name>Test</status-effect:name>
+    <status-effect:name>Troll's vitality</status-effect:name>
+    <status-effect:modifiers>
+        <status-effect:modifier>
+            <status-effect:modifier>HEALTH_REGENERATION</status-effect:modifier>
+            <status-effect:amount>2</status-effect:amount>
+        </status-effect:modifier>
+    </status-effect:modifiers>
 </status-effect:status-effect>

@@ -100,6 +100,9 @@
 
                                                     <!-- Basic modifiers -->
                                                     <xs:enumeration value="MOVEMENT"/>
+                                                    <xs:enumeration value="HEALTH_REGENERATION"/>
+                                                    <xs:enumeration value="MANA_REGENERATION"/>
+                                                    <xs:enumeration value="MOVEMENT_REGENERATION"/>
                                                     <xs:enumeration value="SCAVENGING_BONUS"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
@@ -133,7 +136,7 @@
                                                     <xs:enumeration value="LIFE"/>
                                                     <xs:enumeration value="PERCEPTION"/>
 
-                                                    <!-- Base attributes -->
+                                                    <!-- Basic attributes -->
                                                     <xs:enumeration value="MOVEMENT"/>
 
                                                     <!-- General attributes -->
