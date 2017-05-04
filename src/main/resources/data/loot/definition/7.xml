@@ -3,7 +3,7 @@
 <loot:loot xmlns:loot="http://www.swordsandsorcery.com/loot"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/loot ../schema.xsd">
-  <loot:id>5</loot:id>
+  <loot:id>7</loot:id>
   <loot:droplist>
     <loot:drop>
       <loot:item>194</loot:item>
