@@ -8,8 +8,24 @@
     <witchhunters-guild-job:description>Asssd</witchhunters-guild-job:description>
     <witchhunters-guild-job:requirements>
         <witchhunters-guild-job:requirement type="ITEM">
-            <witchhunters-guild-job:id>10</witchhunters-guild-job:id>
-            <witchhunters-guild-job:amount>10</witchhunters-guild-job:amount>
+            <witchhunters-guild-job:id>155</witchhunters-guild-job:id>
+            <witchhunters-guild-job:amount>1</witchhunters-guild-job:amount>
+        </witchhunters-guild-job:requirement>
+        <witchhunters-guild-job:requirement type="ITEM">
+            <witchhunters-guild-job:id>154</witchhunters-guild-job:id>
+            <witchhunters-guild-job:amount>1</witchhunters-guild-job:amount>
+        </witchhunters-guild-job:requirement>
+        <witchhunters-guild-job:requirement type="ITEM">
+            <witchhunters-guild-job:id>151</witchhunters-guild-job:id>
+            <witchhunters-guild-job:amount>1</witchhunters-guild-job:amount>
+        </witchhunters-guild-job:requirement>
+        <witchhunters-guild-job:requirement type="ITEM">
+            <witchhunters-guild-job:id>109</witchhunters-guild-job:id>
+            <witchhunters-guild-job:amount>1</witchhunters-guild-job:amount>
+        </witchhunters-guild-job:requirement>
+        <witchhunters-guild-job:requirement type="ITEM">
+            <witchhunters-guild-job:id>152</witchhunters-guild-job:id>
+            <witchhunters-guild-job:amount>1</witchhunters-guild-job:amount>
         </witchhunters-guild-job:requirement>
     </witchhunters-guild-job:requirements>
 </witchhunters-guild-job:witchhunters-guild-job>
