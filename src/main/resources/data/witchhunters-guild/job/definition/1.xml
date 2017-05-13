@@ -6,6 +6,7 @@
     <witchhunters-guild-job:id>1</witchhunters-guild-job:id>
     <witchhunters-guild-job:name>Asd</witchhunters-guild-job:name>
     <witchhunters-guild-job:description>Asssd</witchhunters-guild-job:description>
+    <witchhunters-guild-job:reward>10</witchhunters-guild-job:reward>
     <witchhunters-guild-job:requirements>
         <witchhunters-guild-job:requirement type="ITEM">
             <witchhunters-guild-job:id>155</witchhunters-guild-job:id>
@@ -26,6 +27,10 @@
         <witchhunters-guild-job:requirement type="ITEM">
             <witchhunters-guild-job:id>152</witchhunters-guild-job:id>
             <witchhunters-guild-job:amount>1</witchhunters-guild-job:amount>
+        </witchhunters-guild-job:requirement>
+        <witchhunters-guild-job:requirement type="KILL">
+            <witchhunters-guild-job:id>6</witchhunters-guild-job:id>
+            <witchhunters-guild-job:amount>15</witchhunters-guild-job:amount>
         </witchhunters-guild-job:requirement>
     </witchhunters-guild-job:requirements>
 </witchhunters-guild-job:witchhunters-guild-job>
