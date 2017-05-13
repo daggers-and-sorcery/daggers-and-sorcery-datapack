@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
+    <item:id>195</item:id>
+    <item:name>Placeholder</item:name>
+    <item:type>TOOL</item:type>
+    <item:weight>2000</item:weight>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>100</item:amount>
+        </item:price-entry>
+    </item:price>
+</item:item>

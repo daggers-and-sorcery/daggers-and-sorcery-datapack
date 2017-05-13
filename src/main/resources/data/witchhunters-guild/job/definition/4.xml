@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<witchhunters-guild-job:witchhunters-guild-job xmlns:witchhunters-guild-job="http://www.swordsandsorcery.com/witchhunters-guild-job"
+                                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                               xsi:schemaLocation="http://www.swordsandsorcery.com/witchhunters-guild-job ../schema.xsd">
+    <witchhunters-guild-job:id>4</witchhunters-guild-job:id>
+    <witchhunters-guild-job:name>Kill Goblin king Zexold.</witchhunters-guild-job:name>
+    <witchhunters-guild-job:description>Quest 3 description.</witchhunters-guild-job:description>
+    <witchhunters-guild-job:reward>5</witchhunters-guild-job:reward>
+    <witchhunters-guild-job:requirements>
+        <witchhunters-guild-job:requirement type="KILL">
+            <witchhunters-guild-job:id>16</witchhunters-guild-job:id>
+            <witchhunters-guild-job:amount>3</witchhunters-guild-job:amount>
+        </witchhunters-guild-job:requirement>
+    </witchhunters-guild-job:requirements>
+</witchhunters-guild-job:witchhunters-guild-job>
