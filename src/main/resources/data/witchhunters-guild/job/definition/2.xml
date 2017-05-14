@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <witchhunters-guild-job:witchhunters-guild-job xmlns:witchhunters-guild-job="http://www.swordsandsorcery.com/witchhunters-guild-job"
-                                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                                               xsi:schemaLocation="http://www.swordsandsorcery.com/witchhunters-guild-job ../schema.xsd">
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.swordsandsorcery.com/witchhunters-guild-job ../schema.xsd">
     <witchhunters-guild-job:id>2</witchhunters-guild-job:id>
-    <witchhunters-guild-job:name>Handle in some leather armor.</witchhunters-guild-job:name>
-    <witchhunters-guild-job:description>Quest 2 description.</witchhunters-guild-job:description>
+    <witchhunters-guild-job:name>Handle in some bronze weapons.</witchhunters-guild-job:name>
+    <witchhunters-guild-job:description>Quest 1 description.</witchhunters-guild-job:description>
     <witchhunters-guild-job:reward>5</witchhunters-guild-job:reward>
     <witchhunters-guild-job:requirements>
         <witchhunters-guild-job:requirement type="ITEM">
-            <witchhunters-guild-job:id>172</witchhunters-guild-job:id>
+            <witchhunters-guild-job:id>155</witchhunters-guild-job:id>
             <witchhunters-guild-job:amount>1</witchhunters-guild-job:amount>
         </witchhunters-guild-job:requirement>
         <witchhunters-guild-job:requirement type="ITEM">
-            <witchhunters-guild-job:id>173</witchhunters-guild-job:id>
+            <witchhunters-guild-job:id>154</witchhunters-guild-job:id>
             <witchhunters-guild-job:amount>1</witchhunters-guild-job:amount>
         </witchhunters-guild-job:requirement>
         <witchhunters-guild-job:requirement type="ITEM">
-            <witchhunters-guild-job:id>43</witchhunters-guild-job:id>
+            <witchhunters-guild-job:id>151</witchhunters-guild-job:id>
             <witchhunters-guild-job:amount>1</witchhunters-guild-job:amount>
         </witchhunters-guild-job:requirement>
         <witchhunters-guild-job:requirement type="ITEM">
-            <witchhunters-guild-job:id>44</witchhunters-guild-job:id>
+            <witchhunters-guild-job:id>109</witchhunters-guild-job:id>
             <witchhunters-guild-job:amount>1</witchhunters-guild-job:amount>
         </witchhunters-guild-job:requirement>
         <witchhunters-guild-job:requirement type="ITEM">
-            <witchhunters-guild-job:id>45</witchhunters-guild-job:id>
+            <witchhunters-guild-job:id>152</witchhunters-guild-job:id>
             <witchhunters-guild-job:amount>1</witchhunters-guild-job:amount>
         </witchhunters-guild-job:requirement>
     </witchhunters-guild-job:requirements>

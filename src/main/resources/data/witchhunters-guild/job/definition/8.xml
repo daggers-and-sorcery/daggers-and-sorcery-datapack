@@ -4,13 +4,13 @@
                                                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                                                xsi:schemaLocation="http://www.swordsandsorcery.com/witchhunters-guild-job ../schema.xsd">
     <witchhunters-guild-job:id>8</witchhunters-guild-job:id>
-    <witchhunters-guild-job:name>Handle in some silver enhanced weapons.</witchhunters-guild-job:name>
-    <witchhunters-guild-job:description>Quest 8 description.</witchhunters-guild-job:description>
-    <witchhunters-guild-job:reward>20</witchhunters-guild-job:reward>
+    <witchhunters-guild-job:name>Decimate the vampires.</witchhunters-guild-job:name>
+    <witchhunters-guild-job:description>Quest 7 description.</witchhunters-guild-job:description>
+    <witchhunters-guild-job:reward>10</witchhunters-guild-job:reward>
     <witchhunters-guild-job:requirements>
-        <witchhunters-guild-job:requirement type="ITEM">
-            <witchhunters-guild-job:id>195</witchhunters-guild-job:id>
-            <witchhunters-guild-job:amount>1</witchhunters-guild-job:amount>
+        <witchhunters-guild-job:requirement type="KILL">
+            <witchhunters-guild-job:id>21</witchhunters-guild-job:id>
+            <witchhunters-guild-job:amount>7</witchhunters-guild-job:amount>
         </witchhunters-guild-job:requirement>
     </witchhunters-guild-job:requirements>
 </witchhunters-guild-job:witchhunters-guild-job>
