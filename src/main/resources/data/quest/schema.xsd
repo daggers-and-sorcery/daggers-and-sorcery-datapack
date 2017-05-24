@@ -8,6 +8,19 @@
                 <xs:element name="id" type="xs:integer"/>
                 <xs:element name="name" type="xs:string"/>
                 <xs:element name="description" type="xs:string"/>
+                <xs:element name="quest-states" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="quest-state" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="description" type="xs:string"/>
+                                    </xs:all>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
             </xs:all>
         </xs:complexType>
     </xs:element>

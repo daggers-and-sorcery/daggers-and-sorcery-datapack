@@ -5,4 +5,15 @@
     <quest:id>1</quest:id>
     <quest:name>Smuggler's Heaven</quest:name>
     <quest:description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis porta leo mattis ullamcorper. In lacinia nisl libero, tincidunt vehicula magna mollis vel. Ut luctus congue lectus id rutrum. Etiam dignissim mi eu diam interdum, placerat congue sem maximus. Curabitur hendrerit convallis neque. Sed viverra metus at eros congue, sit amet hendrerit odio rutrum. Nam pretium congue varius. Morbi laoreet elit sit amet ex pellentesque semper. Sed eget arcu nec turpis dignissim malesuada. Nam tellus quam, condimentum ac sollicitudin ac, volutpat ut dui. Pellentesque auctor ornare laoreet. Suspendisse porta porttitor libero, laoreet feugiat nisi porta quis. Proin varius neque vel magna bibendum faucibus. Sed maximus, massa a tempus fringilla, lorem arcu bibendum nisi, consectetur pretium eros est vitae nunc. Ut libero nunc, bibendum facilisis bibendum eu, vestibulum id massa.</quest:description>
+    <quest:quest-states>
+        <quest:quest-state>
+            <quest:description>Asd asd asd.</quest:description>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Asd asd asd.2</quest:description>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Asd asd asd.3</quest:description>
+        </quest:quest-state>
+    </quest:quest-states>
 </quest:quest>
