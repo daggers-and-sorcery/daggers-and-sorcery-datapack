@@ -1,48 +1,64 @@
 buildscript {
     repositories {
         maven {
-            url 'http://artifactory.morethanheroic.com/artifactory'
-            credentials {
-                username = "${artifactory_user}"
-                password = "${artifactory_password}"
+            url "s3://more-than-heroic-gradle-repository/releases"
+            credentials(AwsCredentials) {
+                accessKey AWS_ACCESS_KEY
+                secretKey AWS_SECRET_KEY
             }
         }
-    }
-}
+        maven {
+            url "s3://more-than-heroic-gradle-repository/snapshots"
+            credentials(AwsCredentials) {
+                accessKey AWS_ACCESS_KEY
+                secretKey AWS_SECRET_KEY
+            }
+        }
 
-plugins {
-    id "com.jfrog.artifactory" version "4.0.0"
+        mavenCentral()
+    }
 }
 
 apply plugin: 'java'
+apply plugin: 'maven-publish'
 
-artifactory {
-    contextUrl = "http://artifactory.morethanheroic.com/artifactory"
-    publish {
-        repository {
-            repoKey = 'libs-release-local'
-            username = "${artifactory_user}"
-            password = "${artifactory_password}"
-            maven = true
-        }
-        defaults {
-            publications('mavenJava')
+repositories {
+    maven {
+        url "s3://more-than-heroic-gradle-repository/releases"
+        credentials(AwsCredentials) {
+            accessKey AWS_ACCESS_KEY
+            secretKey AWS_SECRET_KEY
         }
     }
-    resolve {
-        repository {
-            repoKey = 'libs-release'
-            username = "${artifactory_user}"
-            password = "${artifactory_password}"
-            maven = true
+    maven {
+        url "s3://more-than-heroic-gradle-repository/snapshots"
+        credentials(AwsCredentials) {
+            accessKey AWS_ACCESS_KEY
+            secretKey AWS_SECRET_KEY
         }
     }
+
+    mavenCentral()
 }
 
-apply plugin: 'maven-publish'
-apply plugin: "com.jfrog.artifactory"
-
 publishing {
+    repositories {
+        maven {
+            url "s3://more-than-heroic-gradle-repository/releases"
+            credentials(AwsCredentials) {
+                accessKey AWS_ACCESS_KEY
+                secretKey AWS_SECRET_KEY
+            }
+        }
+        maven {
+            url "s3://more-than-heroic-gradle-repository/snapshots"
+            credentials(AwsCredentials) {
+                accessKey AWS_ACCESS_KEY
+                secretKey AWS_SECRET_KEY
+            }
+        }
+    }
+
     publications {
         mavenJava(MavenPublication) {
             from components.java
