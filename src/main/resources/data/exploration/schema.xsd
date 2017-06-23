@@ -10,6 +10,7 @@
                 <xs:element name="location">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
+                            <xs:enumeration value="UNKNOWN"/>
                             <xs:enumeration value="FARMFIELDS"/>
                             <xs:enumeration value="WHISPERING_WOODS"/>
                             <xs:enumeration value="WOODLAND_CEMETERY"/>
