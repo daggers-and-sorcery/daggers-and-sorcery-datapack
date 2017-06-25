@@ -16,12 +16,12 @@
             <quest:event-id>26</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
-        <!-- Anything under this is WIP! -->
         <quest:quest-state>
             <quest:description>Asd asd asd.</quest:description>
-            <quest:event-id>25</quest:event-id>
+            <quest:event-id>27</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
+        <!-- Anything under this is WIP! -->
         <quest:quest-state>
             <quest:description>Asd asd asd.</quest:description>
             <quest:event-id>25</quest:event-id>
