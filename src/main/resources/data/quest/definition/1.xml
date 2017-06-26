@@ -7,31 +7,31 @@
     <quest:description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis porta leo mattis ullamcorper. In lacinia nisl libero, tincidunt vehicula magna mollis vel. Ut luctus congue lectus id rutrum. Etiam dignissim mi eu diam interdum, placerat congue sem maximus. Curabitur hendrerit convallis neque. Sed viverra metus at eros congue, sit amet hendrerit odio rutrum. Nam pretium congue varius. Morbi laoreet elit sit amet ex pellentesque semper. Sed eget arcu nec turpis dignissim malesuada. Nam tellus quam, condimentum ac sollicitudin ac, volutpat ut dui. Pellentesque auctor ornare laoreet. Suspendisse porta porttitor libero, laoreet feugiat nisi porta quis. Proin varius neque vel magna bibendum faucibus. Sed maximus, massa a tempus fringilla, lorem arcu bibendum nisi, consectetur pretium eros est vitae nunc. Ut libero nunc, bibendum facilisis bibendum eu, vestibulum id massa.</quest:description>
     <quest:quest-states>
         <quest:quest-state>
-            <quest:description>Asd asd asd.</quest:description>
+            <quest:description>Acquire the info from the guild.</quest:description>
             <quest:event-id>25</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Asd asd asd2.</quest:description>
+            <quest:description>Go to the Farmfields</quest:description>
             <quest:event-id>26</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Asd asd asd.</quest:description>
+            <quest:description>Back to the Guild</quest:description>
             <quest:event-id>27</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Going to the Whispering Forest.</quest:description>
+            <quest:event-id>28</quest:event-id>
+            <quest:event-stage>0</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Fight the Goblin Champion</quest:description>
+            <quest:event-id>28</quest:event-id>
+            <quest:event-stage>1</quest:event-stage>
+        </quest:quest-state>
         <!-- Anything under this is WIP! -->
-        <quest:quest-state>
-            <quest:description>Asd asd asd.</quest:description>
-            <quest:event-id>25</quest:event-id>
-            <quest:event-stage>0</quest:event-stage>
-        </quest:quest-state>
-        <quest:quest-state>
-            <quest:description>Asd asd asd.</quest:description>
-            <quest:event-id>25</quest:event-id>
-            <quest:event-stage>0</quest:event-stage>
-        </quest:quest-state>
         <quest:quest-state>
             <quest:description>Asd asd asd.</quest:description>
             <quest:event-id>25</quest:event-id>
