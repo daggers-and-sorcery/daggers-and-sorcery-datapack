@@ -7,19 +7,20 @@
     <monster:name>Yip, the Vampire Hunter</monster:name>
     <monster:type>HUMANOID</monster:type>
     <monster:subtype>UNDEAD</monster:subtype>
-    <monster:health>30</monster:health>
+    <monster:health>60</monster:health>
     <monster:mana>0</monster:mana>
     <monster:initiation>
         <monster:value>30</monster:value>
     </monster:initiation>
     <monster:level>14</monster:level>
-    <monster:defense>24</monster:defense>
+    <monster:defense>27</monster:defense>
     <monster:damage>
         <monster:value>2</monster:value>
         <monster:d8>1</monster:d8>
     </monster:damage>
     <monster:attack>
         <monster:value>26</monster:value>
+        <monster:d2>1</monster:d2>
         <monster:d4>2</monster:d4>
     </monster:attack>
     <monster:aiming>

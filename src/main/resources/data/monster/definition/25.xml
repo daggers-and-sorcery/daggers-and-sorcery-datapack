@@ -13,10 +13,10 @@
         <monster:value>20</monster:value>
     </monster:initiation>
     <monster:level>15</monster:level>
-    <monster:defense>26</monster:defense>
+    <monster:defense>25</monster:defense>
     <monster:damage>
         <monster:value>0</monster:value>
-        <monster:d4>1</monster:d4>
+        <monster:d6>1</monster:d6>
     </monster:damage>
     <monster:attack>
         <monster:value>28</monster:value>
