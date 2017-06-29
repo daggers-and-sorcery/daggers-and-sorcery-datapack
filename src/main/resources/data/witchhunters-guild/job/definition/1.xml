@@ -5,8 +5,8 @@
                                                xsi:schemaLocation="http://www.swordsandsorcery.com/witchhunters-guild-job ../schema.xsd">
     <witchhunters-guild-job:id>1</witchhunters-guild-job:id>
     <witchhunters-guild-job:name>Kill some undeads.</witchhunters-guild-job:name>
-    <witchhunters-guild-job:description>Quest 9 description.</witchhunters-guild-job:description>
-    <witchhunters-guild-job:reward>30</witchhunters-guild-job:reward>
+    <witchhunters-guild-job:description>Quest 1 description.</witchhunters-guild-job:description>
+    <witchhunters-guild-job:reward>5</witchhunters-guild-job:reward>
     <witchhunters-guild-job:requirements>
         <witchhunters-guild-job:requirement type="KILL">
             <witchhunters-guild-job:id>20</witchhunters-guild-job:id>
