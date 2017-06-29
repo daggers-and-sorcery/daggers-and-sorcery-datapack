@@ -2,5 +2,5 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.swordsandsorcery.com/metadata ../schema.xsd">
     <metadata:id>9</metadata:id>
-    <metadata:name>WITCHHUNTERS_GUILD_KILL_TARGET_1_COUNT</metadata:name>
+    <metadata:name>WITCHHUNTERS_GUILD_KILL_TARGET_1_MONSTER_COUNT</metadata:name>
 </metadata:metadata>
