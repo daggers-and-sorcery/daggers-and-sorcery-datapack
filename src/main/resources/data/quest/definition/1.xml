@@ -11,42 +11,42 @@
     </quest:rewards>
     <quest:quest-states>
         <quest:quest-state>
-            <quest:description>Acquire the info from the guild.</quest:description>
+            <quest:description>After your encounter with Yip, you have retained the knowledge necessary to find the Guild in the "Beggar's Alley" district of Sevgard. The time has come to let your intentions with them be known.</quest:description>
             <quest:event-id>25</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Go to the Farmfields</quest:description>
+            <quest:description>The Guild Captain, Adrian Claw-Marked, has entrusted you with numerous tasks so that you may join his brotherhood. Travel to the Farmlands, where you will meet a farmer and assist him a construction effort that will benefit the Guild. Bring with you 10 Robinia Logs, 100 Bronze Nails and prepare to exert yourself (10 Movement Points) to prove your worth.</quest:description>
             <quest:event-id>26</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Back to the Guild</quest:description>
+            <quest:description>Adrian Claw-Marked will be pleased to hear that you assists his comrades. Return to the Guild and receive your next assignment, for you are now another step closer to your goal.</quest:description>
             <quest:event-id>27</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Going to the Whispering Forest.</quest:description>
+            <quest:description>The Guild Captain Adrian seems to trust you more and more. He has tasked you to enter the Whispering Forest and assist some Guild Young Bloods. The rookies require your help in investigating a mysterious hole.</quest:description>
             <quest:event-id>28</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Fight the Goblin Champion</quest:description>
+            <quest:description>Your journey into the hole proved courageous, but now your courage is put to the test. Fight the Goblin Champion and do not falter!</quest:description>
             <quest:event-id>28</quest:event-id>
             <quest:event-stage>1</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Woodland Cemetery</quest:description>
+            <quest:description>You are worthy of a song titled after you! After killing the Goblin Champion, one of the rookies have you a leader from Adrian. You must find one of the lost Guild Brothers in the Cemetery where you met Yip.</quest:description>
             <quest:event-id>29</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Fight Kian, the Forsaken.</quest:description>
+            <quest:description>Guild member Kian was deceased, his death taunts you but suddenly - his corpse is now among the Guild's enemies. You know what must be done.</quest:description>
             <quest:event-id>29</quest:event-id>
             <quest:event-stage>1</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Killed the Forsaken, I'm a member of the guild now!</quest:description>
+            <quest:description>Kian's corpse has been reclaimed to its natural state of death, but you have no peace of mind. Sadness is strung across your heart like a decoration, even with your newfound membership in the Guild. At the very least, Kian's brothers will be of service to you and so will you be to them.</quest:description>
             <quest:event-id>0</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
