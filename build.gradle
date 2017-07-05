@@ -67,4 +67,4 @@ publishing {
 }
 
 group = 'com.morethanheroic.swords'
-version = '0.0.219'
+version = '0.0.220'
