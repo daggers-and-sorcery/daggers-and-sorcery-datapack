@@ -5,12 +5,12 @@
     <xs:element name="spell">
         <xs:complexType>
             <xs:all>
-                <xs:element name="id" type="xs:unsignedInt" minOccurs="1"/>
-                <xs:element name="name" type="xs:string" minOccurs="1"/>
-                <xs:element name="combat-spell" type="xs:boolean" minOccurs="1"/>
-                <xs:element name="description" type="xs:string" minOccurs="1"/>
+                <xs:element name="id" type="xs:unsignedInt"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="combat-spell" type="xs:boolean"/>
+                <xs:element name="description" type="xs:string"/>
                 <xs:element name="open-page" type="xs:boolean" minOccurs="0"/>
-                <xs:element name="type" minOccurs="1">
+                <xs:element name="type">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
                             <xs:enumeration value="DESTRUCTION"/>
@@ -20,7 +20,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element name="spell-target" minOccurs="1">
+                <xs:element name="spell-target">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
                             <xs:enumeration value="SELF"/>
@@ -35,7 +35,7 @@
                             <xs:element name="cost" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:all>
-                                        <xs:element name="cost-type" minOccurs="1">
+                                        <xs:element name="cost-type">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                     <xs:enumeration value="ITEM"/>
@@ -44,7 +44,7 @@
                                             </xs:simpleType>
                                         </xs:element>
                                         <xs:element name="cost-id" type="xs:unsignedInt" minOccurs="0"/>
-                                        <xs:element name="cost-amount" type="xs:unsignedInt" minOccurs="1"/>
+                                        <xs:element name="cost-amount" type="xs:unsignedInt"/>
                                     </xs:all>
                                 </xs:complexType>
                             </xs:element>

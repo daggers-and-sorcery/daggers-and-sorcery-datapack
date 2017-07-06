@@ -4,8 +4,30 @@
     <xs:element name="shop">
         <xs:complexType>
             <xs:all>
-                <xs:element name="id" type="xs:unsignedInt" minOccurs="1"/>
-                <xs:element name="name" type="xs:string" minOccurs="1"/>
+                <xs:element name="id" type="xs:unsignedInt"/>
+                <xs:element name="name" type="xs:string"/>
+                <!-- TODO: Location so its only accessible in one fo the cities etc.-->
+                <xs:element name="available-features" minOccurs="0">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="selling" type="xs:boolean" minOccurs="0" default="true"/>
+                            <xs:element name="buying" type="xs:boolean" minOccurs="0" default="true"/>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="available-items" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="available-item" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="item-id" type="xs:unsignedInt"/>
+                                    </xs:all>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
             </xs:all>
         </xs:complexType>
     </xs:element>
