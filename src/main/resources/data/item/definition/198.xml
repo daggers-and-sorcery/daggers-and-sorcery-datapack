@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
+    <item:id>198</item:id>
+    <item:name>Silver arrow</item:name>
+    <item:type>PROJECTILE</item:type>
+    <item:subtype>ARROW</item:subtype>
+    <item:weight>5</item:weight>
+    <item:equipment>true</item:equipment>
+    <item:tradeable>false</item:tradeable>
+    <item:modifiers>
+        <item:modifier>
+            <item:modifier>EXTRA_DAMAGE_AGAINST_VAMPIRES</item:modifier>
+            <item:amount>3</item:amount>
+        </item:modifier>
+    </item:modifiers>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>30</item:amount>
+        </item:price-entry>
+    </item:price>
+</item:item>
