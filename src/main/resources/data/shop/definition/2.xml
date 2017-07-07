@@ -4,7 +4,7 @@
     <shop:id>2</shop:id>
     <shop:name>Witchhunter's guild shop</shop:name>
     <shop:available-features>
-        <shop:buying>false</shop:buying>
+        <shop:selling>false</shop:selling>
     </shop:available-features>
     <shop:available-items>
         <shop:available-item>
