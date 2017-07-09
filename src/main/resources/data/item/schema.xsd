@@ -225,6 +225,7 @@
             <xs:enumeration value="HERB"/>
             <xs:enumeration value="GRIMY_HERB"/>
             <xs:enumeration value="CLOTH"/>
+            <xs:enumeration value="RING"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
