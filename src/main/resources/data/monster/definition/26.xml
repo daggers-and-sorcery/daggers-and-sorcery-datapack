@@ -6,7 +6,7 @@
     <monster:id>26</monster:id>
     <monster:name>Yip, the Vampire Hunter</monster:name>
     <monster:type>HUMANOID</monster:type>
-    <monster:subtype>UNDEAD</monster:subtype>
+    <monster:subtype>HUMAN</monster:subtype>
     <monster:health>60</monster:health>
     <monster:mana>0</monster:mana>
     <monster:initiation>

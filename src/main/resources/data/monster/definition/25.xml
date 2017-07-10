@@ -5,8 +5,8 @@
                  xsi:schemaLocation="http://www.swordsandsorcery.com/monster ../schema.xsd">
     <monster:id>25</monster:id>
     <monster:name>Kian, the Forsaken</monster:name>
-    <monster:type>HUMANOID</monster:type>
-    <monster:subtype>UNDEAD</monster:subtype>
+    <monster:type>UNDEAD</monster:type>
+    <monster:subtype>ZOMBIE</monster:subtype>
     <monster:health>100</monster:health>
     <monster:mana>0</monster:mana>
     <monster:initiation>
