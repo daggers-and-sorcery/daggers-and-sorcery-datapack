@@ -2,13 +2,13 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/shop ../schema.xsd">
     <shop:id>2</shop:id>
-    <shop:name>Witchhunter's guild shop</shop:name>
+    <shop:name>Witchhunter's guild shop (Novice)</shop:name>
     <shop:available-features>
         <shop:selling>false</shop:selling>
     </shop:available-features>
     <shop:available-items>
         <shop:available-item>
-            <shop:item-id>111</shop:item-id>
+            <shop:item-id>198</shop:item-id>
         </shop:available-item>
     </shop:available-items>
 </shop:shop>
