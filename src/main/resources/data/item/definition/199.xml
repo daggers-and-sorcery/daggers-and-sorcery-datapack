@@ -22,7 +22,7 @@
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>
-            <item:amount>3000</item:amount>
+            <item:amount>10000</item:amount>
         </item:price-entry>
     </item:price>
 </item:item>
