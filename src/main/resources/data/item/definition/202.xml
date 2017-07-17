@@ -2,10 +2,10 @@
 
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
-  <item:id>200</item:id>
-  <item:name>Silverleaf</item:name>
+  <item:id>202</item:id>
+  <item:name>Grimy Silverleaf</item:name>
   <item:type>MATERIAL</item:type>
-  <item:subtype>HERB</item:subtype>
+  <item:subtype>GRIMY_HERB</item:subtype>
   <item:weight>5</item:weight>
   <item:price>
     <item:price-entry>
