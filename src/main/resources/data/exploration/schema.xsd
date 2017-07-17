@@ -33,6 +33,7 @@
                             <xs:enumeration value="FIELD"/>
                             <xs:enumeration value="CITY"/>
                             <xs:enumeration value="FOREST"/>
+                            <xs:enumeration value="SWAMP"/>
                             <xs:enumeration value="DESERT"/>
                             <xs:enumeration value="FARM"/>
                             <xs:enumeration value="INN"/>
