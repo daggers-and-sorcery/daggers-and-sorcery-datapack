@@ -46,6 +46,10 @@
       <quest:event-id>32</quest:event-id>
       <quest:event-stage>1</quest:event-stage>
     </quest:quest-state>
-    <!-- TODO! -->
+    <quest:quest-state>
+      <quest:description>Back to the guild.</quest:description>
+      <quest:event-id>33</quest:event-id>
+      <quest:event-stage>0</quest:event-stage>
+    </quest:quest-state>
   </quest:quest-states>
 </quest:quest>
