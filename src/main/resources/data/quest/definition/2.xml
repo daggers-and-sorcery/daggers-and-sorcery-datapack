@@ -12,12 +12,7 @@
       <quest:event-stage>0</quest:event-stage>
     </quest:quest-state>
     <quest:quest-state>
-      <quest:description>Meeting the witch.</quest:description>
-      <quest:event-id>30</quest:event-id>
-      <quest:event-stage>0</quest:event-stage>
-    </quest:quest-state>
-    <quest:quest-state>
-      <quest:description>Going to the swamp.</quest:description>
+      <quest:description>Going to the swamp and open the lock.</quest:description>
       <quest:event-id>31</quest:event-id>
       <quest:event-stage>0</quest:event-stage>
     </quest:quest-state>
