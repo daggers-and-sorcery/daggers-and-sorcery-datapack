@@ -26,8 +26,6 @@ plugins {
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 
-publish.dependsOn release
-
 repositories {
     maven {
         url "s3://more-than-heroic-gradle-repository/releases"
