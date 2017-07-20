@@ -36,7 +36,6 @@
     <monster:spell-resistance>20</monster:spell-resistance>
     <monster:attack-type>MAGIC</monster:attack-type>
     <monster:droplist>
-        <!-- Strange focus/staff and it's recipes -->
         <monster:drop>
             <monster:item>187</monster:item>
             <monster:amount>
