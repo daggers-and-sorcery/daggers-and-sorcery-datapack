@@ -3,14 +3,14 @@
 <monster:monster xmlns:monster="http://www.swordsandsorcery.com/monster"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xsi:schemaLocation="http://www.swordsandsorcery.com/monster ../schema.xsd">
-  <monster:id>27</monster:id>
-  <monster:name>Volkstein, the Necromancer</monster:name>
+  <monster:id>28</monster:id>
+  <monster:name>Auster, the Witch</monster:name>
   <monster:type>HUMANOID</monster:type>
   <monster:subtype>HUMAN</monster:subtype>
   <monster:health>24</monster:health>
   <monster:mana>0</monster:mana>
   <monster:initiation>
-    <monster:value>25</monster:value>
+    <monster:value>22</monster:value>
   </monster:initiation>
   <monster:level>15</monster:level>
   <monster:defense>20</monster:defense>
@@ -27,10 +27,10 @@
     <monster:value>0</monster:value>
   </monster:ranged-damage>
   <monster:magic-attack>
-    <monster:value>30</monster:value>
+    <monster:value>32</monster:value>
   </monster:magic-attack>
   <monster:magic-damage>
-    <monster:value>3</monster:value>
+    <monster:value>1</monster:value>
     <monster:d2>3</monster:d2>
   </monster:magic-damage>
   <monster:spell-resistance>20</monster:spell-resistance>
