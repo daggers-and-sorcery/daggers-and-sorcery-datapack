@@ -46,5 +46,10 @@
       <quest:event-id>33</quest:event-id>
       <quest:event-stage>0</quest:event-stage>
     </quest:quest-state>
+    <quest:quest-state>
+      <quest:description>Got the reward</quest:description>
+      <quest:event-id>0</quest:event-id>
+      <quest:event-stage>0</quest:event-stage>
+    </quest:quest-state>
   </quest:quest-states>
 </quest:quest>
