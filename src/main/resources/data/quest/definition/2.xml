@@ -7,47 +7,47 @@
   <quest:description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis porta leo mattis ullamcorper. In lacinia nisl libero, tincidunt vehicula magna mollis vel. Ut luctus congue lectus id rutrum. Etiam dignissim mi eu diam interdum, placerat congue sem maximus. Curabitur hendrerit convallis neque. Sed viverra metus at eros congue, sit amet hendrerit odio rutrum. Nam pretium congue varius. Morbi laoreet elit sit amet ex pellentesque semper. Sed eget arcu nec turpis dignissim malesuada. Nam tellus quam, condimentum ac sollicitudin ac, volutpat ut dui. Pellentesque auctor ornare laoreet. Suspendisse porta porttitor libero, laoreet feugiat nisi porta quis. Proin varius neque vel magna bibendum faucibus. Sed maximus, massa a tempus fringilla, lorem arcu bibendum nisi, consectetur pretium eros est vitae nunc. Ut libero nunc, bibendum facilisis bibendum eu, vestibulum id massa.</quest:description>
   <quest:quest-states>
     <quest:quest-state>
-      <quest:description>Meeting the witch</quest:description>
+      <quest:description>Your pleas to be cured have been answered. Your Guild-Brothers have pushed you in the right direction. Enter the Farmfields and find this strange witch, who may be your last and only hope to be among the normal-folk once more.</quest:description>
       <quest:event-id>30</quest:event-id>
       <quest:event-stage>0</quest:event-stage>
     </quest:quest-state>
     <quest:quest-state>
-      <quest:description>Going to the swamp and open the lock.</quest:description>
+      <quest:description>Auster the Snow-Hen has been permitted by the Guild to own a strange artifact. However, it has fallen into the hands of a mage gone mad. Seek out Volkstein in the Marsh of Madness, in the Whispering Woods to return the "Eye of the Crow" to Auster.</quest:description>
       <quest:event-id>31</quest:event-id>
       <quest:event-stage>0</quest:event-stage>
     </quest:quest-state>
     <quest:quest-state>
-      <quest:description>Down the staircase.</quest:description>
+      <quest:description>Past an illusion's veil and an intimidating gate, you have found the remains of what must have been a grand tower. Your eye catches the new door, which shall lead you closer to your goal. A life free of vampirism. However, you'll need a steady hand with a lock pick to open the door.</quest:description>
       <quest:event-id>31</quest:event-id>
       <quest:event-stage>1</quest:event-stage>
     </quest:quest-state>
     <quest:quest-state>
-      <quest:description>Meeting the Necromancer.</quest:description>
+      <quest:description>After the horrific product of necromancy was killed, another has emerged to make an attempt at your life. Defend yourself!</quest:description>
       <quest:event-id>31</quest:event-id>
       <quest:event-stage>2</quest:event-stage>
     </quest:quest-state>
     <quest:quest-state>
-      <quest:description>The idol is found!</quest:description>
+      <quest:description>Cast aside the secret fear within, you approach the mad mage himself. Volkstein will present a challenge unlike one you have ever faced before. But for the reward, perhaps the price is to pay is appropriate?</quest:description>
       <quest:event-id>31</quest:event-id>
       <quest:event-stage>3</quest:event-stage>
     </quest:quest-state>
     <quest:quest-state>
-      <quest:description>Back to the witch.</quest:description>
+      <quest:description>Volkstein has ceased to be, however he was already a shadow of his former self. You have obtained the "Eye of the Crow" from his maddening, dark - pitiful home. You must return to the Witch, for it is time to rid yourself of this terrible curse.</quest:description>
       <quest:event-id>32</quest:event-id>
       <quest:event-stage>0</quest:event-stage>
     </quest:quest-state>
     <quest:quest-state>
-      <quest:description>More than betrayal.</quest:description>
+      <quest:description>Perhaps you should have foreseen it, but Auster is just as mad as Volkstein. You have been left with only one choice, defend yourself and draw blood! Lest - they will only find your body in segments.</quest:description>
       <quest:event-id>32</quest:event-id>
       <quest:event-stage>1</quest:event-stage>
     </quest:quest-state>
     <quest:quest-state>
-      <quest:description>Back to the guild.</quest:description>
+      <quest:description>Sympathy overcomes even a cold and hardened heart. Auster is perhaps with Volkstein, in a better place? It is hard to tell. The present is dark but the future remains bright. Return to the Guild with the book you have found, guard it close to your chest - as if it were your destiny itself.</quest:description>
       <quest:event-id>33</quest:event-id>
       <quest:event-stage>0</quest:event-stage>
     </quest:quest-state>
     <quest:quest-state>
-      <quest:description>Got the reward</quest:description>
+      <quest:description>You could have made away with that book, but instead - after you indulged in its knowledge, you have contributed it to the Guild's library. They will not forget this. Its a grim text, but in it - you have achieved something greater - that Auster and Volkstein lost. Life. Your curse is to be no more.</quest:description>
       <quest:event-id>0</quest:event-id>
       <quest:event-stage>0</quest:event-stage>
     </quest:quest-state>
