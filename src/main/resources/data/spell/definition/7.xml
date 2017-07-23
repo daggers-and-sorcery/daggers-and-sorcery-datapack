@@ -18,12 +18,8 @@
         </spell:cost>
     </spell:cost-list>
     <spell:effect-list>
-        <spell:effect target="give_status_effect">
+        <spell:effect target="trolls_vitality">
             <spell:settings-list>
-                <spell:effect-setting>
-                    <spell:setting-name>status-effect-id</spell:setting-name>
-                    <spell:setting-value>1</spell:setting-value>
-                </spell:effect-setting>
                 <spell:effect-setting>
                     <spell:setting-name>expiration-time-in-seconds</spell:setting-name>
                     <spell:setting-value>10800</spell:setting-value>
