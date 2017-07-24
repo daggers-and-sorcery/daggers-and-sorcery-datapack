@@ -6,7 +6,7 @@
     <spell:id>4</spell:id>
     <spell:name>Banish undead</spell:name>
     <spell:spell-target>OPPONENT</spell:spell-target>
-    <spell:description>This spell does 4 + 3d4 + half of your Intelligence damage to undead monsters.</spell:description>
+    <spell:description>This spell does 4 + 3d4 + half of your Intelligence attribute as damage to undead monsters.</spell:description>
     <spell:type>DESTRUCTION</spell:type>
     <spell:combat-spell>true</spell:combat-spell>
     <spell:cost-list>
