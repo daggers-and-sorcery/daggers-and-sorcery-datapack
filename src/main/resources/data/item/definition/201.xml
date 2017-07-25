@@ -2,14 +2,20 @@
 
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
-  <item:id>201</item:id>
-  <item:name>Cure for the Thirsty</item:name>
-  <item:type>POTION</item:type>
-  <item:weight>3</item:weight>
-  <item:price>
-    <item:price-entry>
-      <item:type>MONEY</item:type>
-      <item:amount>1000</item:amount>
-    </item:price-entry>
-  </item:price>
+    <item:id>201</item:id>
+    <item:name>Cure for the Thirsty</item:name>
+    <item:type>POTION</item:type>
+    <item:tradeable>false</item:tradeable>
+    <item:usable>true</item:usable>
+    <item:use-effect-list>
+        <item:effect target="cure_vampirism"/>
+    </item:use-effect-list>
+    <item:description>This potion will clean you from the course of vampirism.</item:description>
+    <item:weight>3</item:weight>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>1000</item:amount>
+        </item:price-entry>
+    </item:price>
 </item:item>
