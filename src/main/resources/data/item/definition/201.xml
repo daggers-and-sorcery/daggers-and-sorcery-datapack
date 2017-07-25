@@ -9,6 +9,18 @@
     <item:usable>true</item:usable>
     <item:use-effect-list>
         <item:effect target="cure_vampirism"/>
+        <item:effect target="remove_item">
+            <item:settings-list>
+                <item:effect-setting>
+                    <item:setting-name>item</item:setting-name>
+                    <item:setting-value>201</item:setting-value>
+                </item:effect-setting>
+                <item:effect-setting>
+                    <item:setting-name>amount</item:setting-name>
+                    <item:setting-value>1</item:setting-value>
+                </item:effect-setting>
+            </item:settings-list>
+        </item:effect>
     </item:use-effect-list>
     <item:description>This potion will clean you from the course of vampirism.</item:description>
     <item:weight>3</item:weight>
