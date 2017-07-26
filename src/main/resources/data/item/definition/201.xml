@@ -22,7 +22,7 @@
             </item:settings-list>
         </item:effect>
     </item:use-effect-list>
-    <item:description>This potion will clean you from the course of vampirism.</item:description>
+    <item:description>This potion will cleanse you from the course of vampirism.</item:description>
     <item:weight>3</item:weight>
     <item:price>
         <item:price-entry>
