@@ -2,18 +2,18 @@
 
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
-    <item:id>112</item:id>
-    <item:name>Potion of Healing</item:name>
+    <item:id>206</item:id>
+    <item:name>Potion of Mana</item:name>
     <item:type>POTION</item:type>
     <item:weight>3</item:weight>
-    <item:description>Restore 10 health points when used.</item:description>
+    <item:description>Restore 8 mana points when used.</item:description>
     <item:usable>true</item:usable>
     <item:use-effect-list>
-        <item:effect target="restore_health">
+        <item:effect target="restore_mana">
             <item:settings-list>
                 <item:effect-setting>
                     <item:setting-name>amount</item:setting-name>
-                    <item:setting-value>10</item:setting-value>
+                    <item:setting-value>8</item:setting-value>
                 </item:effect-setting>
             </item:settings-list>
         </item:effect>
@@ -21,7 +21,7 @@
             <item:settings-list>
                 <item:effect-setting>
                     <item:setting-name>item</item:setting-name>
-                    <item:setting-value>112</item:setting-value>
+                    <item:setting-value>206</item:setting-value>
                 </item:effect-setting>
                 <item:effect-setting>
                     <item:setting-name>amount</item:setting-name>
@@ -33,7 +33,7 @@
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>
-            <item:amount>10</item:amount>
+            <item:amount>14</item:amount>
         </item:price-entry>
     </item:price>
 </item:item>
