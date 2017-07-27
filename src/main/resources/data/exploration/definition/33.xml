@@ -4,6 +4,7 @@
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                          xsi:schemaLocation="http://www.swordsandsorcery.com/exploration-event ../schema.xsd">
     <event:id>33</event:id>
+    <event:name>Cure for the Thirsty - Back to the Guild</event:name>
     <event:location>UNKNOWN</event:location>
     <event:terrain>CITY</event:terrain>
     <event:rarity>EPIC</event:rarity>

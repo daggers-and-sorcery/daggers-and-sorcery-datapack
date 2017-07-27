@@ -4,6 +4,7 @@
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                          xsi:schemaLocation="http://www.swordsandsorcery.com/exploration-event ../schema.xsd">
     <event:id>14</event:id>
+    <event:name>Hermit in the Cave</event:name>
     <event:location>WHISPERING_WOODS</event:location>
     <event:terrain>FOREST</event:terrain>
     <event:rarity>COMMON</event:rarity>
