@@ -3,7 +3,7 @@
 <recipe:recipe xmlns:recipe="http://www.swordsandsorcery.com/recipe"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:schemaLocation="http://www.swordsandsorcery.com/recipe ../schema.xsd">
-    <recipe:id>64</recipe:id>
+    <recipe:id>66</recipe:id>
     <recipe:name>Priest's blood</recipe:name>
     <recipe:type>HERBLORE_CLEANING</recipe:type>
     <recipe:chance>90</recipe:chance>
