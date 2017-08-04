@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster:monster xmlns:monster="http://www.swordsandsorcery.com/monster"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.swordsandsorcery.com/monster ../schema.xsd">
+    <monster:id>30</monster:id>
+    <monster:name>Vampire Warrior</monster:name>
+    <monster:type>HUMANOID</monster:type>
+    <monster:subtype>VAMPIRE</monster:subtype>
+    <monster:health>30</monster:health>
+    <monster:mana>0</monster:mana>
+    <monster:initiation>
+        <monster:value>23</monster:value>
+    </monster:initiation>
+    <monster:level>14</monster:level>
+    <monster:defense>25</monster:defense>
+    <monster:damage>
+        <monster:value>1</monster:value>
+        <monster:d6>1</monster:d6>
+    </monster:damage>
+    <monster:attack>
+        <monster:value>23</monster:value>
+        <monster:d10>1</monster:d10>
+    </monster:attack>
+    <monster:aiming>
+        <monster:value>0</monster:value>
+    </monster:aiming>
+    <monster:ranged-damage>
+        <monster:value>0</monster:value>
+    </monster:ranged-damage>
+    <monster:magic-attack>
+        <monster:value>0</monster:value>
+    </monster:magic-attack>
+    <monster:magic-damage>
+        <monster:value>0</monster:value>
+    </monster:magic-damage>
+    <monster:spell-resistance>16</monster:spell-resistance>
+    <monster:attack-type>MELEE</monster:attack-type>
+</monster:monster>
