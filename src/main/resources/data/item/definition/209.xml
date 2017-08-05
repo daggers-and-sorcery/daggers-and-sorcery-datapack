@@ -2,15 +2,16 @@
 
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
-    <item:id>4</item:id>
-    <item:name>Copper ore</item:name>
-    <item:type>MATERIAL</item:type>
-    <item:subtype>ORE</item:subtype>
-    <item:weight>200</item:weight>
+    <item:id>209</item:id>
+    <item:name>Onyx necklace</item:name>
+    <item:type>JEWELRY</item:type>
+    <item:subtype>AMULET</item:subtype>
+    <item:weight>50</item:weight>
+    <!-- TODO +2 melee/magic/ranged atk -->
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>
-            <item:amount>3</item:amount>
+            <item:amount>120</item:amount>
         </item:price-entry>
     </item:price>
 </item:item>

@@ -5,6 +5,7 @@
     <item:id>3</item:id>
     <item:name>Tin ore</item:name>
     <item:type>MATERIAL</item:type>
+    <item:subtype>ORE</item:subtype>
     <item:weight>200</item:weight>
     <item:price>
         <item:price-entry>

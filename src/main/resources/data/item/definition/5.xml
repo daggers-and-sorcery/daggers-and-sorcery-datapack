@@ -5,6 +5,7 @@
     <item:id>5</item:id>
     <item:name>Bronze bar</item:name>
     <item:type>MATERIAL</item:type>
+    <item:subtype>BAR</item:subtype>
     <item:weight>300</item:weight>
     <item:price>
         <item:price-entry>

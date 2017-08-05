@@ -227,6 +227,8 @@
             <xs:enumeration value="CLOTH"/>
             <xs:enumeration value="RING"/>
             <xs:enumeration value="GEM"/>
+            <xs:enumeration value="ORE"/>
+            <xs:enumeration value="BAR"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
