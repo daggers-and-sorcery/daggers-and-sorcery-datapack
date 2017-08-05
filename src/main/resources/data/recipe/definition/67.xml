@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe:recipe xmlns:recipe="http://www.swordsandsorcery.com/recipe"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://www.swordsandsorcery.com/recipe ../schema.xsd">
+    <recipe:id>67</recipe:id>
+    <recipe:name>Onyx</recipe:name>
+    <recipe:type>JEWELCRAFTING_GEMCUTTING</recipe:type>
+    <recipe:chance>90</recipe:chance>
+    <recipe:requirement-list>
+        <recipe:skill-requirement>
+            <recipe:skill>JEWELCRAFTING</recipe:skill>
+            <recipe:amount>1</recipe:amount>
+        </recipe:skill-requirement>
+    </recipe:requirement-list>
+    <recipe:ingredient-list>
+        <recipe:ingredient>
+            <recipe:id>207</recipe:id>
+            <recipe:amount>3</recipe:amount>
+        </recipe:ingredient>
+    </recipe:ingredient-list>
+    <recipe:reward-list>
+        <recipe:reward>
+            <recipe:id>208</recipe:id>
+            <recipe:amount>1</recipe:amount>
+        </recipe:reward>
+    </recipe:reward-list>
+    <recipe:experience-list>
+        <recipe:experience>
+            <recipe:skill>JEWELCRAFTING</recipe:skill>
+            <recipe:amount>20</recipe:amount>
+        </recipe:experience>
+    </recipe:experience-list>
+</recipe:recipe>
