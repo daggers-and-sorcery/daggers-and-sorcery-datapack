@@ -7,7 +7,21 @@
     <item:type>JEWELRY</item:type>
     <item:subtype>AMULET</item:subtype>
     <item:weight>50</item:weight>
-    <!-- TODO +2 melee/magic/ranged atk -->
+    <item:equipment>true</item:equipment>
+    <item:modifiers>
+        <item:modifier>
+            <item:modifier>ATTACK</item:modifier>
+            <item:amount>2</item:amount>
+        </item:modifier>
+        <item:modifier>
+            <item:modifier>MAGIC_ATTACK</item:modifier>
+            <item:amount>2</item:amount>
+        </item:modifier>
+        <item:modifier>
+            <item:modifier>RANGED_ATTACK</item:modifier>
+            <item:amount>2</item:amount>
+        </item:modifier>
+    </item:modifiers>
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>
