@@ -11,6 +11,7 @@
                 <loot:max>1</loot:max>
             </loot:amount>
             <loot:chance>3</loot:chance>
+            <loot:identified>false</loot:identified>
         </loot:drop>
         <loot:drop>
             <loot:item>208</loot:item>
@@ -18,14 +19,16 @@
                 <loot:max>1</loot:max>
             </loot:amount>
             <loot:chance>0.5</loot:chance>
+            <loot:identified>false</loot:identified>
         </loot:drop>
         <loot:drop>
-            <loot:item>209</loot:item>
+            <loot:item>207</loot:item>
             <loot:amount>
                 <loot:min>1</loot:min>
                 <loot:max>2</loot:max>
             </loot:amount>
             <loot:chance>3</loot:chance>
+            <loot:identified>false</loot:identified>
         </loot:drop>
         <loot:drop>
             <loot:item>210</loot:item>

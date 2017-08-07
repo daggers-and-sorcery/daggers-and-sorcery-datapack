@@ -21,6 +21,7 @@
                             <xs:enumeration value="HERBLORE"/>
                             <xs:enumeration value="HERBLORE_CLEANING"/>
                             <xs:enumeration value="JEWELCRAFTING_GEMCUTTING"/>
+                            <xs:enumeration value="JEWELCRAFTING"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
