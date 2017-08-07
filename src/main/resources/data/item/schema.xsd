@@ -230,6 +230,7 @@
             <xs:enumeration value="GEM"/>
             <xs:enumeration value="ORE"/>
             <xs:enumeration value="BAR"/>
+            <xs:enumeration value="COIN"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>

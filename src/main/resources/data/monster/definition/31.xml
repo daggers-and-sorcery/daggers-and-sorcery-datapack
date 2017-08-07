@@ -19,8 +19,8 @@
         <monster:d6>1</monster:d6>
     </monster:damage>
     <monster:attack>
-        <monster:value>24</monster:value>
-        <monster:d10>1</monster:d10>
+        <monster:value>22</monster:value>
+        <monster:d6>3</monster:d6>
     </monster:attack>
     <monster:aiming>
         <monster:value>0</monster:value>
