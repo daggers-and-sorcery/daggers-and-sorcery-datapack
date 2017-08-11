@@ -200,7 +200,7 @@
             <xs:enumeration value="SHIELD"/>
             <xs:enumeration value="STAFF"/>
             <xs:enumeration value="WAND"/>
-            <xs:enumeration value="SPECTRE"/>
+            <xs:enumeration value="SCEPTRE"/>
             <xs:enumeration value="MONEY"/>
             <xs:enumeration value="ARROW"/>
             <xs:enumeration value="MATERIAL"/>
