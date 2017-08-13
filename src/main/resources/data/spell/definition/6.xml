@@ -16,6 +16,10 @@
             <spell:cost-type>MANA</spell:cost-type>
             <spell:cost-amount>1</spell:cost-amount>
         </spell:cost>
+        <spell:cost>
+            <spell:cost-type>ITEM</spell:cost-type>
+            <spell:cost-amount>164</spell:cost-amount>
+        </spell:cost>
     </spell:cost-list>
     <spell:effect-list>
         <spell:effect target="bone_spike_spell">
