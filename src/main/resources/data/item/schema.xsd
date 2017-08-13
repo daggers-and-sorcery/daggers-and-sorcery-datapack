@@ -82,7 +82,6 @@
                                                     <xs:enumeration value="DAMAGE_REDUCTION"/>
                                                     <xs:enumeration value="SPELL_RESISTANCE"/>
                                                     <xs:enumeration value="DAMAGE"/>
-                                                    <xs:enumeration value="RANGED_ATTACK"/>
                                                     <xs:enumeration value="RANGED_DAMAGE"/>
                                                     <xs:enumeration value="MAGIC_ATTACK"/>
                                                     <xs:enumeration value="MAGIC_DAMAGE"/>
