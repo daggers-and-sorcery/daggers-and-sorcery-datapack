@@ -18,7 +18,8 @@
         </spell:cost>
         <spell:cost>
             <spell:cost-type>ITEM</spell:cost-type>
-            <spell:cost-amount>164</spell:cost-amount>
+            <spell:cost-id>164</spell:cost-id>
+            <spell:cost-amount>1</spell:cost-amount>
         </spell:cost>
     </spell:cost-list>
     <spell:effect-list>
