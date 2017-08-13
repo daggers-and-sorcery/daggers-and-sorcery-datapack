@@ -6,6 +6,11 @@
     <item:name>Vial</item:name>
     <item:type>MATERIAL</item:type>
     <item:weight>20</item:weight>
+    <item:usable>true</item:usable>
+    <item:use-effect-list>
+        <item:effect target="fill_vials"/>
+    </item:use-effect-list>
+    <item:description>You can fill a maximum of five of these for 1 movement point.</item:description>
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>
