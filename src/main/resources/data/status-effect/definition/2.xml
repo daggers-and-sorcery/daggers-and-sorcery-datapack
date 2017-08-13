@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<status-effect:status-effect xmlns:status-effect="http://www.swordsandsorcery.com/status-effect"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="http://www.swordsandsorcery.com/status-effect ../schema.xsd">
+    <status-effect:id>2</status-effect:id>
+    <status-effect:name>Mage's Clarity</status-effect:name>
+    <status-effect:description>Increase your mana regeneration by 2.</status-effect:description>
+    <status-effect:modifiers>
+        <status-effect:modifier>
+            <status-effect:modifier>MANA_REGENERATION</status-effect:modifier>
+            <status-effect:amount>2</status-effect:amount>
+        </status-effect:modifier>
+    </status-effect:modifiers>
+</status-effect:status-effect>
