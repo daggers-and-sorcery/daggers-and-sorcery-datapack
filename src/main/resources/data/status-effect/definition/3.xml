@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<status-effect:status-effect xmlns:status-effect="http://www.swordsandsorcery.com/status-effect"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="http://www.swordsandsorcery.com/status-effect ../schema.xsd">
+    <status-effect:id>3</status-effect:id>
+    <status-effect:name>Might</status-effect:name>
+    <status-effect:description>Gives 10% of your willpower as melee attack and melee damage and 15% of willpower as defense.</status-effect:description>
+    <status-effect:modifiers>
+        <status-effect:modifier-effect>
+            <status-effect:effect-id>MIGHT</status-effect:effect-id>
+        </status-effect:modifier-effect>
+    </status-effect:modifiers>
+</status-effect:status-effect>
