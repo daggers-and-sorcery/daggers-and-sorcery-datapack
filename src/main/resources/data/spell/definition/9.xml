@@ -7,7 +7,8 @@
     <spell:name>Might</spell:name>
     <spell:spell-target>SELF</spell:spell-target>
     <spell:description>
-        You gain a buff that lasts for 1 hour and gives 10% of your willpower as melee attack and melee damage and 15% of willpower as defense.
+        You gain a buff that lasts for 1 hour and gives 10% of your willpower as bonus to your melee attack and melee
+        damage and 15% of your willpower as bonus to your defense.
     </spell:description>
     <spell:type>ALTERATION</spell:type>
     <spell:combat-spell>false</spell:combat-spell>
