@@ -4,12 +4,12 @@
                                                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                                                xsi:schemaLocation="http://www.swordsandsorcery.com/witchhunters-guild-job ../schema.xsd">
     <witchhunters-guild-job:id>9</witchhunters-guild-job:id>
-    <witchhunters-guild-job:name>Handle in some silver enhanced weapons.</witchhunters-guild-job:name>
+    <witchhunters-guild-job:name>Kill the lord of Vampires</witchhunters-guild-job:name>
     <witchhunters-guild-job:description>Quest 8 description.</witchhunters-guild-job:description>
     <witchhunters-guild-job:reward>20</witchhunters-guild-job:reward>
     <witchhunters-guild-job:requirements>
-        <witchhunters-guild-job:requirement type="ITEM">
-            <witchhunters-guild-job:id>195</witchhunters-guild-job:id>
+        <witchhunters-guild-job:requirement type="KILL">
+            <witchhunters-guild-job:id>31</witchhunters-guild-job:id>
             <witchhunters-guild-job:amount>1</witchhunters-guild-job:amount>
         </witchhunters-guild-job:requirement>
     </witchhunters-guild-job:requirements>

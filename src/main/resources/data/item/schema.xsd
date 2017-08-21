@@ -107,6 +107,7 @@
                                                     <xs:enumeration value="SCAVENGING_BONUS"/>
 
                                                     <!-- Special modifiers -->
+                                                    <xs:enumeration value="LIFE_STEAL"/>
                                                     <xs:enumeration value="EXTRA_DAMAGE_AGAINST_VAMPIRES"/>
                                                     <xs:enumeration value="PERIODICAL_DAMAGE_AGAINST_VAMPIRES"/>
                                                     <xs:enumeration value="PERIODICAL_DAMAGE_AGAINST_UNDEAD"/>

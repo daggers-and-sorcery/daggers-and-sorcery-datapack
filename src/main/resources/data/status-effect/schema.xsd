@@ -11,7 +11,7 @@
                 <xs:element name="modifiers" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="modifier" maxOccurs="unbounded">
+                            <xs:element name="modifier" maxOccurs="unbounded" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="modifier" minOccurs="1" maxOccurs="1">
@@ -56,6 +56,13 @@
                                         <xs:element name="d6" type="xs:unsignedInt" minOccurs="0"/>
                                         <xs:element name="d8" type="xs:unsignedInt" minOccurs="0"/>
                                         <xs:element name="d10" type="xs:unsignedInt" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="modifier-effect" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="effect-id" minOccurs="1" maxOccurs="1"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
