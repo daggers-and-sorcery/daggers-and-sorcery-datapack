@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quest:quest xmlns:quest="http://www.swordsandsorcery.com/quest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.swordsandsorcery.com/quest ../schema.xsd">
+    <quest:id>3</quest:id>
+    <quest:name>Smuggler's Heaven</quest:name>
+    <quest:description>Asd</quest:description>
+    <quest:rewards>
+        <quest:reward>Asd...</quest:reward>
+    </quest:rewards>
+    <quest:quest-states>
+        <quest:quest-state>
+            <quest:description>Meeting Alderz</quest:description>
+            <quest:event-id>35</quest:event-id>
+            <quest:event-stage>0</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Going to the queen</quest:description>
+            <quest:event-id>36</quest:event-id>
+            <quest:event-stage>0</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Killing the queen's first bodyguard</quest:description>
+            <quest:event-id>36</quest:event-id>
+            <quest:event-stage>1</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Killing the queen's second bodyguard</quest:description>
+            <quest:event-id>36</quest:event-id>
+            <quest:event-stage>2</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Back to the camp</quest:description>
+            <quest:event-id>37</quest:event-id>
+            <quest:event-stage>0</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Back to the camp</quest:description>
+            <quest:event-id>37</quest:event-id>
+            <quest:event-stage>0</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Killing the first summgler</quest:description>
+            <quest:event-id>37</quest:event-id>
+            <quest:event-stage>1</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Killing the second summgler</quest:description>
+            <quest:event-id>37</quest:event-id>
+            <quest:event-stage>2</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Back to the queen</quest:description>
+            <quest:event-id>38</quest:event-id>
+            <quest:event-stage>0</quest:event-stage>
+        </quest:quest-state>
+    </quest:quest-states>
+</quest:quest>
