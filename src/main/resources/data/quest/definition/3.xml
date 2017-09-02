@@ -35,11 +35,6 @@
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Back to the camp</quest:description>
-            <quest:event-id>37</quest:event-id>
-            <quest:event-stage>0</quest:event-stage>
-        </quest:quest-state>
-        <quest:quest-state>
             <quest:description>Killing the first summgler</quest:description>
             <quest:event-id>37</quest:event-id>
             <quest:event-stage>1</quest:event-stage>
