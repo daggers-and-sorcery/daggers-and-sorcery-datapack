@@ -4,7 +4,7 @@
                                                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                                                xsi:schemaLocation="http://www.swordsandsorcery.com/witchhunters-guild-job ../schema.xsd">
     <witchhunters-guild-job:id>9</witchhunters-guild-job:id>
-    <witchhunters-guild-job:name>Kill the lord of Vampires</witchhunters-guild-job:name>
+    <witchhunters-guild-job:name>Kill the Lord of Vampires</witchhunters-guild-job:name>
     <witchhunters-guild-job:description>Quest 9 description.</witchhunters-guild-job:description>
     <witchhunters-guild-job:reward>20</witchhunters-guild-job:reward>
     <witchhunters-guild-job:requirements>
