@@ -5,6 +5,7 @@
     <zone:id>WHISPERING_WOODS</zone:id>
     <zone:name>Whispering woods</zone:name>
     <zone:enabled>true</zone:enabled>
+    <zone:location>SEVGARD</zone:location>
     <zone:description>
         <![CDATA[
 The Whispering Wood is an ancient forest lying on the edge of Farmfields. For generations, the ash and oaks have supplied Sevgard with thick, durable lumber and inspired many artists by their vibrant colors. When the harvest moon arrives, the woodcutters chop trees mercilessly, yet they regrow by the snow's thaw.

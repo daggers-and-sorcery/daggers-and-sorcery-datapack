@@ -5,6 +5,7 @@
     <zone:id>FARMFIELDS</zone:id>
     <zone:name>Farmfields</zone:name>
     <zone:enabled>true</zone:enabled>
+    <zone:location>SEVGARD</zone:location>
     <zone:description>
         <![CDATA[
 Farmfields is a large, fertile vale nestled outside Sevgard's stone walls. Sevgard operates under a form of feudalism and provides farmers with land, supplies, and protection in exchange for fresh produce and meat. This relationship has thrived for centuries and has allowed Sevgard to become a prosperous city.
