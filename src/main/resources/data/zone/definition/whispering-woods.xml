@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zone:zone xmlns:zone="http://www.swordsandsorcery.com/zone" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.swordsandsorcery.com/zone ../schema.xsd">
+    <zone:id>WHISPERING_WOODS</zone:id>
+    <zone:name>Whispering woods</zone:name>
+    <zone:enabled>true</zone:enabled>
+    <zone:description>
+        <![CDATA[
+The Whispering Wood is an ancient forest lying on the edge of Farmfields. For generations, the ash and oaks have supplied Sevgard with thick, durable lumber and inspired many artists by their vibrant colors. When the harvest moon arrives, the woodcutters chop trees mercilessly, yet they regrow by the snow's thaw.
+
+Not much is known about the Whispering Wood. Trailblazers constructed a crude path through the forest, yet the environment constantly changes. The path leads north one day and east the next. In fact, the tree leaves are heavily imbued with mana and create a whispering effect which provides magical energy to bypassing wizards. On silent nights, the whispers carry beyond the woodland and reach Farmfields. The strange whispers unsettle the farmers, and they prefer to keep their distance. Perhaps when a cartographer successfully maps the forest, they will make peace with it.
+
+Local legend states that unsavory creatures lurk in its depths. Travelers insist that the whispers grow louder at night and urge them to forsake their way. They see glowing orbs in the distance and mistake them for campfires. The farmers call these creatures will-o'-wisps, and they are curious spirits who can cause powerful delusions. However, there are precautions against these fell creatures. Never stray from the path despite what the whispers say, and always tie a bell to your wrist. The noise will block out the whispers, but it might attract something else.
+
+For instance, goblins reside deep within the forest beneath the roots of a sickly tree. They use the foliage to their advantage and assault anyone traveling the path. When foot traffic is slow, they attack farms and drag livestock away. Nevertheless, local hunters keep the goblins at bay by layering the forest floor with traps. The traps catch goblins and wolves alike, making the woodland a valuable hunting ground.
+        ]]>
+    </zone:description>
+    <zone:minimum-level>6</zone:minimum-level>
+    <zone:maximum-level>10</zone:maximum-level>
+</zone:zone>

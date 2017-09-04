@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zone:zone xmlns:zone="http://www.swordsandsorcery.com/zone" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.swordsandsorcery.com/zone ../schema.xsd">
+    <zone:id>TOMB_OF_THE_CURSED</zone:id>
+    <zone:name>Tomb of the Cursed</zone:name>
+    <zone:enabled>false</zone:enabled>
+    <zone:description>
+        <![CDATA[
+        Pure mystery...
+        ]]>
+    </zone:description>
+    <zone:minimum-level>16</zone:minimum-level>
+    <zone:maximum-level>18</zone:maximum-level>
+</zone:zone>

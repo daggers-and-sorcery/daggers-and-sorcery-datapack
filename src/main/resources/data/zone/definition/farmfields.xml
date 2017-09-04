@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zone:zone xmlns:zone="http://www.swordsandsorcery.com/zone" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.swordsandsorcery.com/zone ../schema.xsd">
+    <zone:id>FARMFIELDS</zone:id>
+    <zone:name>Farmfields</zone:name>
+    <zone:enabled>true</zone:enabled>
+    <zone:description>
+        <![CDATA[
+Farmfields is a large, fertile vale nestled outside Sevgard's stone walls. Sevgard operates under a form of feudalism and provides farmers with land, supplies, and protection in exchange for fresh produce and meat. This relationship has thrived for centuries and has allowed Sevgard to become a prosperous city.
+
+On its own, Farmfields is a quaint, cooperative community. The fields are divided into plots with sturdy fences built around them, and each plot contains a different crop, guarded by a stout scarecrow. For every few plots, there is a green pasture for cattle, horses, goats, and sheep to graze. Their manure is then used to fertilize the fields which gives the land a natural, earthy scent. One central irrigation system supplies the fields from the Hister River and its tributaries. The Hister flows strong throughout the year and keeps the crops refreshed during the warm season. What is more, an inn was established to accommodate travelers, and it is stationed beside the farmers' market where business is conducted.
+
+From sunrise to sunset, the farmers can be found in their fields plowing, seeding, weeding, or harvesting. There is always work to be done. With their ever expanding fields, they require extra farmhands and will offer their hospitality for a hard day's work. Wheat is the predominant crop, and when the wind blows, the wheat sways like a tumultuous wave. As a result, the locals nicknamed the fields the Golden Sea. It is an especially breathtaking sight when the sun is setting, and the fields seem to glow in the dying light.
+
+By nightfall, lanterns are lit on posts to prevent weary travelers from drifting astray. Despite Sevgard's age old vow to protect its farmers, the guards have become lax in their patrols. More bandits, goblins, and orcs have been roaming the countryside after dark.
+        ]]>
+    </zone:description>
+    <zone:minimum-level>1</zone:minimum-level>
+    <zone:maximum-level>5</zone:maximum-level>
+</zone:zone>
