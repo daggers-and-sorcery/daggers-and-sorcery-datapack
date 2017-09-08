@@ -13,4 +13,8 @@
     </zone:description>
     <zone:minimum-level>16</zone:minimum-level>
     <zone:maximum-level>18</zone:maximum-level>
+    <zone:accessability>
+        <zone:count>3</zone:count>
+        <zone:recharge>DAILY</zone:recharge>
+    </zone:accessability>
 </zone:zone>

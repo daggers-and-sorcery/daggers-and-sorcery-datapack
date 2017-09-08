@@ -21,6 +21,20 @@
                 <xs:element name="description" type="xs:string"/>
                 <xs:element name="minimum-level" type="xs:integer"/>
                 <xs:element name="maximum-level" type="xs:integer"/>
+                <xs:element name="accessability" minOccurs="0">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="recharge">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="DAILY"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="count" type="xs:integer"/>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
             </xs:all>
         </xs:complexType>
     </xs:element>
