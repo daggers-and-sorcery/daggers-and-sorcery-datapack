@@ -37,6 +37,13 @@
     <monster:attack-type>RANGED</monster:attack-type>
     <monster:droplist>
         <monster:drop>
+            <monster:item>56</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>3</monster:chance>
+        </monster:drop>
+        <monster:drop>
             <monster:item>189</monster:item>
             <monster:amount>
                 <monster:min>1</monster:min>
@@ -549,6 +556,13 @@
             <monster:amount>
                 <monster:min>1</monster:min>
                 <monster:max>2</monster:max>
+            </monster:amount>
+            <monster:chance>3</monster:chance>
+        </monster:drop>
+        <monster:drop>
+            <monster:item>56</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
             </monster:amount>
             <monster:chance>3</monster:chance>
         </monster:drop>

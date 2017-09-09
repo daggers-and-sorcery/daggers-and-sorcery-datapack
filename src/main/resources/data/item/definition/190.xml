@@ -17,7 +17,7 @@
                 </item:effect-setting>
                 <item:effect-setting>
                     <item:setting-name>damage-amount</item:setting-name>
-                    <item:setting-value>2</item:setting-value>
+                    <item:setting-value>3</item:setting-value>
                 </item:effect-setting>
             </item:settings-list>
         </item:effect>
