@@ -5,7 +5,7 @@
     <item:id>224</item:id>
     <item:name>Bloodthirsty Sword</item:name>
     <item:type>WEAPON</item:type>
-    <item:subtype>SHORTBOWS</item:subtype>
+    <item:subtype>SHORTSWORDS</item:subtype>
     <item:weight>0</item:weight>
     <item:equipment>true</item:equipment>
     <item:modifiers>
