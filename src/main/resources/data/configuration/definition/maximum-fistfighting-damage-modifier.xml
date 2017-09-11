@@ -1,0 +1,6 @@
+<configuration:configuration xmlns:configuration="http://www.swordsandsorcery.com/configuration"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="http://www.swordsandsorcery.com/configuration ../schema.xsd">
+    <configuration:id>MAXIMUM_FISTFIGHTING_DAMAGE_MODIFIER</configuration:id>
+    <configuration:value>15</configuration:value>
+</configuration:configuration>
