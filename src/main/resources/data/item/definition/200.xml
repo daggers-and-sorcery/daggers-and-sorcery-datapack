@@ -2,15 +2,16 @@
 
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
-  <item:id>200</item:id>
-  <item:name>Silverleaf</item:name>
-  <item:type>MATERIAL</item:type>
-  <item:subtype>HERB</item:subtype>
-  <item:weight>5</item:weight>
-  <item:price>
-    <item:price-entry>
-      <item:type>MONEY</item:type>
-      <item:amount>300</item:amount>
-    </item:price-entry>
-  </item:price>
+    <item:id>200</item:id>
+    <item:rarity>COMMON</item:rarity>
+    <item:name>Silverleaf</item:name>
+    <item:type>MATERIAL</item:type>
+    <item:subtype>HERB</item:subtype>
+    <item:weight>5</item:weight>
+    <item:price>
+        <item:price-entry>
+            <item:type>MONEY</item:type>
+            <item:amount>300</item:amount>
+        </item:price-entry>
+    </item:price>
 </item:item>

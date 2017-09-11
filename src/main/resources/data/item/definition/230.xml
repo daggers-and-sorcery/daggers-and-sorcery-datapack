@@ -3,6 +3,7 @@
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
     <item:id>230</item:id>
+    <item:rarity>UNCOMMON</item:rarity>
     <item:name>Bloodlord's Pride</item:name>
     <item:type>WEAPON</item:type>
     <item:subtype>TWO_HANDED_AXES</item:subtype>

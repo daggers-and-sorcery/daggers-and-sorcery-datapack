@@ -5,13 +5,13 @@
     <xs:element name="item">
         <xs:complexType>
             <xs:all>
-                <xs:element name="id" type="xs:unsignedInt" minOccurs="1"/>
-                <xs:element name="name" type="xs:string" minOccurs="1"/>
+                <xs:element name="id" type="xs:unsignedInt"/>
+                <xs:element name="name" type="xs:string"/>
                 <xs:element name="description" type="xs:string" minOccurs="0"/>
                 <xs:element name="flavour" type="xs:string" minOccurs="0"/>
                 <xs:element name="equipment" type="xs:boolean" minOccurs="0" default="false"/>
                 <xs:element name="tradeable" type="xs:boolean" minOccurs="0" default="true"/>
-                <xs:element name="type" minOccurs="1" type="itemtype"/>
+                <xs:element name="type" type="itemtype"/>
                 <xs:element name="subtype" type="itemtype" minOccurs="0"/>
                 <xs:element name="price" minOccurs="0">
                     <xs:complexType>
@@ -46,12 +46,8 @@
                                                     <xs:element name="effect-setting" maxOccurs="unbounded">
                                                         <xs:complexType>
                                                             <xs:all>
-                                                                <xs:element name="setting-name" type="xs:string"
-                                                                            minOccurs="1"
-                                                                            maxOccurs="1"/>
-                                                                <xs:element name="setting-value" type="xs:string"
-                                                                            minOccurs="1"
-                                                                            maxOccurs="1"/>
+                                                                <xs:element name="setting-name" type="xs:string"/>
+                                                                <xs:element name="setting-value" type="xs:string"/>
                                                             </xs:all>
                                                         </xs:complexType>
                                                     </xs:element>
@@ -65,14 +61,25 @@
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="weight" type="xs:unsignedInt" minOccurs="1"/>
+                <xs:element name="weight" type="xs:unsignedInt"/>
+                <xs:element name="rarity">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="COMMON"/>
+                            <xs:enumeration value="UNCOMMON"/>
+                            <xs:enumeration value="RARE"/>
+                            <xs:enumeration value="LEGENDARY"/>
+                            <xs:enumeration value="MYTHICAL"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
                 <xs:element name="modifiers" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="modifier" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="modifier" minOccurs="1" maxOccurs="1">
+                                        <xs:element name="modifier">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                     <!-- Combat modifiers -->
@@ -114,7 +121,7 @@
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
-                                        <xs:element name="amount" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+                                        <xs:element name="amount" type="xs:integer"/>
                                         <xs:element name="d2" type="xs:unsignedInt" minOccurs="0"/>
                                         <xs:element name="d4" type="xs:unsignedInt" minOccurs="0"/>
                                         <xs:element name="d6" type="xs:unsignedInt" minOccurs="0"/>
@@ -133,7 +140,7 @@
                             <xs:element name="requirement" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="requirement" minOccurs="1" maxOccurs="1">
+                                        <xs:element name="requirement">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                     <!-- Combat attributes -->
@@ -170,7 +177,7 @@
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
-                                        <xs:element name="amount" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+                                        <xs:element name="amount" type="xs:integer"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>

@@ -3,10 +3,13 @@
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
     <item:id>120</item:id>
+    <item:rarity>COMMON</item:rarity>
     <item:name>Torch</item:name>
     <item:type>TOOL</item:type>
     <item:weight>3</item:weight>
-    <item:description>Used as a lightsource, consisting of some combustible substance, as resinous wood, or of twisted flax or the like soaked with tallow or other flammable substance, ignited at the upper end.</item:description>
+    <item:description>Used as a lightsource, consisting of some combustible substance, as resinous wood, or of twisted
+        flax or the like soaked with tallow or other flammable substance, ignited at the upper end.
+    </item:description>
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>

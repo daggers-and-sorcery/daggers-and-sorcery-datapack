@@ -3,6 +3,7 @@
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
     <item:id>128</item:id>
+    <item:rarity>COMMON</item:rarity>
     <item:name>Recipe: Robinia longbow</item:name>
     <item:type>RECIPE</item:type>
     <item:weight>1</item:weight>
