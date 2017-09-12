@@ -4,7 +4,7 @@
                xsi:schemaLocation="http://www.swordsandsorcery.com/recipe ../schema.xsd">
     <recipe:id>9</recipe:id>
     <recipe:name>Braided hemp</recipe:name>
-    <recipe:type>CRAFTING</recipe:type>
+    <recipe:type>CRAFTING_RESOURCE</recipe:type>
     <recipe:chance>100</recipe:chance>
     <recipe:requirement-list>
         <recipe:skill-requirement>

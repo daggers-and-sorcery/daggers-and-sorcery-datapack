@@ -13,6 +13,7 @@
                             <xs:enumeration value="COOKING"/>
                             <xs:enumeration value="FLETCHING"/>
                             <xs:enumeration value="CRAFTING"/>
+                            <xs:enumeration value="CRAFTING_RESOURCE"/>
                             <xs:enumeration value="LEATHERWORKING_CURING"/>
                             <xs:enumeration value="LEATHERWORKING_TANNING"/>
                             <xs:enumeration value="LEATHERWORKING"/>
