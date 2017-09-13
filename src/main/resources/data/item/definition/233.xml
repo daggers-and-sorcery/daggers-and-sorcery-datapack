@@ -6,7 +6,7 @@
     <item:rarity>COMMON</item:rarity>
     <item:name>Fortune Cookie</item:name>
     <item:type>FOOD</item:type>
-    <item:weight>233</item:weight>
+    <item:weight>5</item:weight>
     <item:usable>true</item:usable>
     <item:tradeable>false</item:tradeable>
     <item:description>Restore 5 movements points when used.</item:description>
