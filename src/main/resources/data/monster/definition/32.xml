@@ -142,5 +142,12 @@
             </monster:amount>
             <monster:chance>1</monster:chance>
         </monster:drop>
+        <monster:drop>
+            <monster:item>7</monster:item>
+            <monster:amount>
+                <monster:max>2</monster:max>
+            </monster:amount>
+            <monster:chance>7</monster:chance>
+        </monster:drop>
     </monster:scavengelist>
 </monster:monster>
