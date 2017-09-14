@@ -32,7 +32,7 @@
     <recipe:experience-list>
         <recipe:experience>
             <recipe:skill>IMBUING</recipe:skill>
-            <recipe:amount>90</recipe:amount>
+            <recipe:amount>8</recipe:amount>
         </recipe:experience>
     </recipe:experience-list>
 </recipe:recipe>
