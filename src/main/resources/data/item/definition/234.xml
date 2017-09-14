@@ -2,17 +2,23 @@
 
 <item:item xmlns:item="http://www.swordsandsorcery.com/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.swordsandsorcery.com/item ../schema.xsd">
-    <item:id>6</item:id>
+    <item:id>234</item:id>
     <item:rarity>COMMON</item:rarity>
-    <item:name>Bronze Arrow</item:name>
+    <item:name>Magical Bronze Arrow</item:name>
     <item:type>PROJECTILE</item:type>
     <item:subtype>ARROW</item:subtype>
     <item:weight>5</item:weight>
     <item:equipment>true</item:equipment>
+    <item:modifiers>
+        <item:modifier>
+            <item:modifier>RANGED_DAMAGE</item:modifier>
+            <item:amount>1</item:amount>
+        </item:modifier>
+    </item:modifiers>
     <item:price>
         <item:price-entry>
             <item:type>MONEY</item:type>
-            <item:amount>1</item:amount>
+            <item:amount>3</item:amount>
         </item:price-entry>
     </item:price>
 </item:item>

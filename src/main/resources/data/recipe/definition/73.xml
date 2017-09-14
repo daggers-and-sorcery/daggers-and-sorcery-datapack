@@ -19,7 +19,7 @@
     <recipe:ingredient-list>
         <recipe:ingredient>
             <recipe:id>32</recipe:id>
-            <recipe:amount>12</recipe:amount>
+            <recipe:amount>6</recipe:amount>
         </recipe:ingredient>
         <recipe:ingredient>
             <recipe:id>60</recipe:id>
