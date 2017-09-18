@@ -4,8 +4,8 @@
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                          xsi:schemaLocation="http://www.swordsandsorcery.com/exploration-event ../schema.xsd">
     <event:id>40</event:id>
-    <event:name>A Mythical Crypt</event:name>
-    <event:location>WOODLAND_CEMETERY</event:location>
+    <event:name>Cursed Heroes - A Mythical Crypt</event:name>
+    <event:location>UNKNOWN</event:location>
     <event:terrain>FOREST</event:terrain>
     <event:rarity>EPIC</event:rarity>
 </event:exploration-event>
