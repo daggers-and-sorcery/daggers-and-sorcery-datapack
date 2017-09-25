@@ -10,17 +10,11 @@
     </quest:rewards>
     <quest:quest-states>
         <quest:quest-state>
-            <quest:description>The player finds a mystery tomb in the cemetery. Maybe the royal mage of Sevgard could
-                help with identifying what is it?
-            </quest:description>
+            <quest:description>There is no other way around. The guards must be bribed.</quest:description>
             <quest:event-id>40</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
-        <quest:quest-state>
-            <quest:description>There is no other way around. The guards must be bribed.</quest:description>
-            <quest:event-id>40</quest:event-id>
-            <quest:event-stage>1</quest:event-stage>
-        </quest:quest-state>
+        <!-- Event stage 1 contains the logic for the actual bribery but that's doesn't handled in the info endpoint. -->
         <quest:quest-state>
             <quest:description>Meeting the mage and identifying the place is harder than it looks.</quest:description>
             <quest:event-id>40</quest:event-id>
