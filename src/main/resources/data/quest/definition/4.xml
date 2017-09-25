@@ -26,17 +26,19 @@
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Narthlok attacks! Kill him!</quest:description>
+            <quest:description>Fight with the Vampire Warrior.</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>1</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Examining the door. I need to get some onyx!</quest:description>
+            <quest:description>Narthlok attacks! Kill him!</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>2</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Utolka unleashed! We must kill him!</quest:description>
+            <!-- Todo this is the right desc? -->
+            <quest:description>Examining the door. I need to get some onyx!</quest:description>
+            <!--<quest:description>Utolka unleashed! We must kill him!</quest:description>-->
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>3</quest:event-stage>
         </quest:quest-state>
