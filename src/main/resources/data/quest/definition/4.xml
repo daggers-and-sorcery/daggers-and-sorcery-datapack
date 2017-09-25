@@ -20,7 +20,56 @@
             <quest:event-id>40</quest:event-id>
             <quest:event-stage>2</quest:event-stage>
         </quest:quest-state>
-        <!-- TODO! -->
+        <quest:quest-state>
+            <quest:description>The attack of the vampires.</quest:description>
+            <quest:event-id>41</quest:event-id>
+            <quest:event-stage>0</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Narthlok attacks! Kill him!</quest:description>
+            <quest:event-id>41</quest:event-id>
+            <quest:event-stage>1</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Examining the door. I need to get some onyx!</quest:description>
+            <quest:event-id>41</quest:event-id>
+            <quest:event-stage>2</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Utolka unleashed! We must kill him!</quest:description>
+            <quest:event-id>41</quest:event-id>
+            <quest:event-stage>3</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Proceeding into the catacomb. A skeletal brute blocks the way!</quest:description>
+            <quest:event-id>41</quest:event-id>
+            <quest:event-stage>4</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Right after a skeletal brute, there is a skeletal mage.</quest:description>
+            <quest:event-id>41</quest:event-id>
+            <quest:event-stage>5</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Fighting Kyllrin, the first of the heroes!</quest:description>
+            <quest:event-id>41</quest:event-id>
+            <quest:event-stage>6</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Fighting Rieghar, the second of the heroes!</quest:description>
+            <quest:event-id>41</quest:event-id>
+            <quest:event-stage>7</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Fighting Orhollo, the third of the heroes!</quest:description>
+            <quest:event-id>41</quest:event-id>
+            <quest:event-stage>8</quest:event-stage>
+        </quest:quest-state>
+        <quest:quest-state>
+            <quest:description>Fighting Zyrrig, the undead dragon!</quest:description>
+            <quest:event-id>41</quest:event-id>
+            <quest:event-stage>9</quest:event-stage>
+        </quest:quest-state>
         <quest:quest-state>
             <quest:description>You are finished the quest. Go and explore the crypts yourself!</quest:description>
             <quest:event-id>0</quest:event-id>
