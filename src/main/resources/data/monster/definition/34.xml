@@ -15,7 +15,7 @@
     <monster:defense>27</monster:defense>
     <monster:damage>
         <monster:value>2</monster:value>
-        <monster:d6>1</monster:d6>
+        <monster:d8>1</monster:d8>
     </monster:damage>
     <monster:attack>
         <monster:value>24</monster:value>
