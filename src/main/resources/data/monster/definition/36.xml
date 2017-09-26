@@ -7,7 +7,7 @@
     <monster:name>Skeleton Mage</monster:name>
     <monster:type>UNDEAD</monster:type>
     <monster:subtype>SKELETON</monster:subtype>
-    <monster:health>20</monster:health>
+    <monster:health>30</monster:health>
     <monster:mana>0</monster:mana>
     <monster:initiation>
         <monster:value>24</monster:value>

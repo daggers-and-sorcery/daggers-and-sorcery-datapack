@@ -41,7 +41,7 @@
             <quest:event-stage>3</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Examining the door. I need to get some onyx!</quest:description>
+            <quest:description>Fighting Utolka!</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>4</quest:event-stage>
         </quest:quest-state>
