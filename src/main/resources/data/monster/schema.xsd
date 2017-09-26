@@ -178,6 +178,7 @@
             <xs:enumeration value="GHOUL"/>
             <xs:enumeration value="VAMPIRE"/>
             <xs:enumeration value="DEMON"/>
+            <xs:enumeration value="DRAGON"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
