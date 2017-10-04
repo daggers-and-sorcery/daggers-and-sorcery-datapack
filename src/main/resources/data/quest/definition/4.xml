@@ -31,49 +31,47 @@
             <quest:event-stage>1</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Narthlok attacks! Kill him!</quest:description>
+            <quest:description>Narthlok is dead!</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>2</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Narthlok is dead!</quest:description>
+            <quest:description>Fighting Utolka!</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>3</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Fighting Utolka!</quest:description>
+            <quest:description>Proceeding into the catacomb. A skeletal brute blocks the way!</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>4</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Proceeding into the catacomb. A skeletal brute blocks the way!</quest:description>
+            <quest:description>Right after a skeletal brute, there is a skeletal mage.</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>5</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Right after a skeletal brute, there is a skeletal mage.</quest:description>
+            <quest:description>Fighting Kyllrin, the first of the heroes!</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>6</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Fighting Kyllrin, the first of the heroes!</quest:description>
+            <quest:description>Fighting Rieghar, the second of the heroes!</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>7</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Fighting Rieghar, the second of the heroes!</quest:description>
+            <quest:description>Fighting Orhollo, the third of the heroes!</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>8</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Fighting Orhollo, the third of the heroes!</quest:description>
+            <quest:description>Fighting Zyrrig, the undead dragon!</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>9</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Fighting Zyrrig, the undead dragon!</quest:description>
-            <!-- TODO: Now what? -->
-            <!--<quest:description>You are finished the quest. Go and explore the crypts yourself!</quest:description>-->
+            <quest:description>You are finished the quest. Go and explore the crypts yourself!</quest:description>
             <quest:event-id>0</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
