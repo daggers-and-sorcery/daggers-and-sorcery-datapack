@@ -4,79 +4,79 @@
              xsi:schemaLocation="http://www.swordsandsorcery.com/quest ../schema.xsd">
     <quest:id>4</quest:id>
     <quest:name>Cursed Heroes</quest:name>
-    <quest:description>Quest description here....</quest:description>
+    <quest:description>A terrible curse, a terrible secret and to conclude - many terrible revelations! You have discovered the entrance to a crypt, but are unable to open it by any normal means. Curious of its origins, its purpose and what it may hold inside as far as treasures and riches go, you must seek out the help of a Mage from Sevgard. The consequences for this voyage however will be unforeseen, what is in the dark will be revealed in time - but your life will be in grave danger through out. From the crypt, you will enter a dungeon - which is crawling with the most unsightly things. Death has become something different here, mangled by a curse as ancient as the legendary heroes who are laid to rest here themselves.</quest:description>
     <quest:rewards>
         <quest:reward>You can access the Tomb of the Cursed.</quest:reward>
     </quest:rewards>
     <quest:quest-states>
         <quest:quest-state>
-            <quest:description>There is no other way around. The guards must be bribed.</quest:description>
+            <quest:description>You have returned from a strange discovery, only to seek out the help of the Mage of Sevgard. However, two guards have stopped you dead in your tracks. Truly, there is no other way around them without a proper bribe to fit the needs of them both.</quest:description>
             <quest:event-id>40</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
         <!-- Event stage 1 contains the logic for the actual bribery but that's doesn't handled in the info endpoint. -->
         <quest:quest-state>
-            <quest:description>Meeting the mage and identifying the place is harder than it looks.</quest:description>
+            <quest:description>You have met Renault the Mage. He is a bit of an odd man, but you take a liking to each other early on. After some rough conversation, you are able to pinpoint the location of the place you have discovered. Renault is interested now, while skeptical at first, he is now on board to come with you to investigate the crypt with the statues. Now, with a private ensemble of bodyguards in tow, the two of you proceed forward on an adventure.</quest:description>
             <quest:event-id>40</quest:event-id>
             <quest:event-stage>2</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>The attack of the vampires.</quest:description>
+            <quest:description>Vampires, vicious blood suckers! They stalked you from the shadows, from the trees and now they strike suddenly! Everyone is being engaged in a fight for their lives, defend yourself - Struggler!</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Fight with the Vampire Warrior.</quest:description>
+            <quest:description>Many vampires have been killed, along with a few of your comrades. But now, a blood-thirsty warrior has identified you! It is out for your blood, do not give him an ounce of it!</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>1</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Narthlok attacks! Kill him!</quest:description>
+            <quest:description>Narthlok, the leader of this pack of Vampires, has a vendetta against you it seems. He flashes his fang at you. May you knock them out of his mouth!</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>2</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Narthlok is dead!</quest:description>
+            <quest:description>Narthlok can no longer taunt you, as he has been turned into a corpse. Proceed now and listen careful to what Renault needs of you.</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>3</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Fighting Utolka!</quest:description>
+            <quest:description>Utolka! The terrible demon - he has broken from his Onyx-prison! Send him back to the dreadful pits of despair from which he came!</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>4</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Proceeding into the catacomb. A skeletal brute blocks the way!</quest:description>
+            <quest:description>The catacombs hold as many skeletized corpses as secrets. A terrifying realization is upon you! A Skeletal Brute has confronted you, wanting to taste life once more. Your life.</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>5</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Right after a skeletal brute, there is a skeletal mage.</quest:description>
+            <quest:description>Another terrifying revelation, a Skeleton Mage has started to perform an incantation. But from which life source does it pull power from? Your's? Defend yourself, lest you wish to be turned to ash.</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>6</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Fighting Kyllrin, the first of the heroes!</quest:description>
+            <quest:description>Time has come for a hero to fall. Ensure that Kyllrin enjoys an eternal slumber, lest you want this tomb to be your resting place forever as well.</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>7</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Fighting Rieghar, the second of the heroes!</quest:description>
+            <quest:description>The fallen hero Rieghar has attacked you, but there is no other way but through him! You must kill what is already dead to proceed.</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>8</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Fighting Orhollo, the third of the heroes!</quest:description>
+            <quest:description>Alas poor Orhollo, we hardly knew ye. But he has been brought back to a stunningly evil reflection of life, ensure that he mimics death once more!</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>9</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>Fighting Zyrrig, the undead dragon!</quest:description>
+            <quest:description>Terror! Zyrrig the Undead Dragon! He has revealed to you the nature of the cursed crypt of which you have traveled and fought in, but now you must relinquish Zyrrig of its dreaded existence!</quest:description>
             <quest:event-id>41</quest:event-id>
             <quest:event-stage>10</quest:event-stage>
         </quest:quest-state>
         <quest:quest-state>
-            <quest:description>You are finished the quest. Go and explore the crypts yourself!</quest:description>
+            <quest:description>An ending has come. One door closes, but another opens. The crypt has survived the test of time and fates. Congratulations Struggler, you may explore the crypt and its terrors whenever you like. If you are truly so brave, that is!</quest:description>
             <quest:event-id>0</quest:event-id>
             <quest:event-stage>0</quest:event-stage>
         </quest:quest-state>
