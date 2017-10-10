@@ -21,7 +21,7 @@
                 <xs:element name="description" type="xs:string"/>
                 <xs:element name="minimum-level" type="xs:integer"/>
                 <xs:element name="maximum-level" type="xs:integer"/>
-                <xs:element name="accessability" minOccurs="0">
+                <xs:element name="accessibility" minOccurs="0">
                     <xs:complexType>
                         <xs:all>
                             <xs:element name="recharge">
