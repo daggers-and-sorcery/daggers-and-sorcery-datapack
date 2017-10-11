@@ -238,6 +238,8 @@
             <xs:enumeration value="ORE"/>
             <xs:enumeration value="BAR"/>
             <xs:enumeration value="COIN"/>
+            <xs:enumeration value="FABRIC"/>
+            <xs:enumeration value="DYE"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>

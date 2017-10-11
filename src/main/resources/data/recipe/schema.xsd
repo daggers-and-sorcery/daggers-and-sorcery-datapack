@@ -24,6 +24,7 @@
                             <xs:enumeration value="JEWELCRAFTING_GEMCUTTING"/>
                             <xs:enumeration value="JEWELCRAFTING"/>
                             <xs:enumeration value="IMBUING"/>
+                            <xs:enumeration value="TAILORING"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
@@ -80,6 +81,7 @@
                                                     <xs:enumeration value="HERBLORE"/>
                                                     <xs:enumeration value="JEWELCRAFTING"/>
                                                     <xs:enumeration value="IMBUING"/>
+                                                    <xs:enumeration value="TAILORING"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
@@ -107,6 +109,7 @@
                                                     <xs:enumeration value="HERBLORE"/>
                                                     <xs:enumeration value="JEWELCRAFTING"/>
                                                     <xs:enumeration value="IMBUING"/>
+                                                    <xs:enumeration value="TAILORING"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
