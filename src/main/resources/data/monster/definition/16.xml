@@ -157,16 +157,14 @@
             <monster:amount>
                 <monster:max>1</monster:max>
             </monster:amount>
-            <!-- TODO: Lower this when a recipe will be implemented! -->
-            <monster:chance>6</monster:chance>
+            <monster:chance>1</monster:chance>
         </monster:drop>
         <monster:drop>
             <monster:item>171</monster:item>
             <monster:amount>
                 <monster:max>1</monster:max>
             </monster:amount>
-            <!-- TODO: Lower this when a recipe will be implemented! -->
-            <monster:chance>6</monster:chance>
+            <monster:chance>1</monster:chance>
         </monster:drop>
         <monster:drop>
             <monster:item>172</monster:item>
@@ -209,6 +207,20 @@
                 <monster:max>1</monster:max>
             </monster:amount>
             <monster:chance>0.4</monster:chance>
+        </monster:drop>
+        <monster:drop>
+            <monster:item>254</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>2.5</monster:chance>
+        </monster:drop>
+        <monster:drop>
+            <monster:item>255</monster:item>
+            <monster:amount>
+                <monster:max>1</monster:max>
+            </monster:amount>
+            <monster:chance>2.5</monster:chance>
         </monster:drop>
     </monster:droplist>
     <monster:scavengelist>
