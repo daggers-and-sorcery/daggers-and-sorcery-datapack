@@ -2,7 +2,7 @@
 
 <recipe:recipe xmlns:recipe="http://www.swordsandsorcery.com/recipe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:schemaLocation="http://www.swordsandsorcery.com/recipe ../schema.xsd">
-    <recipe:id>89</recipe:id>
+    <recipe:id>90</recipe:id>
     <recipe:name>Robe Gloves</recipe:name>
     <recipe:type>TAILORING</recipe:type>
     <recipe:chance>100</recipe:chance>
