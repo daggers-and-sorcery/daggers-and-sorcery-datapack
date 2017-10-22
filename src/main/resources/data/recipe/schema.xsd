@@ -25,6 +25,7 @@
                             <xs:enumeration value="JEWELCRAFTING"/>
                             <xs:enumeration value="IMBUING"/>
                             <xs:enumeration value="TAILORING"/>
+                            <xs:enumeration value="TAILORING_WEAVING"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
