@@ -26,7 +26,7 @@
     </recipe:reward-list>
     <recipe:experience-list>
         <recipe:experience>
-            <recipe:skill>JEWELCRAFTING</recipe:skill>
+            <recipe:skill>SMITHING</recipe:skill>
             <recipe:amount>35</recipe:amount>
         </recipe:experience>
     </recipe:experience-list>
