@@ -70,5 +70,12 @@
             </loot:amount>
             <loot:chance>3</loot:chance>
         </loot:drop>
+        <loot:drop>
+            <loot:item>124</loot:item>
+            <loot:amount>
+                <loot:max>1</loot:max>
+            </loot:amount>
+            <loot:chance>3</loot:chance>
+        </loot:drop>
     </loot:droplist>
 </loot:loot>
