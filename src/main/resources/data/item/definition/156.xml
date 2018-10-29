@@ -19,10 +19,6 @@
             <item:modifier>MANA</item:modifier>
             <item:amount>2</item:amount>
         </item:modifier>
-        <item:modifier>
-            <item:modifier>DEFENSE</item:modifier>
-            <item:amount>-2</item:amount>
-        </item:modifier>
     </item:modifiers>
     <item:price>
         <item:price-entry>
